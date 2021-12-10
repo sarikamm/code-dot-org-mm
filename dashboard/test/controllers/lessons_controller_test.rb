@@ -9,17 +9,13 @@ class LessonsControllerTest < ActionController::TestCase
     # stub writes so that we dont actually make updates to filesystem
     File.stubs(:write)
 
-    @script = create :script, name: 'unit-1', is_migrated: true
+    @script = create :script, name: 'unit-1'
     lesson_group = create :lesson_group, script: @script
     @lesson = create(
       :lesson,
-      script_id: @script.id,
       lesson_group: lesson_group,
       name: 'lesson display name',
-      absolute_position: 1,
-      relative_position: 1,
       has_lesson_plan: true,
-      lockable: false,
       properties: {
         overview: 'lesson overview',
         student_overview: 'student overview'
@@ -28,13 +24,9 @@ class LessonsControllerTest < ActionController::TestCase
 
     @lesson2 = create(
       :lesson,
-      script_id: @script.id,
       lesson_group: lesson_group,
       name: 'second lesson',
       has_lesson_plan: false,
-      lockable: false,
-      absolute_position: 2,
-      relative_position: 2
     )
 
     @script_title = 'Script Display Name'
@@ -464,19 +456,8 @@ class LessonsControllerTest < ActionController::TestCase
     sign_in @levelbuilder
     Rails.application.config.stubs(:levelbuilder_mode).returns true
 
-    script = create :script
-    lesson_group = create :lesson_group, script: script
-    lesson = create :lesson, script: script, lesson_group: lesson_group
-    lesson_activity = create :lesson_activity, lesson: lesson
-    activity_section = create :activity_section, lesson_activity: lesson_activity
-    create(
-      :script_level,
-      script: script,
-      activity_section: activity_section,
-      activity_section_position: 1,
-      lesson: lesson,
-      levels: [create(:maze)]
-    )
+    unit = create :script, :with_levels
+    lesson = unit.lessons.first
 
     error = assert_raises RuntimeError do
       post :update, params: {
@@ -493,18 +474,12 @@ class LessonsControllerTest < ActionController::TestCase
     sign_in @levelbuilder
     Rails.application.config.stubs(:levelbuilder_mode).returns true
 
-    script = create :script
-    lesson_group = create :lesson_group, script: script
-    lesson = create :lesson, script: script, lesson_group: lesson_group
-    lesson_activity = create :lesson_activity, lesson: lesson
-    activity_section = create :activity_section, lesson_activity: lesson_activity
+    unit = create :script, :with_lessons, lessons_count: 1
+    lesson = unit.lessons.first
     create(
       :script_level,
-      script: script,
       assessment: true,
-      activity_section: activity_section,
-      activity_section_position: 1,
-      lesson: lesson,
+      activity_section: lesson.activity_sections.first,
       levels: [create(:level_group, name: 'levelgroup 1')]
     )
 
@@ -1006,6 +981,25 @@ class LessonsControllerTest < ActionController::TestCase
 
     assert_equal 1, @lesson.objectives.count
     assert_equal 'edited description', objective.description
+  end
+
+  test 'objectives with empty description are removed' do
+    sign_in @levelbuilder
+    objective_to_keep = create :objective, description: 'to keep', lesson: @lesson
+    objective_to_remove = create :objective, description: 'to remove', lesson: @lesson
+    assert_equal 2, @lesson.objectives.count
+
+    objectives_data = @lesson.summarize_for_lesson_edit[:objectives]
+    objectives_data[1][:description] = ''
+    objectives_data.push(id: nil, description: '')
+
+    new_update_params = @update_params.merge({objectives: [objective_to_keep.summarize_for_edit].to_json})
+    put :update, params: new_update_params
+    @lesson.reload
+
+    assert_equal 1, @lesson.objectives.count
+    assert_nil Objective.find_by_id(objective_to_remove.id)
+    assert_not_nil objective_to_keep.reload
   end
 
   test 'add script level via lesson update' do

@@ -8,7 +8,7 @@ import initializeCdoConstants from './addons/cdoConstants';
 import CdoFieldButton from './addons/cdoFieldButton';
 import CdoFieldDropdown from './addons/cdoFieldDropdown';
 import {CdoFieldImageDropdown} from './addons/cdoFieldImageDropdown';
-import CdoFieldLabel from './addons/cdoFieldLabel';
+import CdoFieldVariable from './addons/cdoFieldVariable';
 import FunctionEditor from './addons/functionEditor';
 import initializeGenerator from './addons/cdoGenerator';
 import CdoInput from './addons/cdoInput';
@@ -24,6 +24,7 @@ import CdoVerticalFlyout from './addons/cdoVerticalFlyout';
 import CdoWorkspaceSvg from './addons/cdoWorkspaceSvg';
 import initializeBlocklyXml from './addons/cdoXml';
 import initializeCss from './addons/cdoCss';
+import {UNKNOWN_BLOCK} from './addons/unknownBlock';
 
 /**
  * Wrapper class for https://github.com/google/blockly
@@ -150,6 +151,7 @@ function initializeBlocklyWrapper(blocklyInstance) {
   blocklyWrapper.wrapReadOnlyProperty('VARIABLE_CATEGORY_NAME');
   blocklyWrapper.wrapReadOnlyProperty('Variables');
   blocklyWrapper.wrapReadOnlyProperty('VariableMap');
+  blocklyWrapper.wrapReadOnlyProperty('VariableModel');
   blocklyWrapper.wrapReadOnlyProperty('weblab_locale');
   blocklyWrapper.wrapReadOnlyProperty('WidgetDiv');
   blocklyWrapper.wrapReadOnlyProperty('Workspace');
@@ -160,7 +162,7 @@ function initializeBlocklyWrapper(blocklyInstance) {
   blocklyWrapper.blockly_.FieldButton = CdoFieldButton;
   blocklyWrapper.blockly_.FieldDropdown = CdoFieldDropdown;
   blocklyWrapper.blockly_.FieldImageDropdown = CdoFieldImageDropdown;
-  blocklyWrapper.blockly_.FieldLabel = CdoFieldLabel;
+  blocklyWrapper.blockly_.FieldVariable = CdoFieldVariable;
   blocklyWrapper.blockly_.FunctionEditor = FunctionEditor;
   blocklyWrapper.blockly_.Input = CdoInput;
   blocklyWrapper.geras.PathObject = CdoPathObject;
@@ -203,6 +205,7 @@ function initializeBlocklyWrapper(blocklyInstance) {
 
   blocklyWrapper.wrapSettableProperty('assetUrl');
   blocklyWrapper.wrapSettableProperty('behaviorEditor');
+  blocklyWrapper.wrapSettableProperty('customSimpleDialog');
   blocklyWrapper.wrapSettableProperty('BROKEN_CONTROL_POINTS');
   blocklyWrapper.wrapSettableProperty('BUMP_UNCONNECTED');
   blocklyWrapper.wrapSettableProperty('HSV_SATURATION');
@@ -321,12 +324,20 @@ function initializeBlocklyWrapper(blocklyInstance) {
     // apps, so we should also set it here.
     blocklyWrapper.assetUrl = opt_options.assetUrl || (path => `./${path}`);
 
+    // CDO Blockly takes customSimpleDialog as an inject option and uses it
+    // instead of the default prompt dialogs, so we should also set it here.
+    blocklyWrapper.customSimpleDialog = opt_options.customSimpleDialog;
+
     // Shrink container to make room for the workspace header
     container.style.height = `calc(100% - ${
       styleConstants['workspace-headers-height']
     }px)`;
-    blocklyWrapper.editBlocks = opt_options.editBlocks;
+    blocklyWrapper.isStartMode = !!opt_options.editBlocks;
     const workspace = blocklyWrapper.blockly_.inject(container, options);
+
+    if (!blocklyWrapper.isStartMode) {
+      workspace.addChangeListener(Blockly.Events.disableOrphans);
+    }
 
     document.dispatchEvent(
       utils.createEvent(Blockly.BlockSpace.EVENTS.MAIN_BLOCK_SPACE_CREATED)
@@ -349,6 +360,9 @@ function initializeBlocklyWrapper(blocklyInstance) {
   initializeVariables(blocklyWrapper);
   initializeCdoConstants(blocklyWrapper);
   initializeCss(blocklyWrapper);
+
+  blocklyWrapper.Blocks.unknown = UNKNOWN_BLOCK;
+  blocklyWrapper.JavaScript.unknown = () => '/* unknown block */\n';
 
   return blocklyWrapper;
 }

@@ -1322,7 +1322,7 @@ class User < ApplicationRecord
     user_type == TYPE_TEACHER
   end
 
-  def authorized_teacher?
+  def verified_teacher?
     # You are an authorized teacher if you are an admin, have the AUTHORIZED_TEACHER or the
     # LEVELBUILDER permission.
     return true if admin?
@@ -1332,8 +1332,6 @@ class User < ApplicationRecord
     false
   end
 
-  alias :verified_teacher? :authorized_teacher?
-
   def verified_instructor?
     # You are an verified instructor if you are a universal_instructor, plc_reviewer, facilitator, authorized_teacher, or levelbuiler
     permission?(UserPermission::UNIVERSAL_INSTRUCTOR) || permission?(UserPermission::PLC_REVIEWER) ||
@@ -1341,8 +1339,8 @@ class User < ApplicationRecord
       permission?(UserPermission::LEVELBUILDER)
   end
 
-  def student_of_authorized_teacher?
-    teachers.any?(&:authorized_teacher?)
+  def student_of_verified_teacher?
+    teachers.any?(&:verified_teacher?)
   end
 
   def student_of?(teacher)
@@ -2378,6 +2376,10 @@ class User < ApplicationRecord
 
   def self.marketing_segment_data_keys
     %w(locale account_age_in_years grades curriculums has_attended_pd within_us school_percent_frl_40_plus school_title_i)
+  end
+
+  def code_review_groups
+    followeds.map(&:code_review_group).compact
   end
 
   private
