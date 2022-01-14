@@ -1750,7 +1750,8 @@
           "hello_world_new": "Nýr kubbur!"
         },
         "helloworld_animals_sizes": {
-          "hello_world_new": "Nýr kubbur!"
+          "hello_world_new": "Nýr kubbur!",
+          "hello_world_new_block": "Nýr kubbur!!!!"
         },
         "helloworld_animals_sounds": {
           "hello_world_new": "Nýr kubbur!"
@@ -1798,7 +1799,8 @@
           "poetry_new_block": "Nýr kubbur!"
         },
         "poetry_hoc_sounds": {
-          "poetry_sound": "Nýr kubbur!"
+          "poetry_sound": "Nýr kubbur!",
+          "poetry_music": "Nýr kubbur!"
         },
         "poetry_hoc_spriteBehaviors": {
           "poetry_sprite_begins": "Nýr kubbur!",
@@ -1807,6 +1809,18 @@
         "poetry_hoc_spriteSizes": {
           "poetry_set_sprite": "Nýr kubbur!",
           "poetry_remove_sprite": "Nýr kubbur!"
+        },
+        "courseA_EOC_playlab_animals": {
+          "question_mark": "?"
+        },
+        "courseA_EOC_playlab_fantasy": {
+          "question_mark": "?"
+        },
+        "courseA_EOC_playlab_people": {
+          "question_mark": "?"
+        },
+        "courseC_artist_prog2_2021": {
+          "slider": "Hér getur þú látið forritið þitt keyra hægar."
         }
       }
     }

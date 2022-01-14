@@ -1318,7 +1318,7 @@ mr:
           LOCATION:
             "{x: randomNumber(51, 350), y: randomNumber(50, 350)}": मासा
       Mikelab_allSpritesWithAnimation:
-        text: "[ANIMATION]"
+        text: "{ANIMATION}"
       Mikelab_beginDataCollection:
         text: "{A}{B}{C} पर्यायांसह व्हेरिएबल {VAR} साठी वापरकर्ता {QUESTION} प्रॉम्प्ट
           करा"
@@ -1534,12 +1534,20 @@ mr:
       Poetry_addFrame:
         options:
           BRUSH:
-            '"hearts"': ह्रदय
+            '"brick"': विट
+            '"fire"': आग
+            '"flowers"': फुले
             '"iceCream"': आईसक्रीम
-            '"rainbow"': इंद्रधनुष्य
-            '"stars"': तारे
+      Poetry_addLine:
+        text: ओळ जोडा {LINE}
+      Poetry_animateText:
+        text: मजकूर अॅनिमेट करा
+      Poetry_destroy:
+        text: " {ANIMATION_NAME} काढून टाका "
       Poetry_glideTo:
         text: "{SPRITE} {LOCATION} कडे सरकणे"
+      Poetry_hideText:
+        text: मजकूर लपवा
       Poetry_makeBurst:
         text: "{NUM} {ANIMATION_NAME} स्प्राइट्स सह {EFFECT} प्रभाव तयार करा"
         options:
@@ -1549,24 +1557,46 @@ mr:
         text: "{LOCATION} येथे नवीन {ANIMATION_NAME} स्प्राइट बनवा"
       Poetry_makeNumSprites:
         text: "{NUM} नवीन {ANIMATION_NAME} स्प्राइट्स तयार करा"
+      Poetry_playMusic:
+        options:
+          SOUND:
+            '"sound://category_nature/steady_campfire_loop.mp3"': कॅम्प फायर (शेकोटी)
+            '"sound://category_loops/stabilizing_breath_loop1.mp3"': संथ
       Poetry_playSound:
         text: आवाज प्ले करा {SOUND}
         options:
           SOUND:
-            '"sound://category_achievements/lighthearted_bonus_objective_5.mp3"': प्रकाश
+            '"sound://category_bell/long_bell_notification.mp3"': घंटा
+            '"sound://category_digital/boing_2.mp3"': बोइंग
+            '"sound://category_pop/bubble_pop_cluster_2.mp3"': बुडबुडा
+            '"sound://category_background/typewriter.mp3"': टायपरायटर
+      Poetry_setAuthor:
+        text: लेखक {AUTHOR} सेट करा
       Poetry_setBackground:
         text: पार्श्वभूमीचा रंग {COLOR} करा
       Poetry_setBackgroundEffect:
+        text: "{EFFECT} {PALETTE} वर बॅकग्राउंड  सेट करा"
         options:
           EFFECT:
-            '"colors"': रंग
-            '"space"': स्पेस
-            '"stars"': तारे
-            '"rain"': पाऊस
+            '"blooming"': ब्लुमिंग
             '"bubbles"': फुगे
+            '"clouds"': ढगाळ
             '"confetti"': कॉन्फेटी
+            '"darkCircles"': फेडिंग / लुप्त होणे
+            '"fadeColors"': फ्रॉस्टेड
+            '"space"': स्पेस
+            '"colors"': रंग
+            '"stars"': तारे
           PALETTE:
-            '"rainbow"': इंद्रधनुष्य
+            '"autumn"': ऑटम / शरद ऋतू
+            '"sunrise"': पहाट
+            '"sunset"': संध्याकाळ
+            '"grayscale"': ग्रे
+            '"roses"': गुलाब
+            '"sky"': आकाश
+            '"spring"': स्प्रिंग / वसंत ऋतू
+            '"summer"': समर / उन्हाळा
+            '"winter"': विंटर / हिवाळा
       Poetry_setBackgroundImageAs:
         text: "{IMG} वर पार्श्वभूमी सेट करा"
       Poetry_setFont:
@@ -1574,23 +1604,61 @@ mr:
         options:
           FONT:
             '"Arial"': Arial
+            '"Arial Black"': Arial Black
+            '"Courier"': Courier
+            '"Cursive"': हस्तलेखन
+            '"Impact"': Impact
             '"Georgia"': Georgia
             '"Times"': Times
-            '"Courier"': Courier
-            '"Arial Black"': Arial Black
-            '"Impact"': Impact
-            '"Cursive"': हस्तलेखन
       Poetry_setFontColor:
         text: टेक्स्ट कलर सेट करा {FILL}
       Poetry_setForegroundEffect:
+        text: "{EFFECT} इफेक्ट करा"
         options:
           EFFECT:
-            '"rain"': पाऊस
             '"bubbles"': फुगे
             '"confetti"': कॉन्फेटी
+            '"emojis"': हॅपी इमोजी
+            '"glass"': तुटलेल्या काचा
+            '"twinkling"': ट्विंकलिंग
+      Poetry_setPrompt:
+        text: प्रॉम्प्ट वापरकर्ता {LEFT_QUOTE}{NAME}{RIGHT_QUOTE} व्हेरिएबल {VAR}
+          साठी
+      Poetry_setPromptWithChoices:
+        text: "{LEFT_QUOTE_A}{A}{RIGHT_QUOTE_A} [LEFT_QUOTE_B] पर्यायांसह {VAR} व्हेरिएबलसाठी
+          {LEFT_QUOTE}{TEXT}{RIGHT_QUOTE} वापरकर्त्याला सूचित करा [7]{B}{RIGHT_QUOTE_B}
+          {LEFT_QUOTE_C}{C}{RIGHT_QUOTE_C}"
+      Poetry_setSize:
+        text: "{SPRITE} आकार {VAL} वर सेट करा"
+      Poetry_setTextEffect:
+        text: मजकूर परिणाम सेट करा {EFFECT}
+        options:
+          EFFECT:
+            '"fade"': फिकट
+            '"flyLeft"': डावीकडून उडणे
+            '"flyRight"': उजवीकडून उडणे
+            '"flyTop"': वरून उडणे
+            '"flyBottom"': तळापासून उडणे
+            '"typewriter"': टाइपरायटर
+      Poetry_setTitle:
+        text: शीर्षक सेट करा {TITLE}
+      Poetry_showText:
+        text: मजकूर दाखवा
+      Poetry_startBehavior:
+        text: स्प्राइट {ANIMATION_NAME} ने {BEHAVIOR} सुरू केले
+      Poetry_stopBehavior:
+        text: 'स्प्राइट {ANIMATION_NAME} {BEHAVIOR} थांबवते '
+        options:
+          BEHAVIOR:
+            '"all"': "--सर्व वर्तन---"
+      Poetry_stringValue:
+        text: "{LEFT_QUOTE}{TEXT}{RIGHT_QUOTE}"
+      Poetry_textConcat:
+        text: "{LEFT_QUOTE}{TEXT1}{TEXT2}{RIGHT_QUOTE}"
       Poetry_textVariableJoin:
         text: "[TEXT2]"
       Poetry_whenLineShows:
+        text: जेव्हा लाइन {N} दाखवते
         options:
           N:
             '0': "???"

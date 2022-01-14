@@ -1,17 +1,17 @@
 {
   "pages": {
     "/projects": "home-learning-2020",
-    "/home": "hoc2021"
+    "/home": "pl2022"
   },
 
   "banners": {
-    "hoc2021": {
-      "image": "/images/marketing/hoc-dash.png",
-      "title": "Celebrate #CSEverywhere during Hour of Code!",
-      "body": "From smartphones to satellites, we're celebrating #CSEverywhere! Try out our new CS Connections curriculum with two new activities for Hour of Code, Poem Art and Hello World!",
-      "buttonText": "Learn more",
-      "buttonUrl": "https://code.org/hourofcode/overview",
-      "buttonId": "hoc2021-details"
+    "pl2022": {
+      "image": "/images/marketing/pl-dash-jan.png",
+      "title": "Join Code.org's Professional Learning Program",
+      "body": "Our highly supportive program is designed to prepare any educator to teach computer science. Scholarships to attend free are available in many regions!",
+      "buttonText": "Learn More",
+      "buttonUrl": "https://code.org/educate/professional-learning/middle-high",
+      "buttonId": "pl2022-details"
     },  
     "csjourneys": {
       "image": "/images/csjourneys/teacher-banner.png",

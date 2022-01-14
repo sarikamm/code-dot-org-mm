@@ -223,6 +223,7 @@ eu:
       minecraft_designer: 'Minecraft'
       playlab: 'Jolas Laborategia'
       starwars: 'Star Wars'
+      loading: 'Kargatzen...'
       weblab: 'Web Lab'
     popup:
       progress_for_user: "%{name}'ren aurrerapenak"
@@ -237,6 +238,7 @@ eu:
       prizes_link: 'informazio gehiago'
   teacher:
     answer: Erantzuna
+    dashboard: 'Irakaslearen arbela'
     for_teachers_only: Irakasleentzat soilik
     title:
       one: 'Zure irakaslea:'

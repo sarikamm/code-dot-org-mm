@@ -1500,39 +1500,48 @@ nn:
       Poetry_addFrame:
         options:
           BRUSH:
-            Ice Cream: Iskrem
-            Stars: Stjerner
-            Fireworks: Fyrverkeri
-            '"rainbow"': Regnboge
-            '"hearts"': Hjerter
+            '"hearts"': hjerter
+            '"iceCream"': Iskrem
+            '"rainbow"': regnboge
       Poetry_makeBurst:
         options:
           EFFECT:
             '"rain"': regn
+      Poetry_playMusic:
+        options:
+          SOUND:
+            '"sound://category_nature/summer_night_loop.mp3"': natt
+            '"sound://category_loops/stabilizing_breath_loop1.mp3"': sakte
       Poetry_playSound:
         text: spillLyd {SOUND}
         options:
           SOUND:
-            Light: Lys
+            '"sound://category_bell/long_bell_notification.mp3"': Bjelle
+            '"sound://category_pop/bubble_pop_cluster_2.mp3"': Bobble
+            '"sound://category_jump/vibrant_game_jumping_up_1.mp3"': hopp
       Poetry_setBackground:
         text: vel bakgrunnsfarge {COLOR}
       Poetry_setBackgroundEffect:
         options:
           EFFECT:
-            '"colors"': Fargar
-            '"space"': Verdensrom
-            '"stars"': Stjerner
-            '"rain"': Regn
             '"bubbles"': Bobler
+            '"clouds"': skya
             '"confetti"': Konfetti
+            '"hearts"': hjerter
+            '"space"': Verdensrom
+            '"rain"': regn
+            '"colors"': Fargar
+            '"stars"': Stjerner
           PALETTE:
-            '"rainbow"': Regnboge
+            '"rainbow"': regnboge
+            '"winter"': vinter
       Poetry_setForegroundEffect:
         options:
           EFFECT:
-            '"rain"': Regn
             '"bubbles"': Bobler
             '"confetti"': Konfetti
+            '"hearts"': hjerter
+            '"rain"': regn
       Poetry_whenLineShows:
         options:
           N:

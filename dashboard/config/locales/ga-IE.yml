@@ -461,6 +461,7 @@ ga:
       starwars: Star Wars
       starwarsblocks: Star Wars (Blocanna)
       starwarsblocks_hour: Star Wars (Blocanna)
+      loading: Á lódáil...
       weblab: Saotharlann an Ghréasáin
       view_all: Gach Tionscadal...
     popup:
@@ -476,6 +477,7 @@ ga:
       prizes_link: tuilleadh eolais
   teacher:
     answer: Freagra
+    dashboard: Painéal na Múinteoirí
     for_teachers_only: Do Mhúinteoirí Amháin
     title:
       one: 'Do mhúinteoir:'

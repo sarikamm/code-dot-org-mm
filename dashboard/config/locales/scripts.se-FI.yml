@@ -9281,6 +9281,18 @@ se:
           lesson_groups:
             lessonGroup-2:
               display_name: Sisdoallu
+        csa6-pilot:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        csa7-pilot:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        csa8-pilot:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
         k5-onlinepd-2021:
           lessons:
             Events:
@@ -9406,6 +9418,15 @@ se:
               display_name: Sisdoallu
             lessonGroup-2:
               display_name: Sisdoallu
+        spritelab-effects-challenge:
+          lessons:
+            lesson-1:
+              name: Herausforderung Sprite-Effekt
+          name: spritelab-effekte-Herausforderung
+          title: Herausforderung Sprite-Effekt
+          description_audience: Sprite Lab für mittlere/fortgeschrittene Benutzer
+          description_short: Nimm die Herausforderung an und erstelle deinen eigenen
+            Sprite-Effekt mit Sprite Lab!
         csa-u8-dev:
           lessons:
             lesson-1:
@@ -9416,6 +9437,38 @@ se:
               name: Stávengilvu
           title: Stávengilvu
         csa5-exemplars:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        csd-post-survey-2021:
+          lessons:
+            lesson-1:
+              name: Maŋŋil Kurssa Iskkadeapmi
+        csa6-pilot-facilitator:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        spelling-bee-2021:
+          lessons:
+            lesson-1:
+              name: Stávengilvu
+        csa6-exemplars:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        csa7-exemplars:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        csa8-exemplars:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        csa7-pilot-facilitator:
+          lesson_groups:
+            lessonGroup-2:
+              display_name: Sisdoallu
+        csa8-pilot-facilitator:
           lesson_groups:
             lessonGroup-2:
               display_name: Sisdoallu
