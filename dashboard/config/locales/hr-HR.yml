@@ -105,12 +105,14 @@ hr:
       biste saznali više.
     additional_information: Trebamo dodatne informacije kako bi nastavili vašu prijavu.
     user_type_label: Vrsta računa
-    user_type_teacher: Učitelj
     user_type_student: Učenik
+    user_type_teacher: Učitelj
     field_is_required: potrebno
     email_preference_privacy: "(Pogledaj našu politiku privatnosti)"
     email_preference_yes: Da
     email_preference_no: Ne
+    share_teacher_email_reg_partner_preference_yes: Da
+    share_teacher_email_reg_partner_preference_no: Ne
   school_info:
     public: Javni
     other: Ostalo
@@ -217,6 +219,7 @@ hr:
       about_jobs: Zapošljavanje
       about_contact: Kontaktiraj nas
       about_faqs: ČPP
+      stats: Statistika
       about: O
       legal_privacy: Politika privatnosti
       legal_tos: Uvjeti korištenja
@@ -238,6 +241,7 @@ hr:
       frozen: Snježno kraljevstvo
       gamelab: Game Lab
       gamelab_jr: Lab igrica (beta)
+      iceage: Ledeno Doba
       infinity: Beskonačnost
       minecraft_designer: Minecraft
       playlab: Laboratorij igara
@@ -246,6 +250,7 @@ hr:
       sports: Sport
       spritelab: Lab likova
       starwars: Ratovi zvijezda
+      loading: Učitavanje...
       weblab: Web Lab
       view_all: Prikaz svih projekata...
     popup:
@@ -294,6 +299,7 @@ hr:
       vaših učenika.'
     delete_confirm: Jeste li sigurni da želite izbrisati svoj račun?
     update_email: Osvježi
+    remove_parent_email_label: Obriši
   user_level:
     completed: Završen
     tried: Pokušan
@@ -368,16 +374,14 @@ hr:
       Age&#8482; &copy; %{current_year} 20th Century Fox. Sva prava pridržana.<br
       />Angry Birds&#8482; &copy; 2009-%{current_year} Rovio Entertainment Ltd. Sva
       prava pridržana.<br />Plants vs. Zombies&#8482; &copy; %{current_year} Electronic
-      Arts Inc. Sva prava pridržana.<br />The Amazing World of Gumball je zaštitni
-      znak i &copy; %{current_year} Cartoon Network.
+      Arts Inc. Sva prava pridržana.
     art_from_html_old: Minecraft&#8482; &copy; %{current_year} Microsoft. Sva prava
       pridržana. Star Wars&#8482; &copy; %{current_year} Disney i Lucasfilm. Sva prava
       pridržana. Frozen&#8482; &copy; %{current_year} Disney. Sva prava pridržana.
       Ice Age&#8482; &copy; %{current_year} 20th Century Fox. Sva prava pridržana.
       Angry Birds&#8482; &copy; 2009-%{current_year} Rovio Entertainment Ltd. Sva
       prava pridržana. Plants vs. Zombies&#8482; &copy; %{current_year} Electronic
-      Arts Inc. Sva prava pridržana. The Amazing World of Gumball je zaštitni znak
-      i &copy; %{current_year} Cartoon Network.
+      Arts Inc. Sva prava pridržana.
     powered_by_aws: Potpomognuto s Amazon Web Services
     trademark: "&copy; Code.org, %{current_year}. Code.org&reg;, CODE logotip i Hour
       of Code&reg; su zaštitni znaci tvrtke Code.org."
@@ -450,6 +454,7 @@ hr:
     applab:
       title: Laboratorij aplikacija
       audience: Dob 13+
+      cta: Nauči kako
     hoc:
       title: Klasični labirint
       body: Isprobajte osnove informatike. Milijuni su im dali šansu.
@@ -477,6 +482,7 @@ hr:
     weblab:
       title: Web Lab (beta)
       audience: Dob 13+
+      cta: Nauči kako
     frozen:
       title: Snježno kraljevstvo
     starwars:
@@ -496,6 +502,9 @@ hr:
       title: Minecraft
     unplugged_conditionals:
       title: Uvjeti
+    widgets:
+      audience: Dob 14+
+      cta: Nauči kako
   landing:
     report_bug: Prijavi grešku
     support: Zatraži pomoć
@@ -651,7 +660,7 @@ hr:
       last_name: Prezime
       email: E-mail
       school_name: Naziv škole
-      colombian_school_name: Naziv škole
+      colombian_chilean_school_name: Naziv škole
     form_entries:
       gender:
         male: Muško

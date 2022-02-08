@@ -1,3 +1,4 @@
+---
 my:
   data:
     script:
@@ -8,10 +9,6 @@ my:
           lessons:
             Variables:
               name: Variables
-        infinity:
-          lessons:
-            Infinity:
-              name: Infinity
         K5PD:
           lessons:
             Teacher Dashboard:
@@ -114,9 +111,9 @@ my:
           description: Minecraftက လုပ်ရှားမှုအသစ်များနဲ့အတူ Hour of Codeအတွက်ပြန်လာပါပြီ။ Minecraftနှင့်code မှတစ်ဆင့်ခရီးစဉ်
           lessons:
             'Minecraft\: Hero''s Journey Hour of Code':
-              name: 'Minecraft\: လူစွမ်းကောင်း၏ ခရီးစဉ် Hour of Code'
+              name: 'Minecraft: လူစွမ်းကောင်း၏ ခရီးစဉ် Hour of Code'
             Minecraft Hour of Code:
-              name: Minecraft Hour of Code
+              name: 'Minecraft: လူစွမ်းကောင်း၏ ခရီးစဉ်'
           student_description: Minecraftက လုပ်ရှားမှုအသစ်များနဲ့အတူ Hour of Codeအတွက်ပြန်လာပါပြီ။ Minecraftနှင့်code မှတစ်ဆင့်ခရီးစဉ်
         csd6-old:
           lessons:
@@ -393,3 +390,15 @@ my:
             Computer Science Fundamentals:
               key: ကွန်ပျူတာသိပ္ပံအခြေခံ။
               name: ကွန်ပျူတာသိပ္ပံအခြေခံ။
+        self-paced-pl-csd2-2021:
+          lessons:
+            lesson-9:
+              name: ဆရာ/မ များအဖွဲ့အစည်း
+        csa-videos:
+          lesson_groups:
+            lessonGroup-3:
+              display_name: အရင်းအမြစ်များ
+        dlp21-csd:
+          lesson_groups:
+            lessonGroup-2:
+              description: စမ်းသပ်မှု။

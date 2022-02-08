@@ -8,15 +8,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           MOVE1:
@@ -62,17 +62,17 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
-            '"UNICORN"': 모든 유니콘
+            '"UNICORN"': 유니콘
           MOVE:
             '"next"': "(다음)"
             '"prev"': "(이전)"
@@ -122,15 +122,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           PROPERTY:
@@ -146,15 +146,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           MOVE:
@@ -301,15 +301,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           LOCATION:
@@ -329,15 +329,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           FORMAT:
@@ -347,7 +347,7 @@ ko:
             '"circle"': 원
             '"grid"': 그리드
             '"top"': 위쪽 행
-            '"row"': 행
+            '"row"': class
             '"bottom"': 아래쪽 행
             '"left"': 왼쪽 열
             '"column"': 열
@@ -391,10 +391,10 @@ ko:
             '"ALIEN"': 외계인
             '"BEAR"': 곰
             '"CAT"': 고양이
-            '"DOG"': 개
+            '"DOG"': 강아지
             '"DUCK"': 오리
             '"FROG"': 개구리
-            '"MOOSE"': 사슴
+            '"MOOSE"': 모든 사슴
             '"PINEAPPLE"': 파인애플
             '"ROBOT"': 로봇
             '"SHARK"': 상어
@@ -437,15 +437,15 @@ ko:
             '19': '19'
             '20': '20'
           COSTUME:
-            '"ALIEN"': 외계인
+            '"ALIEN"': 모든 외계인
             '"BEAR"': 곰
-            '"CAT"': 고양이
-            '"DOG"': 개
+            '"CAT"': 모든 고양이
+            '"DOG"': 모든 개
             '"DUCK"': 오리
             '"FROG"': 개구리
-            '"MOOSE"': 사슴
+            '"MOOSE"': 모든 사슴
             '"PINEAPPLE"': 파인애플
-            '"ROBOT"': 로봇
+            '"ROBOT"': 모든 로봇
             '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
@@ -456,7 +456,7 @@ ko:
             '"circle"': 원
             '"grid"': 그리드
             '"top"': 위쪽 행
-            '"row"': 행
+            '"row"': class
             '"bottom"': 아래쪽 행
             '"left"': 왼쪽 열
             '"column"': 열
@@ -494,7 +494,7 @@ ko:
             '"splatter"': 페인트 튀기기
             '"rainbow"': 무지개
             '"snowflakes"': 눈
-            '"text"': 노래 제목
+            '"text"': 음악 제목
             '"galaxy"': 우주
             '"sparkles"': 반짝이
             '"spiral"': 나선
@@ -502,7 +502,7 @@ ko:
             '"stars"': 별
           PALETTE:
             '"rave"': 흑백
-            '"cool"': 시원시원
+            '"cool"': 파란색
             '"electronic"': 일렉트로닉
             '"iceCream"': 아이스크림
             '"default"': 빛
@@ -534,7 +534,7 @@ ko:
             '"ripples_random"': 랜덤 물결
             '"ripples"': 물결
             '"snowflakes"': 눈
-            '"text"': 노래 제목
+            '"text"': 음악 제목
             '"squiggles"': 구불구불
             '"galaxy"': 우주
             '"sparkles"': 반짝이
@@ -544,7 +544,7 @@ ko:
             '"music_wave"': 파도
           PALETTE:
             '"rave"': 흑백
-            '"cool"': 시원시원
+            '"cool"': 파란색
             '"electronic"': 일렉트로닉
             '"iceCream"': 아이스크림
             '"default"': 빛
@@ -567,15 +567,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           SPEED:
@@ -641,15 +641,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           PROPERTY:
@@ -677,15 +677,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           PROPERTY:
@@ -704,15 +704,15 @@ ko:
           THIS:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
       Dancelab_setTintEachInline:
@@ -721,15 +721,15 @@ ko:
           THIS:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
       Dancelab_setTintInline:
@@ -746,15 +746,15 @@ ko:
           THIS:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           VISIBILITY:
@@ -781,15 +781,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           PROPERTY:
@@ -826,15 +826,15 @@ ko:
           GROUP:
             sprites: 모두
             '"ALIEN"': 모든 외계인
-            '"BEAR"': 모든 곰
+            '"BEAR"': 곰
             '"CAT"': 모든 고양이
             '"DOG"': 모든 개
-            '"DUCK"': 모든 오리
-            '"FROG"': 모든 개구리
+            '"DUCK"': 오리
+            '"FROG"': 개구리
             '"MOOSE"': 모든 사슴
-            '"PINEAPPLE"': 모든 파인애플
+            '"PINEAPPLE"': 파인애플
             '"ROBOT"': 모든 로봇
-            '"SHARK"': 모든 상어
+            '"SHARK"': 상어
             '"SLOTH"': 나무늘보
             '"UNICORN"': 유니콘
           PROPERTY:
@@ -904,7 +904,7 @@ ko:
             '"left"': 왼쪽으로
             '"down"': 아래로
             '"right"': 오른쪽으로
-            '"space"': 스페이스바
+            '"space"': 우주
             '"enter"': 입력
             '"a"': a
             '"b"': b
@@ -957,6 +957,10 @@ ko:
         text: 스프라이트 {SPRITE} 시작 {BEHAVIOR}
       gamelab_addTarget:
         text: "{SPRITE}가 목표물 {TARGET}을 얻습니다"
+        options:
+          OPT:
+            '"follow"': 팔로우
+            '"avoid"': avoid
       gamelab_allSpritesWithAnimation:
         text: "{ANIMATION}"
       gamelab_atTime:
@@ -965,6 +969,8 @@ ko:
           UNIT:
             '"seconds"': "~초 기다리기"
             '"frames"': 프레임
+      gamelab_avoidingTargets:
+        text: 대상 피하기
       gamelab_beginCollectingData:
         text: 데이터 {BREAK} 값 {VALUE}을 라벨 {LABEL}로 수집하기 시작합니다
       gamelab_bounceOff:
@@ -984,7 +990,7 @@ ko:
         options:
           CONDITION:
             '"when"': "~할 때"
-            '"while"': 동안
+            '"while"': '반복(~인 동안):'
       gamelab_clickedOn:
         text: 때 {SPRITE} 클릭
       gamelab_clickedSpritePointer:
@@ -1001,6 +1007,8 @@ ko:
         text: 제거 {THIS}
       gamelab_draggable:
         text: 드래그 가능
+      gamelab_drawLine:
+        text: 라인 {COLOR}  {LOC1}  {LOC2} 그리기
       gamelab_edgesDisplace:
         text: 모서리 이동에서 블록 {SPRITE}
       gamelab_followingTargets:
@@ -1030,6 +1038,8 @@ ko:
           UNIT:
             '"seconds"': "~초 기다리기"
             '"frames"': 프레임
+      gamelab_glideTo:
+        text: "{SPRITE}이(가) {LOCATION}(으)로 글라이딩"
       gamelab_hideTitleScreen:
         text: 제목 화면 숨기기
       gamelab_ifVarEquals:
@@ -1084,7 +1094,7 @@ ko:
         options:
           CONDITION:
             '"when"': "~할 때"
-            '"while"': 동안
+            '"while"': '반복(~인 동안):'
           KEY:
             '"up"': 위로
             '"down"': 아래로
@@ -1123,20 +1133,37 @@ ko:
         text: "{LOCATION}의 {DISTANCE} 픽셀 {DIRECTION}  "
         options:
           DIRECTION:
-            '"North"': 북쪽
-            '"East"': 동쪽
-            '"South"': 남쪽
-            '"West"': 서쪽
+            '"North"': 북
+            '"East"': 동
+            '"South"': 남
+            '"West"': 서
       gamelab_locationMouse:
         text: 마우스 위치
       gamelab_locationOf:
         text: 위치 {SPRITE}
       gamelab_location_picker:
         text: "{LOCATION}"
+      gamelab_makeBurst:
+        text: "{NUM} {ANIMATION_NAME} 스프라이트로 {EFFECT}개의 효과를 만드세요"
+        options:
+          EFFECT:
+            '"pop"': 펑!
+            '"rain"': 비
+            '"spiral"': 나선
       gamelab_makeNewSpriteAnon:
         text: 새로운 만들기 {ANIMATION_NAME} 스프라이트 에서 {LOCATION}
       gamelab_makeNumSprites:
         text: "{NUM}개의 새 {ANIMATION_NAME} 스프라이트를 만드세요"
+      gamelab_makeProjectile:
+        text: |-
+          {LOCATION}에서
+          {SPEED}의 속도와 {DIRECTION} 방향으로 {ANIMATION_NAME}  발사체 만들기
+        options:
+          DIRECTION:
+            '0': 오른쪽으로
+            '90': 아래로
+            '180': 왼쪽으로
+            '270': 위로
       gamelab_mirrorSprite:
         text: "{SPRITE} 얼굴 {DIRECTION}"
         options:
@@ -1153,10 +1180,10 @@ ko:
         text: 이동 {SPRITE} {DISTANCE} 픽셀 {DIRECTION}
         options:
           DIRECTION:
-            '"North"': 북쪽
-            '"East"': 동쪽
-            '"South"': 남쪽
-            '"West"': 서쪽
+            '"North"': 북
+            '"East"': 동
+            '"South"': 남
+            '"West"': 서
       gamelab_moveToward:
         text: 이동 {SPRITE} 픽셀 {DISTANCE} 향해 {TARGET}
       gamelab_newSpritePointer:
@@ -1167,14 +1194,56 @@ ko:
         text: 위 아래로 순찰
       gamelab_playSound:
         text: Playsound {SOUND}
+      gamelab_playSoundOptions:
+        text: Playsound {SOUND}
+        options:
+          SOUND:
+            "'sound://category_accent/puzzle_game_accent_a_01.mp3'": 액센트
+            "'sound://category_digital/boing_2.mp3'": 보잉
+            "'sound://category_pop/bubble_pop_cluster_airy_1.mp3'": 펑!
+            "'sound://category_bell/vibrant_game_bell_twinkle_positive_touch_1.mp3'": 트윙클
+            "'sound://category_app/app_button_1.mp3'": 버튼
+            "'sound://category_collect/clicky_crunch.mp3'": 부서짐 소리
+            "'sound://category_swish/quick_swing.mp3'": 스윙
+            "'sound://category_nature/summer_night_loop.mp3'": 여름밤
+            "'sound://category_background/ocean_waves.mp3'": 바다의 파도
+            "'sound://category_nature/south_carolina_beach_ripple.mp3'": 해변가의 잔물결
+            "'sound://category_pop/bubble_pop_cluster_1.mp3'": 거품
+            "'sound://category_animals/bear.mp3'": 곰
+            "'sound://category_animals/cat.mp3'": 고양이
+            "'sound://category_animals/cow.mp3'": 소
+            "'sound://category_animals/pig.mp3'": 돼지
+            "'sound://category_animals/sheep.mp3'": 양
+            "'sound://category_animals/goat.mp3'": 염소
+            "'sound://category_animals/chicken.mp3'": 닭
+            "'sound://category_animals/rooster.mp3'": 늙은
+            "'sound://category_animals/elephant.mp3'": 코끼리
+            "'sound://category_animals/dolphin.mp3'": 돌고래
+            "'sound://category_nature/thunderstorm_1.mp3'": 폭풍우
+            "'sound://category_animals/chick.mp3'": 병아리
+            "'sound://category_animals/dog.mp3'": 강아지
+            "'sound://category_animals/tiger.mp3'": 호랑이
+            "'sound://category_collect/trill_stings.mp3'": 트릴
+            "'sound://category_instrumental/harpe_pluck_1.mp3'": 하프
+            "'sound://category_tap/vibrant_positive_tap_1.mp3'": 탭
+            "'sound://category_notifications/vibrant_game_tonal_hit_6_correct.mp3'": 전체
+              히트
+            "'sound://category_transition/trippy_robotic_transition.mp3'": 로봇의 전환
+            "'sound://category_transition/star_dust_particle_10.mp3'": 소성단
+            "'sound://category_whoosh/alien_ship_flyby_whoosh_3_slow.mp3'": 외계인의 우주선
+            "'sound://category_projectile/retro_game_magic_spell_6.mp3'": 마법의 주문
+            "'sound://category_jump/quirky_bass_sc-fi_open_or_start.mp3'": 별난 베이스
+            "'sound://category_digital/jump_7.mp3'": 점프
+      gamelab_playSpeech:
+        text: 스피치 {SOUND} 재생
       gamelab_pointInDirection:
         text: 지점 {SPRITE} {DIRECTION}
         options:
           DIRECTION:
-            '"North"': 북쪽
-            '"East"': 동쪽
-            '"South"': 남쪽
-            '"West"': 서쪽
+            '"North"': 북
+            '"East"': 동
+            '"South"': 남
+            '"West"': 서
       gamelab_printText:
         text: 인쇄 {TEXT}
       gamelab_randColor:
@@ -1201,14 +1270,36 @@ ko:
           IMG:
             '"https://studio.code.org/blockly/media/skins/studio/background_cave.png"': 동굴
             '"https://studio.code.org/api/v1/animation-library/04L4sdTODkNZF1OHf4qO_I.Al3QP43wA/category_backgrounds/city.png"': 도시
+            '"https://studio.code.org/api/v1/animation-library/UieRK0NBKD3xVHtSJxcUTAuhzLM1D_Hq/category_backgrounds/continuous_grass.png"': 계속되는
+              잔디
             '"https://studio.code.org/blockly/media/skins/studio/background.png"': 법원
             '"https://studio.code.org/blockly/media/skins/studio/background_desert.png"': 사막
+            '"https://studio.code.org/api/v1/animation-library/nfgysU3t3P8XnUBAf9LjIy2JTHtdXpTj/category_backgrounds/desert_road.png"': 사막의
+              도로
+            '"https://studio.code.org/api/v1/animation-library/4FnSIFL33P0PH_C_DnKOse2QbZCdtaJJ/category_backgrounds/farm_land.png"': 농지
+            '"https://studio.code.org/api/v1/animation-library/vrlUwPslp0VK_KJcPQ9OPZNb.Ms5eBL5/category_backgrounds/floating_grass.png"': 떠
+              있는 잔디
+            '"https://studio.code.org/api/v1/animation-library/ZjjFGjO0xNEZGEweTgANloehQrxwIXVM/category_backgrounds/front_of_house.png"': 집
+              앞
             '"https://studio.code.org/blockly/media/skins/studio/background_space.png"': 은하
             '"https://studio.code.org/blockly/media/skins/studio/background_grid.png"': 그리드
+            '"https://studio.code.org/api/v1/animation-library/1K7z7Kc3EeXsLV693byb0xxoJSJ4Du7e/category_backgrounds/kitchen.png"': 주방
+            '"https://studio.code.org/api/v1/animation-library/4bsf67OUrcX.t1wbIcE_xygGKxOkiQ6f/category_backgrounds/living_room.png"': 거실
+            '"https://studio.code.org/api/v1/animation-library/4gC7uWaaRI4aDyrncCFO_wY_67vYhr4C/category_backgrounds/park_view.png"': 공원
+              전망
+            '"https://studio.code.org/api/v1/animation-library/5K0h1rGe5ql4J9TdlqggIzGZYzbD38pF/category_backgrounds/pine_trees.png"': 소나무
             '"https://studio.code.org/blockly/media/skins/studio/background_rainbow.png"': 비
-            '"https://studio.code.org/blockly/media/skins/studio/background_scifi.png"': 공상
-              과학
+            '"https://studio.code.org/blockly/media/skins/studio/background_scifi.png"': 공상과학
+            '"https://studio.code.org//api/v1/animation-library/WJjQlG1rFhbVmPfcuI_wy6tpwI6mHYnM/category_backgrounds/soccer_field.png"': 축구장
             '"https://studio.code.org/blockly/media/skins/studio/background_santa.png"': 별
+            '"https://studio.code.org/api/v1/animation-library/RblQqWAuW0EkLfYuRVK4LRc0uY_76fvi/category_backgrounds/subway.png"': 지하철
+            '"https://studio.code.org/api/v1/animation-library/ZY0THG5IedwCgmWVIhiPdJH59OORnmgT/category_backgrounds/sun_and_rainbow.png"': 해와
+              무지개
+            '"https://studio.code.org/api/v1/animation-library/_aXeLwM1Ge.ZDVJoON.cAlR3iwhKJJvl/category_backgrounds/sunshine_showers.png"': 여우비
+            '"https://studio.code.org/api/v1/animation-library/.51KpEhDOyXg4dbDaAnm0dEWLAj1GZwy/category_backgrounds/tennis_court.png"': 테니스
+              코트
+            '"https://studio.code.org/api/v1/animation-library/yatDsUkvGtT_.fSv68qi1d4YJDMHdGnS/category_backgrounds/tree_island.png"': 나무
+              섬
             '"https://studio.code.org/blockly/media/skins/studio/background_underwater.png"': 물속
             '"https://studio.code.org/blockly/media/skins/studio/background_winter.png"': 겨울
             undefined: 없음
@@ -1237,6 +1328,7 @@ ko:
             '"direction"': 움직임 방향
             '"speed"': 스피드
       gamelab_setProp_dropdown:
+        text: "{SPRITE} {PROPERTY}을(를) {SIZE}(으)로 설정"
         options:
           PROPERTY:
             '"scale"': 크기
@@ -1254,6 +1346,8 @@ ko:
             '"height"': '높이:'
       gamelab_setTint:
         text: 의 색상을 변경 {THIS} 받는 사람 {COLOR}
+      gamelab_setupScoreboard:
+        text: "점수판 그리기 \n{SPRITE1COSTUME}점수{VAR1}{SPRITE2COSTUME}점수{VAR2}대상{SPRITE3COSTUME}"
       gamelab_setupSim:
         text: |-
           설정 시뮬레이션
@@ -1268,9 +1362,25 @@ ko:
         options:
           CONDITION:
             '"when"': "~할 때"
-            '"while"': 동안
+            '"while"': '반복(~인 동안):'
+      gamelab_spriteSay:
+        text: "{SPRITE}이(가) {SPEECH}을(를) 말함"
+      gamelab_spriteSayTime:
+        text: "{SPRITE}이(가){TEXT1}을(를) {NUM}초 동안 말함"
+      gamelab_startAvoiding:
+        text: "{SPRITE}이(가) {TARGET}을(를) 피하기 시작함"
+      gamelab_startFollowing:
+        text: "{SPRITE}이(가) {TARGET}을(를) 팔로잉하기 시작함"
+      gamelab_startGliding:
+        text: "{SPRITE}은 글라이딩을 시작합니다."
+      gamelab_stopAvoiding:
+        text: "{SPRITE}이(가) 다른 스프라이트들을 피하는 것을 중지함"
       gamelab_stopCollectingData:
         text: 데이터 수집 중지
+      gamelab_stopFollowing:
+        text: "{SPRITE}이(가) 다른 스프라이트를 팔로잉하는 것을 중지함"
+      gamelab_stopGliding:
+        text: "{SPRITE}은 글라이딩을 중지합니다."
       gamelab_subjectSpritePointer:
         text: 클릭 {SPRITE}
       gamelab_textJoin:
@@ -1287,6 +1397,8 @@ ko:
             '"left"': 왼쪽으로
       gamelab_updateTitleWithColor:
         text: 타이틀 화면 {BREAK} 타이틀 {TITLE} 색상 {COLOR} 표시
+      gamelab_whenAllPromptsAnswered:
+        text: 모든 프롬프트가 답변될 때
       gamelab_whenDownArrow:
         text: 아래쪽 화살표를 눌렀을 때
       gamelab_whenKey:
@@ -1311,7 +1423,7 @@ ko:
       gamelab_whenSpriteCreated:
         text: "{SPRITE}가 만들어질 때"
       gamelab_whenTouching:
-        text: 때 {SPRITE1} 접촉 {SPRITE2}
+        text: "{SPRITE1}이(가) {SPRITE2}을(를) 터치할 때"
       gamelab_whenUpArrow:
         text: 위쪽 화살표를 눌렀을 때
       gamelab_whileDownArrow:
@@ -1339,8 +1451,19 @@ ko:
         text: 위쪽 화살표를 누른 상태에서
       gamelab_withPercentChance:
         text: |-
-          만약 {NUM}% 기회이면
+          {NUM}% 확률이면
           {STATEMENT}
+      gamelab_withPercentChanceDropdown:
+        text: |2-
+           {NUM} 확률
+           {STATEMENT}
+        options:
+          NUM:
+            '10': 매우 낮음
+            '25': 낮음
+            '50': 50/50
+            '75': 높음
+            '90': 매우 높음
       gamelab_xLocationOf:
         text: x 좌표 {SPRITE}
       gamelab_yLocationOf:
@@ -1437,7 +1560,6 @@ ko:
         text: "{SELECT} {COSTUME}'의 {PROPERTY}"
         options:
           SELECT:
-            '"average"': 평균
             '"this"': 이
           PROPERTY:
             '"scale"': 크기
@@ -1484,7 +1606,7 @@ ko:
       Mikelab_groupWhenClickedOn:
         text: 때 {COSTUME} 클릭
       Mikelab_groupWhenXTouchesY:
-        text: 때{COSTUME} 접촉 {COSTUME2}
+        text: "{COSTUME}이(가) {COSTUME2}을(를) 터치할 때"
       Mikelab_groupWhileClicked:
         text: "{COSTUME}을 클릭하는 동안"
       Mikelab_groupWhileTouchingAny:
@@ -1560,6 +1682,29 @@ ko:
         options:
           BG:
             '"https://studio.code.org/api/v1/animation-library/04L4sdTODkNZF1OHf4qO_I.Al3QP43wA/category_backgrounds/city.png"': 도시
+            '"https://studio.code.org/api/v1/animation-library/UieRK0NBKD3xVHtSJxcUTAuhzLM1D_Hq/category_backgrounds/continuous_grass.png"': 계속되는
+              잔디
+            '"https://studio.code.org/api/v1/animation-library/nfgysU3t3P8XnUBAf9LjIy2JTHtdXpTj/category_backgrounds/desert_road.png"': 사막의
+              도로
+            '"https://studio.code.org/api/v1/animation-library/4FnSIFL33P0PH_C_DnKOse2QbZCdtaJJ/category_backgrounds/farm_land.png"': 농지
+            '"https://studio.code.org/api/v1/animation-library/vrlUwPslp0VK_KJcPQ9OPZNb.Ms5eBL5/category_backgrounds/floating_grass.png"': 떠
+              있는 잔디
+            '"https://studio.code.org/api/v1/animation-library/ZjjFGjO0xNEZGEweTgANloehQrxwIXVM/category_backgrounds/front_of_house.png"': 집
+              앞
+            '"https://studio.code.org/api/v1/animation-library/1K7z7Kc3EeXsLV693byb0xxoJSJ4Du7e/category_backgrounds/kitchen.png"': 주방
+            '"https://studio.code.org/api/v1/animation-library/4bsf67OUrcX.t1wbIcE_xygGKxOkiQ6f/category_backgrounds/living_room.png"': 거실
+            '"https://studio.code.org/api/v1/animation-library/4gC7uWaaRI4aDyrncCFO_wY_67vYhr4C/category_backgrounds/park_view.png"': 공원
+              전망
+            '"https://studio.code.org/api/v1/animation-library/5K0h1rGe5ql4J9TdlqggIzGZYzbD38pF/category_backgrounds/pine_trees.png"': 소나무
+            '"https://studio.code.org//api/v1/animation-library/WJjQlG1rFhbVmPfcuI_wy6tpwI6mHYnM/category_backgrounds/soccer_field.png"': 축구장
+            '"https://studio.code.org/api/v1/animation-library/RblQqWAuW0EkLfYuRVK4LRc0uY_76fvi/category_backgrounds/subway.png"': 지하철
+            '"https://studio.code.org/api/v1/animation-library/ZY0THG5IedwCgmWVIhiPdJH59OORnmgT/category_backgrounds/sun_and_rainbow.png"': 해와
+              무지개
+            '"https://studio.code.org/api/v1/animation-library/_aXeLwM1Ge.ZDVJoON.cAlR3iwhKJJvl/category_backgrounds/sunshine_showers.png"': 여우비
+            '"https://studio.code.org/api/v1/animation-library/.51KpEhDOyXg4dbDaAnm0dEWLAj1GZwy/category_backgrounds/tennis_court.png"': 테니스
+              코트
+            '"https://studio.code.org/api/v1/animation-library/yatDsUkvGtT_.fSv68qi1d4YJDMHdGnS/category_backgrounds/tree_island.png"': 나무
+              섬
       Mikelab_setProp:
         options:
           PROPERTY:
@@ -1580,6 +1725,10 @@ ko:
           CORNER:
             '"right"': 오른쪽으로
             '"left"': 왼쪽으로
+      Mikelab_showText:
+        options:
+          PREPOSITION:
+            '"below"': below
       Mikelab_sprite:
         text: 새로운 {COSTUME} 스프라이트 에서 {LOCATION}
         options:
@@ -1624,8 +1773,8 @@ ko:
         text: 때 {KEY} 클릭
         options:
           KEY:
-            '"yes"': 네
-            '"no"': 아니
+            '"yes"': 예
+            '"no"': 아니요
       Mikelab_whileKeyPressed:
         options:
           KEY:
@@ -1637,6 +1786,198 @@ ko:
         text: x 좌표 {SPRITE}
       Mikelab_yLocationOf:
         text: y 좌표 {SPRITE}
+      Poetry_addFrame:
+        options:
+          BRUSH:
+            '"brick"': 벽돌
+            '"fire"': 불
+            '"flowers"': 꽃
+            '"hearts"': 하트
+            '"iceCream"': 아이스크림
+            '"leaves"': 잎
+            '"rainbow"': 비
+            '"stars"': 별
+      Poetry_addLine:
+        text: 선 {LINE} 추가
+      Poetry_animateText:
+        text: 텍스트 에니메이션화
+      Poetry_destroy:
+        text: "{ANIMATION_NAME} 제거"
+      Poetry_glideTo:
+        text: "{SPRITE}이(가) {LOCATION}(으)로 글라이딩"
+      Poetry_hideText:
+        text: 텍스트 숨기기
+      Poetry_makeBurst:
+        text: "{NUM} {ANIMATION_NAME} 스프라이트로 {EFFECT}개의 효과를 만드세요"
+        options:
+          EFFECT:
+            '"pop"': 펑!
+            '"rain"': 비
+            '"spiral"': 나선
+      Poetry_makeNewSpriteAnon:
+        text: 새로운 만들기 {ANIMATION_NAME} 스프라이트 에서 {LOCATION}
+      Poetry_makeNumSprites:
+        text: "{NUM}개의 새 {ANIMATION_NAME} 스프라이트를 만드세요"
+      Poetry_playMusic:
+        options:
+          SOUND:
+            '"sound://category_loops/vibrant_game_musical_harping_movement_loop_1.mp3"': 차분한
+            '"sound://category_nature/steady_campfire_loop.mp3"': 캠프파이어
+            '"sound://category_nature/rain_loop.mp3"': 이슬비
+            '"sound://category_nature/forest_woodland_ambience_2.mp3"': 숲
+            '"sound://category_loops/faultering_desicion_loop1.mp3"': 귀신 들린
+            '"sound://category_background/inside_plane.mp3"': 웅웅
+            '"sound://category_loops/red_flag_loop1.mp3"': 임무
+            '"sound://category_nature/summer_night_loop.mp3"': 밤
+            '"sound://category_background/ocean_waves.mp3"': 바다
+            '"sound://category_background/repitition.mp3"': 라이딩
+            '"sound://category_background/wavering_wind.mp3"': 잠 자는
+            '"sound://category_loops/stabilizing_breath_loop1.mp3"': 천천히
+      Poetry_playSound:
+        text: Playsound {SOUND}
+        options:
+          SOUND:
+            '"sound://category_bell/long_bell_notification.mp3"': 종
+            '"sound://category_digital/boing_2.mp3"': 보잉
+            '"sound://category_pop/bubble_pop_cluster_2.mp3"': 거품
+            '"sound://category_accent/puzzle_game_accent_chatter_02.mp3"': 수다
+            '"sound://category_explosion/vibrant_game_cartoon_game_laser_hit_13_boom_doppler.mp3"': 기운
+              빠지다
+            '"sound://category_jump/retro_game_enemy_jump_3.mp3"': 실패
+            '"sound://category_alerts/vibrant_game_flutter_ambient_alert.mp3"': 설레다
+            '"sound://category_jump/vibrant_game_jumping_up_1.mp3"': 점프
+            '"sound://category_achievements/lighthearted_bonus_objective_5.mp3"': 빛
+            '"sound://category_poof/puzzle_game_poof_04.mp3"': 펑
+            '"sound://category_achievements/puzzle_game_achievement_big_03.mp3"': 운율에
+              맞다
+            '"sound://category_background/typewriter.mp3"': 타입라이터체
+            '"sound://category_achievements/vibrant_virtcal_achievment.mp3"': 활기찬
+            '"sound://category_achievements/peaceful_win_1.mp3"': 승리
+            '"sound://category_explosion/vibrant_game_arcade_game_negative_hit.mp3"': 빙빙
+            '"sound://category_achievements/peaceful_win_6.mp3"': 풍경
+      Poetry_setAuthor:
+        text: 작가 {AUTHOR} 설정
+      Poetry_setBackground:
+        text: 배경색 {COLOR} 설정
+      Poetry_setBackgroundEffect:
+        text: 배경을 {EFFECT} {PALETTE}에 설정
+        options:
+          EFFECT:
+            '"blooming"': 만발한
+            '"bubbles"': 거품
+            '"clouds"': 흐림
+            '"confetti"': 색종이
+            '"darkCircles"': 페이딩
+            '"fadeColors"': 서리가 내린
+            '"hearts"': 하트
+            '"space"': 우주
+            '"rain"': 비
+            '"ripples"': 물결
+            '"colors"': 색상
+            '"stars"': 별
+            '"squiggles"': 구불구불
+          PALETTE:
+            '"autumn"': 가을
+            '"sunrise"': 새벽
+            '"sunset"': 황혼
+            '"grayscale"': 회색
+            '"ocean"': 바다
+            '"rainbow"': 비
+            '"roses"': 장미
+            '"sky"': 하늘
+            '"spring"': 봄
+            '"summer"': 여름
+            '"winter"': 겨울
+      Poetry_setBackgroundImageAs:
+        text: 배경을 {IMG}으로 설정
+      Poetry_setFont:
+        text: 폰트 {FONT} 설정
+        options:
+          FONT:
+            '"Arial"': Arial
+            '"Arial Black"': Arial Black
+            '"Courier"': Courier
+            '"Cursive"': Handwriting
+            '"Impact"': Impact
+            '"Georgia"': Georgia
+            '"Times"': Times
+      Poetry_setFontColor:
+        text: 텍스트 색상 {FILL} 설정
+      Poetry_setForegroundEffect:
+        text: "{EFFECT} 효과 연출"
+        options:
+          EFFECT:
+            '"bubbles"': 거품
+            '"confetti"': 색종이
+            '"hearts"': 하트
+            '"emojis"': 해피 이모티콘
+            '"rain"': 비
+            '"starburst"': 스타버스트
+            '"glass"': 산산조각나는 유리
+            '"twinkling"': 반짝거림
+      Poetry_setPrompt:
+        text: 변수 {VAR}를 위한 프롬프트 사용자 {LEFT_QUOTE}{NAME}{RIGHT_QUOTE}
+      Poetry_setPromptWithChoices:
+        text: 선택지 {LEFT_QUOTE_A}{A}{RIGHT_QUOTE_A} {LEFT_QUOTE_B}{B}{RIGHT_QUOTE_B}
+          {LEFT_QUOTE_C}{C}{RIGHT_QUOTE_C}를 가진 변수 {VAR}을 위한 프롬프트 사용자{LEFT_QUOTE}{TEXT}{RIGHT_QUOTE}
+      Poetry_setSize:
+        text: "{SPRITE} 크기를  {VAL}에 설정"
+      Poetry_setTextEffect:
+        text: 텍스트 효과 {EFFECT} 설정
+        options:
+          EFFECT:
+            '"fade"': 페이드
+            '"flyLeft"': 왼쪽에서 날기
+            '"flyRight"': 오른쪽에서 날기
+            '"flyTop"': 위쪽에서 날기
+            '"flyBottom"': 아래쪽에서 날기
+            '"typewriter"': 타입라이터
+      Poetry_setTitle:
+        text: 제목 {TITLE} 설정
+      Poetry_showText:
+        text: 텍스트 표시
+      Poetry_startBehavior:
+        text: '스프라이트 {ANIMATION_NAME} 는 {BEHAVIOR}을 시작합니다 '
+        options:
+          BEHAVIOR:
+            '"growing"': 성장
+            '"jittering"': 지터링
+            '"spinning_left"': 왼쪽으로 회전
+            '"spinning_right"': 오른쪽으로 회전
+            '"wandering"': 배회
+      Poetry_stopBehavior:
+        text: '스프라이트 {ANIMATION_NAME} 는 {BEHAVIOR}을 멈춥니다 '
+        options:
+          BEHAVIOR:
+            '"growing"': 성장
+            '"jittering"': 지터링
+            '"spinning_left"': 왼쪽으로 회전
+            '"spinning_right"': 오른쪽으로 회전
+            '"wandering"': 배회
+            '"all"': "--모든 행동--"
+      Poetry_stringValue:
+        text: "{LEFT_QUOTE}{TEXT}{RIGHT_QUOTE}"
+      Poetry_textConcat:
+        text: "{LEFT_QUOTE}{TEXT1}{TEXT2}{RIGHT_QUOTE}"
+      Poetry_textVariableJoin:
+        text: "{VAR}{TEXT2}"
+      Poetry_whenLineShows:
+        text: 선 {N} 이(가) 표시될 때
+        options:
+          N:
+            '0': "???"
+            '1': '1'
+            '2': '2'
+            '3': '3'
+            '4': '4'
+            '5': '5'
+            '6': '6'
+            '7': '7'
+            '8': '8'
+            '9': '9'
+            '10': '10'
+      Poetry_whenPromptAnswered:
+        text: "{VAR}이란 답이 나올 때"
       RyanLab_moveForward:
         text: 앞으로 이동
       RyanLab_turnLeft:
@@ -1675,7 +2016,7 @@ ko:
           FORMAT:
             '"grid"': 그리드
             '"border"': 테두리
-            '"row"': 행
+            '"row"': class
             '"random"': random(랜덤)
       aalab_someGraduallyStartIntervention:
         options:
@@ -1691,6 +2032,8 @@ ko:
             '0.75': most
             '0.5': half of
             '0.25': few
+      aalab_spriteSayChoices:
+        text: "{SPRITE}이(가) {SPEECH}을(를) 말함"
       binary_drawBin:
         text: 바이너리 그리기 {BIN}
       binary_drawBinScreen:
@@ -1712,7 +2055,6 @@ ko:
           VAL:
             '0': 꺼져요
             '1': 을 (를) 켜십시오
-            '"toggle"': 토글
       binary_drawString:
         text: 그리기 문자열 {STR}
       binary_goTo:
@@ -1770,7 +2112,6 @@ ko:
         options:
           TYPE:
             "'sand'": 모래
-            "'darkPrismarine'": 다크 프리스마린
             "'seaLantern'": 바다 랜턴
       craft_log:
         text: 로그 메시지 {MESSAGE}
@@ -1780,31 +2121,8 @@ ko:
         text: 장소 {blockType}
         options:
           blockType:
-            '"strippedOak"': 벗겨 참나무
-            '"strippedDarkOak"': 박탈 다크 오크
-            '"stoneBricks"': 돌 벽돌
-            '"mossyStoneBricks"': 이끼 돌 벽돌
-            '"crackedStoneBricks"': 금이 간 돌 벽돌
             '"chiseledStoneBricks"': 장식용 석조 벽돌
-            '"blueCoralBlock"': 푸른 산호 블록
-            '"pinkCoralBlock"': 핑크 산호 블록
-            '"magentaCoralBlock"': 마젠타 산호 블록
-            '"redCoralBlock"': 붉은 산호 블록
-            '"yellowCoralBlock"': 노란 산호 블록
-            '"blueDeadCoralBlock"': 푸른 죽은 산호 블록
-            '"pinkDeadCoralBlock"': 핑크 죽은 산호 블록
-            '"magentaDeadCoralBlock"': 마젠타 죽은 산호 블록
-            '"readDeadCoralBlock"': 붉은 죽은 산호 블록
-            '"yellowDeadCoralBlock"': 노란 죽은 산호 블록
-            '"prismarine"': 원시사린
-            '"darkPrismarine"': 다크 프리스마린
             '"seaLantern"': 바다 랜턴
-            '"packedIce"': 포장 얼음
-            '"blueIce"': 블루 아이스
-            '"blackConcrete"': 검은 콘크리트
-            '"seaGrass"': 바다 잔디
-            '"kelp"': 다시마
-            '"polishedGranite"': 연마 화강암
       craft_placePrismarine:
         text: 장소 프리스마린
       craft_placeTorch:
@@ -1821,15 +2139,13 @@ ko:
         text: 산란 {ENTITY}
         options:
           ENTITY:
-            '"cod"': 대구
             '"dolphin"': 돌고래
-            '"salmon"': 연어
-            '"seaTurtle"': 바다거북
             '"squid"': 오징어
-            '"tropicalFish"': 열대어
       craft_turn:
         text: 설정 {DIR}
         options:
           DIR:
             right: 우측 윙어
             left: 왼쪽
+      validation_validatedBackground:
+        text: 배경을 {IMG}으로 설정

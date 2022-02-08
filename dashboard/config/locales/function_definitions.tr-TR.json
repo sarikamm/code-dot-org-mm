@@ -274,7 +274,10 @@
         },
         "Course 4 Artist Binary 1": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -282,7 +285,10 @@
         },
         "Course 4 Artist Binary 2": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -290,7 +296,10 @@
         },
         "Course 4 Artist Binary 3": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -298,7 +307,10 @@
         },
         "Course 4 Artist Binary 4": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -306,7 +318,10 @@
         },
         "Course 4 Artist Binary 5": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -314,7 +329,10 @@
         },
         "Course 4 Artist Binary 6": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -322,7 +340,10 @@
         },
         "Course 4 Artist Binary 7": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -330,7 +351,10 @@
         },
         "Course 4 Artist Binary Free Play 2": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -338,7 +362,10 @@
         },
         "Course 4 Artist Binary Free Play 2a": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -346,7 +373,10 @@
         },
         "Course 4 Artist Binary Free Play 2b": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -357,7 +387,10 @@
             "name": "parça çiz"
           },
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           }
         },
         "Course 4 Artist Functions challenge": {
@@ -951,13 +984,19 @@
             }
           },
           "draw a circle": {
-            "name": "bir çember çiz"
+            "name": "bir çember çiz",
+            "description": "verilen yarıçapta bir daire çizin",
+            "parameters": {
+              "radius": "yarıçap"
+            }
           },
           "draw a pinwheel": {
             "parameters": {
               "length": "uzunluk",
-              "repeat": "bu işlemleri"
-            }
+              "repeat": "bu işlemleri",
+              "sides": "kenarlar"
+            },
+            "name": "bir fırıldak çizin"
           },
           "draw a triangle": {
             "name": "bir üçgen çiz",
@@ -968,7 +1007,8 @@
           "draw a shape": {
             "name": "bir şekil çiz",
             "parameters": {
-              "length": "uzunluk"
+              "length": "uzunluk",
+              "sides": "kenarlar"
             }
           },
           "draw a house": {
@@ -1058,7 +1098,10 @@
         },
         "course4_artist_binary_challenge1": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1066,7 +1109,10 @@
         },
         "course4_artist_binary_challenge2": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1172,7 +1218,10 @@
             "name": "parça çiz"
           },
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           }
         },
         "courseD_artist_binary1_2018": {
@@ -1180,7 +1229,10 @@
             "name": "parça çiz"
           },
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           }
         },
         "courseD_artist_binary1_2019": {
@@ -1188,7 +1240,10 @@
             "name": "parça çiz"
           },
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           }
         },
         "courseD_artist_binary1_2020": {
@@ -1196,12 +1251,18 @@
             "name": "parça çiz"
           },
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           }
         },
         "courseD_artist_binary2": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1209,7 +1270,10 @@
         },
         "courseD_artist_binary2_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1217,7 +1281,10 @@
         },
         "courseD_artist_binary2_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1225,7 +1292,10 @@
         },
         "courseD_artist_binary2_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1233,7 +1303,10 @@
         },
         "courseD_artist_binary3": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1241,7 +1314,10 @@
         },
         "courseD_artist_binary3_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1249,7 +1325,10 @@
         },
         "courseD_artist_binary3_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1257,7 +1336,10 @@
         },
         "courseD_artist_binary3_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1265,7 +1347,10 @@
         },
         "courseD_artist_binary4": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1273,7 +1358,10 @@
         },
         "courseD_artist_binary4_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1281,7 +1369,10 @@
         },
         "courseD_artist_binary4_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1289,7 +1380,10 @@
         },
         "courseD_artist_binary4_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1297,7 +1391,10 @@
         },
         "courseD_artist_binary5": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1305,7 +1402,10 @@
         },
         "courseD_artist_binary5_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1313,7 +1413,10 @@
         },
         "courseD_artist_binary5_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1321,7 +1424,10 @@
         },
         "courseD_artist_binary5_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1329,7 +1435,10 @@
         },
         "courseD_artist_binary6": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1337,7 +1446,10 @@
         },
         "courseD_artist_binary6_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1345,7 +1457,10 @@
         },
         "courseD_artist_binary6_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1353,7 +1468,10 @@
         },
         "courseD_artist_binary6_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1361,7 +1479,10 @@
         },
         "courseD_artist_binary7": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1369,7 +1490,10 @@
         },
         "courseD_artist_binary7_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1377,7 +1501,10 @@
         },
         "courseD_artist_binary7_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1385,7 +1512,10 @@
         },
         "courseD_artist_binary7_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1393,7 +1523,10 @@
         },
         "courseD_artist_binary8": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1401,7 +1534,10 @@
         },
         "courseD_artist_binary8_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1409,7 +1545,10 @@
         },
         "courseD_artist_binary8_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1417,7 +1556,10 @@
         },
         "courseD_artist_binary8_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1425,7 +1567,10 @@
         },
         "courseD_artist_binary8_predict1": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1433,7 +1578,10 @@
         },
         "courseD_artist_binary8_predict1_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1441,7 +1589,10 @@
         },
         "courseD_artist_binary8_predict1_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1449,7 +1600,10 @@
         },
         "courseD_artist_binary8_predict1_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1457,7 +1611,10 @@
         },
         "courseD_artist_binaryFP_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1465,7 +1622,10 @@
         },
         "courseD_artist_binaryFP_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1473,7 +1633,10 @@
         },
         "courseD_artist_binaryFP_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1481,7 +1644,10 @@
         },
         "courseD_artist_binary_challenge1_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1489,7 +1655,10 @@
         },
         "courseD_artist_binary_challenge1_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1497,7 +1666,10 @@
         },
         "courseD_artist_binary_challenge1_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1505,7 +1677,10 @@
         },
         "courseD_artist_binary_challenge2_2018": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1513,7 +1688,10 @@
         },
         "courseD_artist_binary_challenge2_2019": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -1521,7 +1699,10 @@
         },
         "courseD_artist_binary_challenge2_2020": {
           "draw": {
-            "name": "çiz"
+            "name": "çiz",
+            "parameters": {
+              "binary": "ikili"
+            }
           },
           "draw bit": {
             "name": "parça çiz"
@@ -3301,6 +3482,571 @@
         "courseB_artist_loops_challenge2_2020": {
           "potential solution": {
             "name": "olası çözüm"
+          }
+        },
+        "Course E: Artist Project_examples_2021": {
+          "my function": {
+            "name": "fonksiyonum"
+          }
+        },
+        "Course E: Frozen Project_examples_2021": {
+          "draw a star": {
+            "name": "bir yıldız çiz",
+            "parameters": {
+              "points": "Puanlar",
+              "length": "uzunluk"
+            },
+            "description": "verilen noktaları ve belirli uzunlukta kenarları olan bir yıldız çiz"
+          },
+          "draw a circle": {
+            "name": "bir çember çiz",
+            "description": "verilen yarıçapta bir daire çizin",
+            "parameters": {
+              "radius": "yarıçap"
+            }
+          },
+          "draw a pinwheel": {
+            "name": "bir fırıldak çizin",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk",
+              "repeat": "bu işlemleri"
+            }
+          },
+          "draw a triangle": {
+            "name": "bir üçgen çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a shape": {
+            "name": "bir şekil çiz",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk"
+            }
+          },
+          "draw a house": {
+            "name": "bir ev çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a square": {
+            "name": "bir kare çiz",
+            "parameters": {
+              "length": "uzunluk",
+              "sides": "kenarlar"
+            }
+          },
+          "small flower": {
+            "name": "küçük çiçek"
+          },
+          "LOGIC FLOWERS2": {
+            "name": "LOGIC FLOWERS2"
+          },
+          "LOGIC FLOWER": {
+            "name": "LOGIC FLOWER"
+          },
+          "LOGIC FLOWERS": {
+            "name": "LOGIC FLOWERS"
+          }
+        },
+        "Course F: Artist Project_Flowers_examples_2021": {
+          "draw a star": {
+            "name": "bir yıldız çiz",
+            "parameters": {
+              "points": "Puanlar",
+              "length": "uzunluk"
+            },
+            "description": "verilen noktaları ve belirli uzunlukta kenarları olan bir yıldız çiz"
+          },
+          "draw a circle": {
+            "name": "bir çember çiz",
+            "description": "verilen yarıçapta bir daire çizin",
+            "parameters": {
+              "radius": "yarıçap"
+            }
+          },
+          "draw a pinwheel": {
+            "name": "bir fırıldak çizin",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk",
+              "repeat": "bu işlemleri"
+            }
+          },
+          "draw a triangle": {
+            "name": "bir üçgen çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a shape": {
+            "name": "bir şekil çiz",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk"
+            }
+          },
+          "draw a house": {
+            "name": "bir ev çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a square": {
+            "name": "bir kare çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          }
+        },
+        "CourseD_EOC_artist_2021": {
+          "draw a star": {
+            "name": "bir yıldız çiz",
+            "parameters": {
+              "points": "Puanlar",
+              "length": "uzunluk"
+            },
+            "description": "verilen noktaları ve belirli uzunlukta kenarları olan bir yıldız çiz"
+          },
+          "draw a circle": {
+            "name": "bir çember çiz",
+            "description": "verilen yarıçapta bir daire çizin",
+            "parameters": {
+              "radius": "yarıçap"
+            }
+          },
+          "draw a pinwheel": {
+            "name": "bir fırıldak çizin",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk",
+              "repeat": "bu işlemleri"
+            }
+          },
+          "draw a triangle": {
+            "name": "bir üçgen çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a shape": {
+            "name": "bir şekil çiz",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk"
+            }
+          },
+          "draw a house": {
+            "name": "bir ev çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a square": {
+            "name": "bir kare çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          }
+        },
+        "CourseD_EOC_artist_example2021": {
+          "draw a star": {
+            "name": "bir yıldız çiz",
+            "parameters": {
+              "points": "Puanlar",
+              "length": "uzunluk"
+            },
+            "description": "verilen noktaları ve belirli uzunlukta kenarları olan bir yıldız çiz"
+          },
+          "draw a circle": {
+            "name": "bir çember çiz",
+            "description": "verilen yarıçapta bir daire çizin",
+            "parameters": {
+              "radius": "yarıçap"
+            }
+          },
+          "draw a pinwheel": {
+            "name": "bir fırıldak çizin",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk",
+              "repeat": "bu işlemleri"
+            }
+          },
+          "draw a triangle": {
+            "name": "bir üçgen çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a shape": {
+            "name": "bir şekil çiz",
+            "parameters": {
+              "sides": "kenarlar",
+              "length": "uzunluk"
+            }
+          },
+          "draw a house": {
+            "name": "bir ev çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          },
+          "draw a square": {
+            "name": "bir kare çiz",
+            "parameters": {
+              "length": "uzunluk"
+            }
+          }
+        },
+        "Function intro Ryan_2021": {
+          "build bridge": {
+            "name": "köprü kur"
+          }
+        },
+        "MC_HOC_2017_07_Cole_2021": {
+          "clear path": {
+            "name": "açık yol"
+          }
+        },
+        "MC_HOC_2017_10_RETRY_2021": {
+          "fix long path": {
+            "name": "Sabit uzun yol"
+          },
+          "fix short path": {
+            "name": "sabit kısa yol"
+          }
+        },
+        "MC_HOC_2017_Ali_2021": {
+          "build short bridge": {
+            "name": "kısa köpru kur"
+          },
+          "build long bridge": {
+            "name": "uzun köprü kur"
+          }
+        },
+        "courseB_artist_loops_challenge2_2021": {
+          "potential solution": {
+            "name": "olası çözüm"
+          }
+        },
+        "courseC_artist_prog3_2021": {
+          "draw flame": {
+            "name": "ateş çiz",
+            "parameters": {
+              "x": "x"
+            }
+          },
+          "draw fire": {
+            "name": "ateş çiz"
+          }
+        },
+        "courseC_artist_prog4_2021": {
+          "booster": {
+            "name": "güçlendirici"
+          }
+        },
+        "courseC_data wizard_2021": {
+          "do something": {
+            "name": "bir şeyler yap"
+          }
+        },
+        "courseE_artist_functions10_2021": {
+          "do something": {
+            "name": "bir şeyler yap"
+          },
+          "draw hexagon": {
+            "name": "altıgen çiz"
+          },
+          "draw line of hexagons": {
+            "name": "bir satır altıgenler çiz"
+          }
+        },
+        "courseE_artist_functions1_dani": {
+          "draw ear stems": {
+            "name": "kulak köklerini çizin"
+          }
+        },
+        "courseE_artist_functions2_2021": {
+          "draw a square": {
+            "name": "bir kare çiz"
+          },
+          "draw ear stems": {
+            "name": "kulak köklerini çizin"
+          }
+        },
+        "courseE_artist_functions2_dani": {
+          "draw a square": {
+            "name": "bir kare çiz"
+          },
+          "draw ear stems": {
+            "name": "kulak köklerini çizin"
+          }
+        },
+        "courseE_artist_functions3_2021": {
+          "draw a star": {
+            "name": "bir yıldız çiz"
+          }
+        },
+        "courseE_artist_functions4_dani": {
+          "draw a star": {
+            "name": "bir yıldız çiz"
+          }
+        },
+        "courseE_artist_functions5_2021": {
+          "draw a star": {
+            "name": "bir yıldız çiz"
+          }
+        },
+        "courseE_artist_functions5_dani": {
+          "draw a star": {
+            "name": "bir yıldız çiz"
+          }
+        },
+        "courseE_artist_functions7_2021": {
+          "draw a window": {
+            "name": "pencere çiz"
+          }
+        },
+        "courseE_artist_functions8_2021": {
+          "do something": {
+            "name": "bir şeyler yap"
+          },
+          "staggered squares": {
+            "name": "aşamalı kareler"
+          },
+          "draw a line of squares": {
+            "name": "bir satır kareler çiz"
+          },
+          "draw square": {
+            "name": "kare çiz"
+          }
+        },
+        "courseE_artist_functions8a_2021": {
+          "draw a square": {
+            "name": "bir kare çiz"
+          },
+          "do something": {
+            "name": "bir şeyler yap"
+          }
+        },
+        "courseE_artist_functions8b_2021": {
+          "draw a line of squares": {
+            "name": "bir satır kareler çiz"
+          },
+          "draw square": {
+            "name": "kare çiz"
+          },
+          "do something": {
+            "name": "bir şeyler yap"
+          }
+        },
+        "courseE_artist_functions8c_2021": {
+          "draw a line of squares": {
+            "name": "bir satır kareler çiz"
+          },
+          "draw square": {
+            "name": "kare çiz"
+          },
+          "do something": {
+            "name": "bir şeyler yap"
+          },
+          "staggered squares": {
+            "name": "aşamalı kareler"
+          }
+        },
+        "courseE_artist_functions9_2021": {
+          "do something": {
+            "name": "bir şeyler yap"
+          },
+          "draw triangle": {
+            "name": "üçgen çiz"
+          },
+          "draw line of triangles": {
+            "name": "bir satır üçgenler çiz"
+          }
+        },
+        "courseE_artist_functionsProj_2021": {
+          "draw hexagon": {
+            "name": "altıgen çiz"
+          },
+          "draw line of hexagons": {
+            "name": "bir satır altıgenler çiz"
+          },
+          "staggered squares": {
+            "name": "aşamalı kareler"
+          },
+          "draw a line of squares": {
+            "name": "bir satır kareler çiz"
+          },
+          "draw square": {
+            "name": "kare çiz"
+          }
+        },
+        "courseE_artist_functions_challenge1_2021": {
+          "do something": {
+            "name": "bir şeyler yap"
+          },
+          "my design": {
+            "name": "benim tasarımım"
+          }
+        },
+        "courseE_artist_functions_challenge2_2021": {
+          "do something": {
+            "name": "bir şeyler yap"
+          },
+          "my design": {
+            "name": "benim tasarımım"
+          }
+        },
+        "courseE_artist_functions_predict1_2021": {
+          "draw a square": {
+            "name": "bir kare çiz"
+          },
+          "draw ear stems": {
+            "name": "kulak köklerini çizin"
+          }
+        },
+        "courseE_artist_functions_predict1_dani": {
+          "draw a square": {
+            "name": "bir kare çiz"
+          },
+          "draw ear stems": {
+            "name": "kulak köklerini çizin"
+          }
+        },
+        "courseE_artist_functions_predict2_2021": {
+          "draw line of polygons": {
+            "name": "çokgen çizgileri çiz"
+          },
+          "draw polygon": {
+            "name": "çokgen çiz"
+          },
+          "do something": {
+            "name": "bir şeyler yap"
+          }
+        },
+        "courseE_farmer_functions10a1_2021": {
+          "pick along path": {
+            "name": "yolu seçin"
+          },
+          "check square for corn": {
+            "name": "mısır için kareye bak"
+          },
+          "get all pumpkins": {
+            "name": "tüm bal kabaklarını al"
+          },
+          "pumpkin square": {
+            "name": "bal kabağı karesi"
+          }
+        },
+        "courseE_farmer_functions11_predict_2021": {
+          "pick along path": {
+            "name": "yolu seçin"
+          },
+          "pumpkin square": {
+            "name": "bal kabağı karesi"
+          },
+          "check square for corn": {
+            "name": "mısır için kareye bak"
+          },
+          "get produce": {
+            "name": "ürün al"
+          },
+          "get all pumpkins": {
+            "name": "tüm bal kabaklarını al"
+          }
+        },
+        "courseE_farmer_functions13_2021": {
+          "pick along path": {
+            "name": "yolu seçin"
+          },
+          "check for corn": {
+            "name": "mısır var mı bak"
+          },
+          "corn rectangle": {
+            "name": "mısır dikdörtgeni"
+          },
+          "lettuce stairs": {
+            "name": "marul merdiveni"
+          }
+        },
+        "courseE_farmer_functions1a_2021": {
+          "check square for corn": {
+            "name": "mısır için kareye bak"
+          }
+        },
+        "courseE_farmer_functions2b_2021": {
+          "check square for corn": {
+            "name": "mısır için kareye bak"
+          }
+        },
+        "courseE_farmer_functions2ba_2021": {
+          "check square for corn": {
+            "name": "mısır için kareye bak"
+          },
+          "get all pumpkins": {
+            "name": "tüm bal kabaklarını al"
+          }
+        },
+        "courseE_farmer_functions3c1_2021": {
+          "pick along path": {
+            "name": "yolu seçin"
+          },
+          "check square for corn": {
+            "name": "mısır için kareye bak"
+          },
+          "get all pumpkins": {
+            "name": "tüm bal kabaklarını al"
+          }
+        },
+        "courseE_farmer_functions3c_2021": {
+          "check square for corn": {
+            "name": "mısır için kareye bak"
+          },
+          "get all pumpkins": {
+            "name": "tüm bal kabaklarını al"
+          }
+        },
+        "courseE_farmer_functions7a1_2021": {
+          "garden square": {
+            "name": "bahçe karesi"
+          }
+        },
+        "courseE_farmer_functions8a1_2021": {
+          "garden square": {
+            "name": "bahçe karesi"
+          }
+        },
+        "courseE_farmer_functions9a1_2021": {
+          "garden square": {
+            "name": "bahçe karesi"
+          }
+        },
+        "courseF_apps_collector": {
+          "end game": {
+            "name": "oyunu bitir"
+          }
+        },
+        "CourseF_app_computer": {
+          "reset game": {
+            "name": "oyunu sıfırla"
+          }
+        },
+        "MC_HOC_2017_FP20x20_2021": {
+          "function 1": {
+            "name": "fonksiyon 1"
+          },
+          "function 2": {
+            "name": "fonksiyon 2\n"
+          }
+        },
+        "courseF_bee_for_challenge1_2021": {
+          "move and get nectar with counter": {
+            "name": "hareket et ve sayaç ile nektar al"
           }
         }
       }

@@ -270,57 +270,90 @@
         },
         "Course 4 Artist Binary 1": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary 2": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary 3": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary 4": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary 5": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary 6": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary 7": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary Free Play 2": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary Free Play 2a": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary Free Play 2b": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Binary pre1": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "Course 4 Artist Functions Inspiration": {
@@ -1094,12 +1127,18 @@
         },
         "course4_artist_binary_challenge1": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "course4_artist_binary_challenge2": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "course4_artist_functions_challenge2": {
@@ -1177,227 +1216,362 @@
         },
         "courseD_artist_binary1": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary1_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary1_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary1_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary2": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary2_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary2_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary2_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary3": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary3_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary3_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary3_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary4": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary4_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary4_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary4_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary5": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary5_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary5_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary5_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary6": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary6_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary6_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary6_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary7": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary7_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary7_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary7_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8_predict1": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8_predict1_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8_predict1_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary8_predict1_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binaryFP_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binaryFP_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binaryFP_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary_challenge1_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary_challenge1_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary_challenge1_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary_challenge2_2018": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary_challenge2_2019": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_artist_binary_challenge2_2020": {
           "draw": {
-            "name": "kresli"
+            "name": "kresli",
+            "parameters": {
+              "binary": "binární"
+            }
           }
         },
         "courseD_autorun_binary2_2019": {
@@ -2559,16 +2733,23 @@
             "parameters": {
               "points": "body",
               "length": "délka"
-            }
+            },
+            "description": "nakresli hvězdu s daným počtem bodů a stranami s danou délkou"
           },
           "draw a circle": {
-            "name": "nakresli kružnici"
+            "name": "nakresli kružnici",
+            "description": "nakresli kruh s daným poloměrem",
+            "parameters": {
+              "radius": "poloměr"
+            }
           },
           "draw a pinwheel": {
             "parameters": {
               "length": "délka",
-              "repeat": "opakuj"
-            }
+              "repeat": "opakuj",
+              "sides": "strany"
+            },
+            "name": "nakresli větrník"
           },
           "draw a triangle": {
             "name": "nakresli trojúhelník",
@@ -2579,7 +2760,8 @@
           "draw a shape": {
             "name": "nakresli tvar",
             "parameters": {
-              "length": "délka"
+              "length": "délka",
+              "sides": "strany"
             }
           },
           "draw a house": {
@@ -2604,7 +2786,11 @@
           "draw flame": {
             "parameters": {
               "x": "x"
-            }
+            },
+            "name": "nakresli plamen"
+          },
+          "draw fire": {
+            "name": "nakresli oheň"
           }
         },
         "courseC_data wizard_2021": {
@@ -2635,6 +2821,464 @@
         "courseF_apps_collector": {
           "end game": {
             "name": "konec hry"
+          }
+        },
+        "Course E: Artist Project_examples_2021": {
+          "my function": {
+            "name": "moje funkce"
+          }
+        },
+        "Course E: Frozen Project_examples_2021": {
+          "small flower": {
+            "name": "malá květina"
+          },
+          "LOGIC FLOWERS2": {
+            "name": "KVĚTY LOGIKY 2"
+          },
+          "LOGIC FLOWER": {
+            "name": "KVĚT LOGIKY"
+          },
+          "LOGIC FLOWERS": {
+            "name": "KVĚTY LOGIKY"
+          },
+          "draw a star": {
+            "name": "nakresli hvězdu",
+            "parameters": {
+              "points": "body",
+              "length": "délka"
+            },
+            "description": "nakresli hvězdu s daným počtem bodů a stranami s danou délkou"
+          },
+          "draw a circle": {
+            "name": "nakresli kružnici",
+            "description": "nakresli kruh s daným poloměrem",
+            "parameters": {
+              "radius": "poloměr"
+            }
+          },
+          "draw a pinwheel": {
+            "parameters": {
+              "length": "délka",
+              "repeat": "opakuj",
+              "sides": "strany"
+            },
+            "name": "nakresli větrník"
+          },
+          "draw a triangle": {
+            "name": "nakresli trojúhelník",
+            "parameters": {
+              "length": "délka"
+            }
+          },
+          "draw a shape": {
+            "name": "nakresli tvar",
+            "parameters": {
+              "length": "délka",
+              "sides": "strany"
+            }
+          },
+          "draw a house": {
+            "name": "nakresli dům",
+            "parameters": {
+              "length": "délka"
+            }
+          },
+          "draw a square": {
+            "name": "nakresli čtverec",
+            "parameters": {
+              "length": "délka",
+              "sides": "strany"
+            }
+          }
+        },
+        "CourseD_EOC_artist_2021": {
+          "draw a star": {
+            "name": "nakresli hvězdu",
+            "parameters": {
+              "points": "body",
+              "length": "délka"
+            },
+            "description": "nakresli hvězdu s daným počtem bodů a stranami s danou délkou"
+          },
+          "draw a circle": {
+            "name": "nakresli kružnici",
+            "description": "nakresli kruh s daným poloměrem",
+            "parameters": {
+              "radius": "poloměr"
+            }
+          },
+          "draw a pinwheel": {
+            "parameters": {
+              "length": "délka",
+              "repeat": "opakuj",
+              "sides": "strany"
+            },
+            "name": "nakresli větrník"
+          },
+          "draw a triangle": {
+            "name": "nakresli trojúhelník",
+            "parameters": {
+              "length": "délka"
+            }
+          },
+          "draw a shape": {
+            "name": "nakresli tvar",
+            "parameters": {
+              "length": "délka",
+              "sides": "strany"
+            }
+          },
+          "draw a house": {
+            "name": "nakresli dům",
+            "parameters": {
+              "length": "délka"
+            }
+          },
+          "draw a square": {
+            "name": "nakresli čtverec",
+            "parameters": {
+              "length": "délka"
+            }
+          }
+        },
+        "CourseD_EOC_artist_example2021": {
+          "draw a star": {
+            "name": "nakresli hvězdu",
+            "parameters": {
+              "points": "body",
+              "length": "délka"
+            },
+            "description": "nakresli hvězdu s daným počtem bodů a stranami s danou délkou"
+          },
+          "draw a circle": {
+            "name": "nakresli kružnici",
+            "description": "nakresli kruh s daným poloměrem",
+            "parameters": {
+              "radius": "poloměr"
+            }
+          },
+          "draw a pinwheel": {
+            "parameters": {
+              "length": "délka",
+              "repeat": "opakuj",
+              "sides": "strany"
+            },
+            "name": "nakresli větrník"
+          },
+          "draw a triangle": {
+            "name": "nakresli trojúhelník",
+            "parameters": {
+              "length": "délka"
+            }
+          },
+          "draw a shape": {
+            "name": "nakresli tvar",
+            "parameters": {
+              "length": "délka",
+              "sides": "strany"
+            }
+          },
+          "draw a house": {
+            "name": "nakresli dům",
+            "parameters": {
+              "length": "délka"
+            }
+          },
+          "draw a square": {
+            "name": "nakresli čtverec",
+            "parameters": {
+              "length": "délka"
+            }
+          }
+        },
+        "CourseF_app_computer": {
+          "reset game": {
+            "name": "resetovat hru"
+          }
+        },
+        "Function intro Ryan_2021": {
+          "build bridge": {
+            "name": "postav most"
+          }
+        },
+        "MC_HOC_2017_07_Cole_2021": {
+          "clear path": {
+            "name": "vyčisti cestu"
+          }
+        },
+        "MC_HOC_2017_10_RETRY_2021": {
+          "fix long path": {
+            "name": "oprav dlouhou cestu"
+          },
+          "fix short path": {
+            "name": "oprav krátkou cestu"
+          }
+        },
+        "MC_HOC_2017_Ali_2021": {
+          "build short bridge": {
+            "name": "postav krátký most"
+          },
+          "build long bridge": {
+            "name": "postav dlouhý most"
+          }
+        },
+        "MC_HOC_2017_FP20x20_2021": {
+          "function 1": {
+            "name": "funkce 1"
+          },
+          "function 2": {
+            "name": "funkce 2"
+          }
+        },
+        "courseE_artist_functions10_2021": {
+          "do something": {
+            "name": "proveď něco"
+          },
+          "draw hexagon": {
+            "name": "nakresli šestiúhelník"
+          },
+          "draw line of hexagons": {
+            "name": "nakresli řadu šestiúhelníků"
+          }
+        },
+        "courseE_artist_functions2_2021": {
+          "draw a square": {
+            "name": "nakresli čtverec"
+          },
+          "draw ear stems": {
+            "name": "nakresli stranice"
+          }
+        },
+        "courseE_artist_functions3_2021": {
+          "draw a star": {
+            "name": "nakresli hvězdu"
+          }
+        },
+        "courseE_artist_functions5_2021": {
+          "draw a star": {
+            "name": "nakresli hvězdu"
+          }
+        },
+        "courseE_artist_functions8_2021": {
+          "do something": {
+            "name": "proveď něco"
+          },
+          "draw square": {
+            "name": "nakreslit čtverec"
+          },
+          "staggered squares": {
+            "name": "čtverce na přeskáčku"
+          },
+          "draw a line of squares": {
+            "name": "nakresli řadu čtverců"
+          }
+        },
+        "courseE_artist_functions8a_2021": {
+          "draw a square": {
+            "name": "nakresli čtverec"
+          },
+          "do something": {
+            "name": "proveď něco"
+          }
+        },
+        "courseE_artist_functions8b_2021": {
+          "draw square": {
+            "name": "nakreslit čtverec"
+          },
+          "do something": {
+            "name": "proveď něco"
+          },
+          "draw a line of squares": {
+            "name": "nakresli řadu čtverců"
+          }
+        },
+        "courseE_artist_functions8c_2021": {
+          "draw square": {
+            "name": "nakreslit čtverec"
+          },
+          "do something": {
+            "name": "proveď něco"
+          },
+          "draw a line of squares": {
+            "name": "nakresli řadu čtverců"
+          },
+          "staggered squares": {
+            "name": "čtverce na přeskáčku"
+          }
+        },
+        "courseE_artist_functions9_2021": {
+          "do something": {
+            "name": "proveď něco"
+          },
+          "draw triangle": {
+            "name": "nakresli trojúhelník"
+          },
+          "draw line of triangles": {
+            "name": "nakresli řadu trojúhelníků"
+          }
+        },
+        "courseE_artist_functionsProj_2021": {
+          "draw square": {
+            "name": "nakreslit čtverec"
+          },
+          "draw hexagon": {
+            "name": "nakresli šestiúhelník"
+          },
+          "draw line of hexagons": {
+            "name": "nakresli řadu šestiúhelníků"
+          },
+          "staggered squares": {
+            "name": "čtverce na přeskáčku"
+          },
+          "draw a line of squares": {
+            "name": "nakresli řadu čtverců"
+          }
+        },
+        "courseE_artist_functions_challenge1_2021": {
+          "do something": {
+            "name": "proveď něco"
+          },
+          "my design": {
+            "name": "můj návrh"
+          }
+        },
+        "courseE_artist_functions_challenge2_2021": {
+          "do something": {
+            "name": "proveď něco"
+          },
+          "my design": {
+            "name": "můj návrh"
+          }
+        },
+        "courseE_artist_functions_predict1_2021": {
+          "draw a square": {
+            "name": "nakresli čtverec"
+          },
+          "draw ear stems": {
+            "name": "nakresli stranice"
+          }
+        },
+        "courseE_artist_functions_predict2_2021": {
+          "do something": {
+            "name": "proveď něco"
+          },
+          "draw line of polygons": {
+            "name": "nakresli řadu mnohoúhelníků"
+          },
+          "draw polygon": {
+            "name": "nakresli mnohoúhelník"
+          }
+        },
+        "courseC_artist_prog4_2021": {
+          "booster": {
+            "name": "posilovač"
+          }
+        },
+        "courseE_artist_functions7_2021": {
+          "draw a window": {
+            "name": "nakresli okno"
+          }
+        },
+        "courseE_farmer_functions10a1_2021": {
+          "pick along path": {
+            "name": "sbírej při cestě"
+          },
+          "check square for corn": {
+            "name": "zkontroluj, jestli je na políčku kukuřice"
+          },
+          "get all pumpkins": {
+            "name": "skliď všechny dýně"
+          },
+          "pumpkin square": {
+            "name": "políčko s dýní"
+          }
+        },
+        "courseE_farmer_functions11_predict_2021": {
+          "pick along path": {
+            "name": "sbírej při cestě"
+          },
+          "pumpkin square": {
+            "name": "políčko s dýní"
+          },
+          "check square for corn": {
+            "name": "zkontroluj, jestli je na políčku kukuřice"
+          },
+          "get produce": {
+            "name": "skliď úrodu"
+          },
+          "get all pumpkins": {
+            "name": "skliď všechny dýně"
+          }
+        },
+        "courseE_farmer_functions13_2021": {
+          "pick along path": {
+            "name": "sbírej při cestě"
+          },
+          "check for corn": {
+            "name": "zkontroluj, jestli je tady kukuřice"
+          },
+          "corn rectangle": {
+            "name": "obdélník z kukuřic"
+          },
+          "lettuce stairs": {
+            "name": "schodišťově nasetý salát"
+          }
+        },
+        "courseE_farmer_functions1a_2021": {
+          "check square for corn": {
+            "name": "zkontroluj, jestli je na políčku kukuřice"
+          }
+        },
+        "courseE_farmer_functions2b_2021": {
+          "check square for corn": {
+            "name": "zkontroluj, jestli je na políčku kukuřice"
+          }
+        },
+        "courseE_farmer_functions2ba_2021": {
+          "check square for corn": {
+            "name": "zkontroluj, jestli je na políčku kukuřice"
+          },
+          "get all pumpkins": {
+            "name": "skliď všechny dýně"
+          }
+        },
+        "courseE_farmer_functions3c1_2021": {
+          "pick along path": {
+            "name": "sbírej při cestě"
+          },
+          "check square for corn": {
+            "name": "zkontroluj, jestli je na políčku kukuřice"
+          },
+          "get all pumpkins": {
+            "name": "skliď všechny dýně"
+          }
+        },
+        "courseE_farmer_functions3c_2021": {
+          "check square for corn": {
+            "name": "zkontroluj, jestli je na políčku kukuřice"
+          },
+          "get all pumpkins": {
+            "name": "skliď všechny dýně"
+          }
+        },
+        "courseE_farmer_functions7a1_2021": {
+          "garden square": {
+            "name": "čtvercový záhon"
+          }
+        },
+        "courseE_farmer_functions8a1_2021": {
+          "garden square": {
+            "name": "čtvercový záhon"
+          }
+        },
+        "courseE_farmer_functions9a1_2021": {
+          "garden square": {
+            "name": "čtvercový záhon"
+          }
+        },
+        "courseF_bee_for_challenge1_2021": {
+          "move and get nectar with counter": {
+            "name": "posuň se a seber nektar pomocí čítače"
           }
         }
       }

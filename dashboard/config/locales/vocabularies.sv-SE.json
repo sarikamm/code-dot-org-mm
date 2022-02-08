@@ -1,0 +1,179 @@
+{
+  "sv-SE": {
+    "data": {
+      "vocabularies": {
+        "debugging/minecraft/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/hero/unversioned": {
+          "word": "Felsökning"
+        },
+        "function/hero/unversioned": {
+          "word": "Funktion"
+        },
+        "code/poem-art/2021": {
+          "word": "Kod",
+          "definition": "(v) att skriva instruktioner för en dator."
+        },
+        "line/poem-art/2021": {
+          "word": "Rad",
+          "definition": "(poesi) – en underavdelning av en dikt ordnad i en rad som slutar i högermarginalen."
+        },
+        "mood/poem-art/2021": {
+          "word": "Stämning",
+          "definition": "uttrycket av en känsla, atmosfär eller sinnesrörelse i konst eller skrift."
+        },
+        "program/poem-art/2021": {
+          "definition": "Ett antal steg som har kodats till något som kan köras av en maskin."
+        },
+        "debugging/flappy/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/hourofcode/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/frozen/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/iceage/unversioned": {
+          "word": "Felsökning"
+        },
+        "code/artist/unversioned": {
+          "word": "Kod"
+        },
+        "debugging/artist/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/gumball/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/aquatic/unversioned": {
+          "word": "Felsökning"
+        },
+        "conditionals/aquatic/unversioned": {
+          "word": "Villkor"
+        },
+        "loops/aquatic/unversioned": {
+          "word": "loopar"
+        },
+        "debugging/starwars/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/mc/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/playlab/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/starwarsblocks/unversioned": {
+          "word": "Felsökning"
+        },
+        "code/sports/unversioned": {
+          "word": "Kod"
+        },
+        "debugging/sports/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/infinity/unversioned": {
+          "word": "Felsökning"
+        },
+        "debugging/basketball/unversioned": {
+          "word": "Felsökning"
+        },
+        "code/poem-art/unversioned": {
+          "word": "Kod",
+          "definition": "(v) att skriva instruktioner för en dator."
+        },
+        "program/poem-art/unversioned": {
+          "definition": "Ett antal steg som har kodats till något som kan köras av en maskin."
+        },
+        "mood/poem-art/unversioned": {
+          "word": "Stämning",
+          "definition": "uttrycket av en känsla, atmosfär eller sinnesrörelse i konst eller skrift."
+        },
+        "line/poem-art/unversioned": {
+          "word": "Rad",
+          "definition": "(poesi) – en underavdelning av en dikt ordnad i en rad som slutar i högermarginalen."
+        },
+        "behavior/coursef/2021": {
+          "word": "Beteende"
+        },
+        "variable/coursef/2021": {
+          "word": "Variabel"
+        },
+        "internet/coursef/2021": {
+          "word": "Internet"
+        },
+        "url/coursef/2021": {
+          "word": "URL"
+        },
+        "define/coursef/2021": {
+          "word": "Definiera"
+        },
+        "debugging/courseb/2021": {
+          "word": "Felsökning"
+        },
+        "drop/courseb/2021": {
+          "word": "Släpp"
+        },
+        "debugging/coursea/2021": {
+          "word": "Felsökning"
+        },
+        "drop/coursea/2021": {
+          "word": "Släpp"
+        },
+        "debugging/coursec/2021": {
+          "word": "Felsökning"
+        },
+        "binary/coursec/2021": {
+          "word": "Binära"
+        },
+        "debugging/coursed/2021": {
+          "word": "Felsökning"
+        },
+        "conditionals/coursed/2021": {
+          "word": "Villkor"
+        },
+        "debugging/express/2021": {
+          "word": "Felsökning"
+        },
+        "behavior/express/2021": {
+          "word": "Beteende"
+        },
+        "conditionals/express/2021": {
+          "word": "Villkor"
+        },
+        "function/express/2021": {
+          "word": "Funktion"
+        },
+        "variable/express/2021": {
+          "word": "Variabel"
+        },
+        "define/express/2021": {
+          "word": "Definiera"
+        },
+        "drop/pre-express/2021": {
+          "word": "Släpp"
+        },
+        "debugging/pre-express/2021": {
+          "word": "Felsökning"
+        },
+        "behavior/coursee/2021": {
+          "word": "Beteende"
+        },
+        "copyright/coursee/2021": {
+          "word": "Copyright"
+        },
+        "function/coursee/2021": {
+          "word": "Funktion"
+        },
+        "conditionals/coursee/2021": {
+          "word": "Villkor"
+        },
+        "define/coursee/2021": {
+          "word": "Definiera"
+        }
+      }
+    }
+  }
+}

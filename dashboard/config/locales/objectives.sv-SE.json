@@ -1,0 +1,20 @@
+{
+  "sv-SE": {
+    "data": {
+      "objectives": {
+        "6902d2bc-a266-487c-b0de-49de79f6fb98": {
+          "description": "Illustrera förändringar i stämningen i en dikt."
+        },
+        "6da037be-d0be-4f41-a1e5-10b24a247190": {
+          "description": "Representera bildligt och bokstavligt språk i en text."
+        },
+        "1e1c0724-7d86-4304-a73b-6f083be036fc": {
+          "description": "Illustrera förändringar i stämningen i en dikt."
+        },
+        "08ca334f-bc69-46fb-b4ae-0b4b63ec4f7f": {
+          "description": "Representera bildligt och bokstavligt språk i en text."
+        }
+      }
+    }
+  }
+}

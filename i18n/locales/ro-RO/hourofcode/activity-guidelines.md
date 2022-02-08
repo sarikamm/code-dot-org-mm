@@ -1,5 +1,5 @@
 ---
-title: Ghiduri de activitate
+title: Orientari si ghiduri pentru tutoriale
 ---
 
 <style>
@@ -8,7 +8,7 @@ title: Ghiduri de activitate
   }
 </style>
 
-# Guidelines for creating and submitting tutorials and lessons for Hour of Code™ and Computer Science Education Week
+# Ghid pentru crearea si timiterea tutorialelor si lectiilor pentru Ora de Programare si Saptamana Computer Science Education
 
 Code.org hosts a variety of Hour of Code™ activities, lessons, and videos on the Code.org and Hour of Code websites. The current list is at [hourofcode.com/learn]({{ urls/learn }}).
 
@@ -97,7 +97,7 @@ To get a sense of the wide variety of types of tutorials and lesson plans you ca
 
 ## How to submit
 
-Visit the [Hour of Code™ Activity Submission page](https://forms.gle/L1hjArNnGSMJPzyE8) and complete the questions to submit your activity.
+Visit the [Hour of Code™ Activity Submission page](https://forms.gle/z8ARSLcJCFdNPVJS8) and complete the questions to submit your activity.
 
 What you’ll need:
 

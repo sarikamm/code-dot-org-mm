@@ -6,22 +6,29 @@ he:
       Green: ירוקים
       Red: אדומים
       actor: שחקן
-      cats: כל החתולים
+      age: גיל
+      answer: 'תשובה
+
+'
+      binary: בינארי
+      cats: חתולים
       color: צבע
       counter: סופר
-      dogs: כל הכלבים
+      dogs: כלבים
       height: גובה
       honey: דבש
       i: i
       left: שמאלה
       length: אורך
+      level: שלב
       name: שם
       nectar: צוף
+      planet: כוכב לכת
       points: נקודות
       random: אקראי
-      repeat: חזור שוב
+      repeat: חזור
       right: ימינה
-      score: ציון
+      score: ניקוד
       size: גודל
       speed: מהירות
       variable: משתנה.

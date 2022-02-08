@@ -173,10 +173,10 @@
           "Infinity_repeat_callout": "Plasează blocuri de mutare în interior aici"
         },
         "MC HOC 2016 Level 2-2": {
-          "craft2_run_button_callout": "Când eşti gata, apasă \"Rulează\" pentru a încerca programul."
+          "craft2_run_button_callout": "Când ești gata, apasă „Rulează” pentru a testa programul."
         },
         "MC HOC 2016 New Walk": {
-          "MC_HOC_2016_New_Walk_callout2": "Apasă \"Rulează\" pentru a începe mişcarea."
+          "MC_HOC_2016_New_Walk_callout2": "Apasă „Rulează” pentru a începe să te deplasezi."
         },
         "NEW Course 4 Artist Functions 3": {
           "NEW_Course_4_Artist_Functions_3_1": "Apasă aici pentru a edita funcţia nouă astfel încât să creze un pătrat."
@@ -316,6 +316,223 @@
         },
         "outbreak7": {
           "costumes_callout": "Fă clic pentru a face un nou costum"
+        },
+        "CourseD_Dance_2020_01_2021": {
+          "dance_callout_01": "Adaugă acest bloc la programul tău!"
+        },
+        "CourseD_Dance_2020_02_2021": {
+          "dance_callout_11_a": "Adaugă acest bloc la programul tău.",
+          "arrow_buttons": "Apasă butoanele cu săgeată pentru a-l controla pe dansator."
+        },
+        "CourseD_Dance_2020_04_2021": {
+          "dance_callout_02": "Adaugă acest bloc la programul tău!"
+        },
+        "CourseD_Dance_2020_05_2021": {
+          "dance_callout_05": "Adăugați un nou eveniment în program."
+        },
+        "CourseD_Dance_2020_06_2021": {
+          "dance_party_11_5_groups": "Bloc nou!"
+        },
+        "CourseD_Dance_2020_07_2021": {
+          "setprop_hint": "Bloc nou!"
+        },
+        "CourseD_Dance_2020_09_2021": {
+          "new_block_3": "Bloc nou!",
+          "new_block_4": "Bloc nou!"
+        },
+        "CourseF_outbreak2": {
+          "minitoolbox": "Apasă aici pentru a expanda blocul.",
+          "pointerlocation": "Trage aici un bloc de subiect."
+        },
+        "CourseF_outbreak7": {
+          "costumes_callout": "Fă clic pentru a face un nou costum"
+        },
+        "Overworld Chop Trees_2021": {
+          "craft_callout_preplaced": "Am pus cateva blocuri aici pentru a incepe"
+        },
+        "Overworld House Frame Chosen_2021": {
+          "craft_callout_preplaced_house": "Acest cod va incepe sa construiasca casa ta. Il poti termina?"
+        },
+        "Overworld Move to Sheep_2021": {
+          "craft_run_button_callout": "Apasă \"Run\" pentru a încerca programul tău"
+        },
+        "Overworld Place Wall_2021": {
+          "craft_inside_repeat": "Repetati actiunile prin plasarea blocurilor aici"
+        },
+        "Underground Avoiding Lava_2021": {
+          "craft_callout_moveforward": "Acest cod va cauta lava, poti adauga o comanda pentru a inainta?"
+        },
+        "Underground Iron_2021": {
+          "craft_what_is_iron": "Extrage acest fier!"
+        },
+        "helloworld_animals_costumes": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "helloworld_animals_sizes": {
+          "hello_world_new": "Bloc nou!",
+          "hello_world_new_block": "Bloc nou!!!"
+        },
+        "helloworld_animals_sounds": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "helloworld_emoji_costumes": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "helloworld_emoji_sizes": {
+          "hello_world_new": "Bloc nou!",
+          "hello_world_new_block": "Bloc nou!"
+        },
+        "helloworld_emoji_sounds": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "helloworld_food_costumes": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "helloworld_food_sizes": {
+          "hello_world_new": "Bloc nou!",
+          "hello_world_new_block": "Bloc nou!"
+        },
+        "helloworld_food_sounds": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "helloworld_retro_costumes": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "helloworld_retro_sizes": {
+          "hello_world_new": "Bloc nou!",
+          "hello_world_new_block": "Bloc nou!"
+        },
+        "helloworld_retro_sounds": {
+          "hello_world_new": "Bloc nou!"
+        },
+        "poetry_hoc_addSprites": {
+          "poetry_sprite": "Bloc nou!"
+        },
+        "poetry_hoc_events1": {
+          "poetry_event": "Bloc nou!",
+          "poetry_foreground": "Bloc nou!"
+        },
+        "poetry_hoc_freeplay": {
+          "poetry_burst": "Bloc nou!",
+          "poetry_multiple_sprites": "Bloc nou!",
+          "poetry_new_block": "Bloc nou!",
+          "poetry_selector": "Selectează orice poem, sau introdu propriul tău poem!"
+        },
+        "poetry_hoc_sounds": {
+          "poetry_sound": "Bloc nou!",
+          "poetry_music": "Bloc nou!"
+        },
+        "poetry_hoc_spriteBehaviors": {
+          "poetry_sprite_begins": "Bloc nou!",
+          "poetry_sprite_stops": "Bloc nou!"
+        },
+        "poetry_hoc_spriteSizes": {
+          "poetry_set_sprite": "Bloc nou!",
+          "poetry_remove_sprite": "Bloc nou!"
+        },
+        "helloworld_animals_backgrounds": {
+          "hw_background_location": "Utilizează acest bloc pentru a stabili un nou fundal."
+        },
+        "helloworld_animals_behaviors": {
+          "hello_world_behavior_blocks": "Utilizează acest bloc cu unul dintre comportamentele de mai jos."
+        },
+        "helloworld_animals_click": {
+          "hw_Run": "Fă clic aici ca să rulezi codul."
+        },
+        "helloworld_animals_events": {
+          "hello_world_click_hint": "Adaugă acest bloc eveniment la spațiul tău de lucru."
+        },
+        "helloworld_animals_freeplay": {
+          "costumes_tab": "Apasă aici pentru a adăuga costume la proiectul tău."
+        },
+        "helloworld_animals_location": {
+          "pin": "pin"
+        },
+        "helloworld_animals_multi": {
+          "pin": "pin"
+        },
+        "helloworld_animals_say": {
+          "hello_world_say": "Utilizează acest bloc pentru a face spiritul să vorbească.",
+          "hello_world_make_sprite": "Utilizează acest bloc pentru a creea un spirit."
+        },
+        "helloworld_emoji_backgrounds": {
+          "hw_background_location": "Utilizează acest bloc pentru a stabili un nou fundal."
+        },
+        "helloworld_emoji_behaviors": {
+          "hello_world_behavior_blocks": "Utilizează acest bloc cu unul dintre comportamentele de mai jos."
+        },
+        "helloworld_emoji_click": {
+          "hw_Run": "Fă clic aici ca să rulezi codul."
+        },
+        "helloworld_emoji_events": {
+          "hello_world_click_hint": "Adaugă acest bloc eveniment la spațiul tău de lucru."
+        },
+        "helloworld_emoji_freeplay": {
+          "costumes_tab": "Apasă aici pentru a adăuga costume la proiectul tău."
+        },
+        "helloworld_emoji_location": {
+          "pin": "pin"
+        },
+        "helloworld_emoji_multi": {
+          "pin": "pin"
+        },
+        "helloworld_emoji_say": {
+          "hello_world_say": "Utilizează acest bloc pentru a face spiritul să vorbească.",
+          "hello_world_make_sprite": "Utilizează acest bloc pentru a creea un spirit."
+        },
+        "helloworld_food_backgrounds": {
+          "hw_background_location": "Utilizează acest bloc pentru a stabili un nou fundal."
+        },
+        "helloworld_food_behaviors": {
+          "hello_world_behavior_blocks": "Utilizează acest bloc cu unul dintre comportamentele de mai jos."
+        },
+        "helloworld_food_click": {
+          "hw_Run": "Fă clic aici ca să rulezi codul."
+        },
+        "helloworld_food_events": {
+          "hello_world_click_hint": "Adaugă acest bloc eveniment la spațiul tău de lucru."
+        },
+        "helloworld_food_freeplay": {
+          "costumes_tab": "Apasă aici pentru a adăuga costume la proiectul tău."
+        },
+        "helloworld_food_location": {
+          "pin": "pin"
+        },
+        "helloworld_food_multi": {
+          "pin": "pin"
+        },
+        "helloworld_food_say": {
+          "hello_world_say": "Utilizează acest bloc pentru a face spiritul să vorbească.",
+          "hello_world_make_sprite": "Utilizează acest bloc pentru a creea un spirit."
+        },
+        "helloworld_retro_backgrounds": {
+          "hw_background_location": "Utilizează acest bloc pentru a stabili un nou fundal."
+        },
+        "helloworld_retro_behaviors": {
+          "hello_world_behavior_blocks": "Utilizează acest bloc cu unul dintre comportamentele de mai jos."
+        },
+        "helloworld_retro_click": {
+          "hw_Run": "Fă clic aici ca să rulezi codul."
+        },
+        "helloworld_retro_events": {
+          "hello_world_click_hint": "Adaugă acest bloc eveniment la spațiul tău de lucru."
+        },
+        "helloworld_retro_freeplay": {
+          "costumes_tab": "Apasă aici pentru a adăuga costume la proiectul tău."
+        },
+        "helloworld_retro_location": {
+          "pin": "pin"
+        },
+        "helloworld_retro_multi": {
+          "pin": "pin"
+        },
+        "helloworld_retro_say": {
+          "hello_world_say": "Utilizează acest bloc pentru a face spiritul să vorbească.",
+          "hello_world_make_sprite": "Utilizează acest bloc pentru a creea un spirit."
+        },
+        "poetry_hoc_backgroundEffects": {
+          "poetry_background": "Găsește blocurile de cod aici.",
+          "run_button": "Testează animația ta cu acest buton."
         }
       }
     }

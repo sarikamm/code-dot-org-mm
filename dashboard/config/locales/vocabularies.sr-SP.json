@@ -1,0 +1,161 @@
+{
+  "sr-SP": {
+    "data": {
+      "vocabularies": {
+        "debugging/minecraft/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/hero/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "function/hero/unversioned": {
+          "word": "Функција"
+        },
+        "code/poem-art/2021": {
+          "word": "Kod"
+        },
+        "debugging/flappy/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/hourofcode/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/frozen/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/iceage/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "code/artist/unversioned": {
+          "word": "Kod"
+        },
+        "debugging/artist/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/gumball/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/aquatic/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "conditionals/aquatic/unversioned": {
+          "word": "Кондиционали"
+        },
+        "loops/aquatic/unversioned": {
+          "word": "Петље"
+        },
+        "debugging/starwars/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/mc/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/playlab/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/starwarsblocks/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "code/sports/unversioned": {
+          "word": "Kod"
+        },
+        "debugging/sports/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/infinity/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "debugging/basketball/unversioned": {
+          "word": "Отклањање грешака"
+        },
+        "code/poem-art/unversioned": {
+          "word": "Kod"
+        },
+        "behavior/coursef/2021": {
+          "word": "Понашање"
+        },
+        "variable/coursef/2021": {
+          "word": "Променљива"
+        },
+        "input/coursef/2021": {
+          "word": "Унос"
+        },
+        "internet/coursef/2021": {
+          "word": "Интернет"
+        },
+        "define/coursef/2021": {
+          "word": "Дефинисати"
+        },
+        "debugging/courseb/2021": {
+          "word": "Отклањање грешака"
+        },
+        "programming/courseb/2021": {
+          "word": "Programming"
+        },
+        "debugging/coursea/2021": {
+          "word": "Отклањање грешака"
+        },
+        "programming/coursea/2021": {
+          "word": "Programming"
+        },
+        "debugging/coursec/2021": {
+          "word": "Отклањање грешака"
+        },
+        "programming/coursec/2021": {
+          "word": "Programming"
+        },
+        "debugging/coursed/2021": {
+          "word": "Отклањање грешака"
+        },
+        "programming/coursed/2021": {
+          "word": "Programming"
+        },
+        "conditionals/coursed/2021": {
+          "word": "Кондиционали"
+        },
+        "debugging/express/2021": {
+          "word": "Отклањање грешака"
+        },
+        "programming/express/2021": {
+          "word": "Programming"
+        },
+        "behavior/express/2021": {
+          "word": "Понашање"
+        },
+        "conditionals/express/2021": {
+          "word": "Кондиционали"
+        },
+        "function/express/2021": {
+          "word": "Функција"
+        },
+        "variable/express/2021": {
+          "word": "Променљива"
+        },
+        "define/express/2021": {
+          "word": "Дефинисати"
+        },
+        "debugging/pre-express/2021": {
+          "word": "Отклањање грешака"
+        },
+        "programming/pre-express/2021": {
+          "word": "Programming"
+        },
+        "behavior/coursee/2021": {
+          "word": "Понашање"
+        },
+        "copyright/coursee/2021": {
+          "word": "Ауторска права"
+        },
+        "function/coursee/2021": {
+          "word": "Функција"
+        },
+        "conditionals/coursee/2021": {
+          "word": "Кондиционали"
+        },
+        "define/coursee/2021": {
+          "word": "Дефинисати"
+        }
+      }
+    }
+  }
+}

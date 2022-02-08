@@ -1,0 +1,15 @@
+{
+  "te-IN": {
+    "data": {
+      "resources": {
+        "list_of_poems/poem-art/2021": {
+          "url": "https://docs.google.com/presentation/d/1-IAPZSha9BzFtEHzqRKY2Gb8oa2O_ZNaX5RqHyuvBso/edit?usp=sharing"
+        },
+        "list_of_poems_1/poem-art/unversioned": {
+          "name": "కవిత్వాల లిస్టు",
+          "url": "https://docs.google.com/presentation/d/1-IAPZSha9BzFtEHzqRKY2Gb8oa2O_ZNaX5RqHyuvBso/edit?usp=sharing"
+        }
+      }
+    }
+  }
+}

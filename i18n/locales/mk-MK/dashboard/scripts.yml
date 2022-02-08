@@ -1,3 +1,4 @@
+---
 mk:
   data:
     script:
@@ -8,10 +9,6 @@ mk:
           lessons:
             Variables:
               name: Променливи
-        infinity:
-          lessons:
-            Infinity:
-              name: Бесконечно
         allthehiddenthings:
           lessons:
             Game Lab:
@@ -59,7 +56,7 @@ mk:
             Variables:
               name: Променливи
             'null':
-              name: 'нула'
+              name: нула
         csd6-old:
           lessons:
             Lists:
@@ -97,7 +94,7 @@ mk:
         andrea-test:
           lessons:
             'null':
-              name: 'нула'
+              name: нула
         coursec-2019:
           lesson_groups:
             csf_loops:
@@ -328,3 +325,7 @@ mk:
             Variables:
               key: Променливи
               name: Променливи
+        dlp21-csd:
+          lesson_groups:
+            lessonGroup-2:
+              description: тест

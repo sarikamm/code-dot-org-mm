@@ -351,7 +351,6 @@ se:
         options:
           COSTUME:
             '"BEAR"': guovža
-            '"DOG"': beana
             '"FROG"': rihcit
             '"MOOSE"': ealggat
             '"PINEAPPLE"': ananas
@@ -397,7 +396,7 @@ se:
             '"DOG"': beatnagat
             '"DUCK"': čáhcelottit
             '"FROG"': rihcihat
-            '"MOOSE"': ealga
+            '"MOOSE"': ealggat
             '"PINEAPPLE"': ananasat
             '"ROBOT"': robotat
             '"SHARK"': háiat
@@ -821,7 +820,6 @@ se:
         text: go {KEY} deaddilat
         options:
           KEY:
-            '"space"': gaska
             '"enter"': enter
             '"a"': a
             '"b"': b
@@ -893,6 +891,8 @@ se:
         text: "{SPRITE}"
       gamelab_comment:
         text: 'kommentára: {COMMENT}'
+      gamelab_costumeImage:
+        text: "{COSTUME}"
       gamelab_countByAnimation:
         text: galle {SPRITE}
       gamelab_createNewSprite:
@@ -1033,6 +1033,13 @@ se:
         text: patruljere bajás ja vulos
       gamelab_playSound:
         text: čuojatJiena {SOUND}
+      gamelab_playSoundOptions:
+        text: čuojatJiena {SOUND}
+        options:
+          SOUND:
+            "'sound://category_nature/south_carolina_beach_ripple.mp3'": Strandstreifen
+            "'sound://category_animals/bear.mp3'": guovža
+            "'sound://category_animals/dolphin.mp3'": delfiidna
       gamelab_pointInDirection:
         text: čujut {SPRITE} {DIRECTION}
         options:
@@ -1073,6 +1080,8 @@ se:
           PROPERTY:
             '"rotation"': jorrat
             '"direction"': lihkadanguovlu
+      gamelab_setProp_dropdown:
+        text: bija {SPRITE} {PROPERTY} dása {SIZE}
       gamelab_setSizes:
         text: bija {SPRITE} {PROPERTY} dása {N}%
         options:
@@ -1305,6 +1314,8 @@ se:
           DANCE:
             MOVES.ClapHigh: guolli
             MOVES.Clown: ii leat mu-gilkor
+      Mikelab_joinText:
+        text: "{TEXT} {NEXT}"
       Mikelab_locationAt:
         text: 'sadji x: {X} y: {Y}'
       Mikelab_location_picker:
@@ -1354,6 +1365,58 @@ se:
         text: x koordináhta {SPRITE}
       Mikelab_yLocationOf:
         text: y koordináhta {SPRITE}
+      Poetry_addFrame:
+        options:
+          BRUSH:
+            '"hearts"': váimmut
+            '"iceCream"': LákcaJiekŋa
+            '"stars"': násttit
+      Poetry_makeNewSpriteAnon:
+        text: ráhkat ođđa {ANIMATION_NAME} sprite dán {LOCATION}
+      Poetry_makeNumSprites:
+        text: ráhkat{NUM} ođđa {ANIMATION_NAME} sprite:id
+      Poetry_playMusic:
+        options:
+          SOUND:
+            '"sound://category_loops/stabilizing_breath_loop1.mp3"': njozet
+      Poetry_playSound:
+        text: čuojatJiena {SOUND}
+      Poetry_setBackground:
+        text: bija duogábeal-ivnni {COLOR}
+      Poetry_setBackgroundEffect:
+        options:
+          EFFECT:
+            '"bubbles"': Bulljarasat
+            '"confetti"': Konfetti
+            '"hearts"': váimmut
+            '"space"': Gomuvuohta
+            '"ripples"': Bárožat
+            '"colors"': Ivnnit
+            '"stars"': Násttit
+            '"squiggles"': Squiggles
+      Poetry_setBackgroundImageAs:
+        text: bija duogábeali dása {IMG}
+      Poetry_setForegroundEffect:
+        options:
+          EFFECT:
+            '"bubbles"': Bulljarasat
+            '"confetti"': Konfetti
+            '"hearts"': váimmut
+            '"starburst"': Starburst
+      Poetry_whenLineShows:
+        options:
+          N:
+            '0': "???"
+            '1': '1'
+            '2': '2'
+            '3': '3'
+            '4': '4'
+            '5': '5'
+            '6': '6'
+            '7': '7'
+            '8': '8'
+            '9': '9'
+            '10': '10'
       SpriteLab2Beta_spriteSay:
         text: sprite {SPRITE} dadjá {TEXT} {SECONDS} sekunddaid
       Vector_createSpriteWith:
@@ -1464,6 +1527,7 @@ se:
             '"stoneBricks"': geađgediillat
             '"mossyStoneBricks"': jeagilduvvon geađgediillat
             '"crackedStoneBricks"': cuovkanan geađgediillat
+            '"chiseledStoneBricks"': girjás geađgediillat
             '"blueCoralBlock"': alit korálla blohkka
             '"pinkCoralBlock"': čuvgesrukses korálla blohkka
             '"magentaCoralBlock"': mageanta korálla blohkka
@@ -1509,3 +1573,5 @@ se:
           DIR:
             right: olgeš ↻
             left: gurut ↺
+      validation_validatedBackground:
+        text: bija duogábeali dása {IMG}

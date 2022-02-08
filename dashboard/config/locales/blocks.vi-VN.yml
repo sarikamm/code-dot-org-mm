@@ -11,14 +11,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           MOVE1:
             MOVES.Roll: Cuộn người
             MOVES.ClapHigh: Vỗ tay cao
@@ -65,14 +65,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': tất cả kỳ lân
+            '"UNICORN"': kỳ lân
           MOVE:
             '"next"': "(Tiếp theo)"
             '"prev"': "(Trước)"
@@ -107,7 +107,7 @@ vi:
             MOVES.ThisOrThat: Đây hoặc đó
             MOVES.Rest: Không có
       Dancelab_changePropBy:
-        text: thay đổi {PROPERTY} {SPRITE} theo {VAL}
+        text: thay đổi {PROPERTY} {SPRITE} bởi {VAL}
         options:
           PROPERTY:
             '"scale"': kích cỡ
@@ -125,14 +125,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           PROPERTY:
             '"scale"': kích cỡ
             '"width"': chiều rộng
@@ -149,14 +149,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           MOVE:
             '"rand"': "(Ngẫu nhiên)"
             MOVES.XBend: Uốn cong
@@ -273,8 +273,8 @@ vi:
             MOVES.Rest: Không có
       Dancelab_ifTime:
         text: |-
-          ถ้า {UNIT} คือ {OP} {N}
-           {DO1} {DO2}
+          nếu {UNIT} là  {OP} {N}
+          {DO1} {DO2}
         options:
           UNIT:
             '"measures"': nhịp
@@ -306,14 +306,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           LOCATION:
             "{x: 200, y: 100}": trên
             "{x: 200, y: 300}": dưới
@@ -334,14 +334,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           FORMAT:
             '"border"': đường biên
             '"inner"': hình vuông bên trong
@@ -354,7 +354,6 @@ vi:
             '"left"': cột trái
             '"column"': cột
             '"right"': cột phải
-            '"x"': criss-cross
             '"plus"': cộng
             '"random"': ngẫu nhiên
       Dancelab_makeAnonymousDanceSprite:
@@ -372,7 +371,7 @@ vi:
             '"ROBOT"': robot
             '"SHARK"': Cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': kỳ lân
+            '"UNICORN"': unicorn
           LOCATION:
             "{x: 200, y: 100}": trên
             "{x: 200, y: 300}": dưới
@@ -392,16 +391,16 @@ vi:
           COSTUME:
             '"ALIEN"': Người ngoài hành tinh
             '"BEAR"': Gấu
-            '"CAT"': Mèo
-            '"DOG"': Chó
-            '"DUCK"': Vịt
+            '"CAT"': con mèo
+            '"DOG"': con chó
+            '"DUCK"': vịt
             '"FROG"': Ếch
-            '"MOOSE"': Nai sừng tấm
+            '"MOOSE"': tất cả nai sừng tấm
             '"PINEAPPLE"': Trái dứa
             '"ROBOT"': robot
             '"SHARK"': Cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': kỳ lân
+            '"UNICORN"': unicorn
           LOCATION:
             "{x: 200, y: 100}": trên
             "{x: 200, y: 300}": dưới
@@ -439,18 +438,18 @@ vi:
             '19': '19'
             '20': '20'
           COSTUME:
-            '"ALIEN"': Người ngoài hành tinh
-            '"BEAR"': Gấu
-            '"CAT"': Mèo
-            '"DOG"': Chó
-            '"DUCK"': Vịt
-            '"FROG"': Ếch
-            '"MOOSE"': Nai sừng tấm
-            '"PINEAPPLE"': Trái dứa
-            '"ROBOT"': Robot
-            '"SHARK"': Cá mập
+            '"ALIEN"': người ngoài hành tinh
+            '"BEAR"': gấu
+            '"CAT"': mèo
+            '"DOG"': tất cả chó
+            '"DUCK"': vịt
+            '"FROG"': ếch
+            '"MOOSE"': tất cả nai sừng tấm
+            '"PINEAPPLE"': trái dứa
+            '"ROBOT"': tất cả robot
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           LAYOUT:
             '"border"': đường biên
             '"inner"': hình vuông bên trong
@@ -463,7 +462,6 @@ vi:
             '"left"': cột trái
             '"column"': cột
             '"right"': cột phải
-            '"x"': criss-cross
             '"plus"': cộng
             '"random"': ngẫu nhiên
       Dancelab_mixColors:
@@ -479,9 +477,11 @@ vi:
       Dancelab_randomColor:
         text: màu ngẫu nhiên
       Dancelab_setBackground:
-        text: thiết lập màu nền {COLOR}
+        text: đặt màu nền thành {COLOR}
       Dancelab_setBackgroundEffect:
-        text: thiết lập hiệu ứng nền {EFFECT} {PALETTE}
+        text: |-
+          đặt hiệu ứng nền
+          {EFFECT} {PALETTE}
         options:
           EFFECT:
             '"none"': Không có
@@ -492,11 +492,11 @@ vi:
             '"fireworks"': พลุ
             '"swirl"': Thôi miên
             '"kaleidoscope"': Kính vạn hoa
-            '"lasers"': Sàn nhảy laser
+            '"lasers"': Sàn nhảy laze
             '"splatter"': Tiếng lộp độp của sơn
             '"rainbow"': Cầu vồng
             '"snowflakes"': Tuyết
-            '"text"': Tên bài hát
+            '"text"': Tiêu đề bài hát
             '"galaxy"': Không gian
             '"sparkles"': Lấp lánh
             '"spiral"': Xoắn ốc
@@ -504,16 +504,18 @@ vi:
             '"stars"': Sao
           PALETTE:
             '"rave"': Đen và trắng
-            '"cool"': Mát mẻ
+            '"cool"': Xanh
             '"electronic"': ไฟฟ้า
-            '"iceCream"': ไอศกรีม
+            '"iceCream"': Kem
             '"default"': Sáng
             '"neon"': Đèn Neon
             '"tropical"': Nhiệt đới
-            '"vintage"': Vintage
+            '"vintage"': Cổ điển
             '"warm"': Đỏ
       Dancelab_setBackgroundEffectWithPalette:
-        text: thiết lập hiệu ứng nền {PALETTE} {EFFECT}
+        text: |-
+          đặt hiệu ứng nền
+          {PALETTE} {EFFECT}
         options:
           EFFECT:
             '"none"': Không có
@@ -524,33 +526,32 @@ vi:
             '"diamonds"': Kim cương
             '"disco_ball"': Bóng Disco
             '"fireworks"': พลุ
-            '"flowers"': ดอกไม้
+            '"flowers"': Bông hoa
             '"growing_stars"': Ngôi sao lớn dần
             '"swirl"': Thôi miên
             '"kaleidoscope"': Kính vạn hoa
-            '"lasers"': Sàn nhảy laser
+            '"lasers"': Sàn nhảy laze
             '"splatter"': Tiếng lộp độp của sơn
             '"rainbow"': Cầu vồng
             '"ripples_random"': Gợn sóng ngẫu nhiên
             '"ripples"': Gợn sóng
             '"snowflakes"': Tuyết
-            '"text"': Tên bài hát
+            '"text"': Tiêu đề bài hát
             '"squiggles"': Nét nguệch ngoạc
             '"galaxy"': Không gian
             '"sparkles"': Lấp lánh
             '"spiral"': Xoắn ốc
             '"disco"': Hình vuông
             '"stars"': Sao
-            '"music_wave"': Sóng
           PALETTE:
             '"rave"': Đen và trắng
-            '"cool"': Mát mẻ
+            '"cool"': Xanh
             '"electronic"': ไฟฟ้า
-            '"iceCream"': ไอศกรีม
+            '"iceCream"': Kem
             '"default"': Sáng
             '"neon"': Đèn Neon
             '"tropical"': Nhiệt đới
-            '"vintage"': Vintage
+            '"vintage"': Cổ điển
             '"warm"': Đỏ
       Dancelab_setDanceSpeed:
         text: thay đổi tốc độ nhảy của {SPRITE} thành {SPEED}
@@ -570,14 +571,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           SPEED:
             '1': bình thường
             '2': nhanh
@@ -590,12 +591,12 @@ vi:
           EFFECT:
             '"none"': Không có
             '"bubbles"': Bong bóng
-            '"confetti"': Pháo hoa giấy
+            '"confetti"': Hoa giấy
             '"hearts_red"': Trái tim
             '"music_notes"': Nốt nhạc
             '"pineapples"': Trái dứa
             '"pizzas"': Pizza
-            '"smiling_poop"': Cục phân
+            '"smiling_poop"': Đuôi tàu
             '"rain"': Mưa
             '"floating_rainbows"': Cầu vồng
             '"smile_face"': Nụ cười
@@ -610,14 +611,14 @@ vi:
             '"rand"': "(Ngẫu nhiên)"
             '"bubbles"': Bong bóng
             '"hearts_colorful"': Trái tim sặc sỡ
-            '"confetti"': Pháo hoa giấy
+            '"confetti"': Hoa giấy
             '"emojis"': Emoji
             '"hearts_red"': Trái tim
             '"music_notes"': Nốt nhạc
             '"paint_drip"': Sơn nhỏ giọt
             '"pineapples"': Trái dứa
             '"pizzas"': Pizza
-            '"smiling_poop"': Cục phân
+            '"smiling_poop"': Đuôi tàu
             '"rain"': Mưa
             '"floating_rainbows"': Cầu vồng
             '"smile_face"': Nụ cười
@@ -644,14 +645,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           PROPERTY:
             '"scale"': kích cỡ
             '"width"': chiều rộng
@@ -680,14 +681,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           PROPERTY:
             '"scale"': kích cỡ
             '"width"': chiều rộng
@@ -707,14 +708,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
       Dancelab_setTintEachInline:
         text: thiết lập màu {THIS} thành {VAL}
         options:
@@ -724,14 +725,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
       Dancelab_setTintInline:
         text: thiết lập sắc thái {SPRITE} thành {VAL}
       Dancelab_setVisible:
@@ -749,14 +750,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           VISIBILITY:
             'true': có thể nhìn thấy
             'false': không thể nhìn thấy
@@ -784,14 +785,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           PROPERTY:
             '"scale"': kích cỡ
             '"width"': chiều rộng
@@ -829,14 +830,14 @@ vi:
             '"BEAR"': gấu
             '"CAT"': mèo
             '"DOG"': tất cả chó
-            '"DUCK"': tất cả vịt
-            '"FROG"': tất cả ếch
+            '"DUCK"': vịt
+            '"FROG"': ếch
             '"MOOSE"': tất cả nai sừng tấm
-            '"PINEAPPLE"': tất cả trái dứa
+            '"PINEAPPLE"': trái dứa
             '"ROBOT"': tất cả robot
-            '"SHARK"': tất cả cá mập
+            '"SHARK"': cá mập
             '"SLOTH"': con lười
-            '"UNICORN"': Kỳ lân
+            '"UNICORN"': kỳ lân
           PROPERTY:
             '"scale"': kích cỡ
             '"width"': chiều rộng
@@ -854,11 +855,10 @@ vi:
         text: dịch {STRING}
         options:
           STRING:
-            '"music_wave"': Sóng
             '"ripples"': Gợn sóng
             '"ripples_random"': Gợn sóng ngẫu nhiên
             '"quads"': Góc
-            '"flowers"': ดอกไม้
+            '"flowers"': Bông hoa
             '"popsicles"': Kem que
             '"squiggles"': Nét nguệch ngoạc
             '"growing_stars"': Ngôi sao lớn dần
@@ -896,15 +896,15 @@ vi:
             '"8"': '8'
             '"9"': '9'
       Dancelab_whenKey:
-        text: khi nhấn {KEY}
+        text: khi nhấn phím {KEY}
         options:
           KEY:
             '"up"': trên
             '"left"': trái
             '"down"': xuống
             '"right"': phải
-            '"space"': không gian
-            '"enter"': nhập
+            '"space"': phím cách
+            '"enter"': enter
             '"a"': a
             '"b"': b
             '"c"': c
@@ -952,44 +952,68 @@ vi:
       Dancelab_whenSetup2:
         text: thiết lập
       gamelab_addBehaviorSimple:
-        text: sprite {SPRITE} bắt đầu {BEHAVIOR}
+        text: nhân vật {SPRITE} bắt đầu {BEHAVIOR}
+      gamelab_addTarget:
+        text: "{SPRITE} mang {TARGET} đến {OPT} "
+        options:
+          OPT:
+            '"follow"': đi theo
+            '"avoid"': tránh
       gamelab_allSpritesWithAnimation:
         text: "{ANIMATION}"
       gamelab_atTime:
+        text: tại {N} {UNIT}
         options:
           UNIT:
             '"seconds"': giây
+            '"frames"': khuôn hình
+      gamelab_avoidingTargets:
+        text: tránh mục tiêu
+      gamelab_beginCollectingData:
+        text: bắt đầu thu thập dữ liệu {BREAK} giá trị {VALUE} với nhãn {LABEL}
+      gamelab_bounceOff:
+        text: "{SPRITE} bật khỏi {TARGET}"
       gamelab_changePropBy:
-        text: thay đổi {PROPERTY} {SPRITE} theo {VAL}
+        text: thay đổi {SPRITE} {PROPERTY} bởi {VAL}
         options:
           PROPERTY:
             '"scale"': kích cỡ
             '"rotation"': xoay
-            '"x"': hoành độ
-            '"y"': tung độ
-            '"direction"': phương hướng chuyển động
+            '"x"': toạ độ x
+            '"y"': toạ độ y
+            '"direction"': hướng chuyển động
             '"speed"': tốc độ
       gamelab_checkTouching:
-        text: "{CONDITION} {SPRITE1} chạm {SPRITE2} 123_321"
+        text: "{CONDITION} {SPRITE1} chạm {SPRITE2}"
         options:
           CONDITION:
-            '"when"': khi nào
-            '"while"': Lặp khi
+            '"when"': khi
+            '"while"': trong khi
       gamelab_clickedOn:
-        text: khi {SPRITE} nhấp
+        text: khi nhấp chuột vào {SPRITE}
       gamelab_clickedSpritePointer:
-        text: nhấp {SPRITE}
+        text: "{SPRITE}"
       gamelab_comment:
         text: 'bình luận: {COMMENT}'
+      gamelab_costumeImage:
+        text: "{COSTUME}"
+      gamelab_countByAnimation:
+        text: số lượng {SPRITE}
       gamelab_createNewSprite:
-        text: "làm cho một sprite mới \n gọi là {NAME} \n với trang phục {COSTUME}
-          \n {LOCATION} 123_321"
+        text: "tạo một sprite mới \n gọi là {NAME} \n với trang phục {COSTUME} \n
+          tại vị trí {LOCATION}"
       gamelab_destroy:
-        text: remove {THIS}
+        text: xoá {THIS}
       gamelab_draggable:
         text: có thể kéo được
+      gamelab_drawLine:
+        text: vẽ đường {COLOR} {LOC1} {LOC2}
       gamelab_edgesDisplace:
-        text: khối cạnh {SPRITE} từ di chuyển
+        text: cạnh chặn {SPRITE} di chuyển
+      gamelab_followingTargets:
+        text: đi theo mục tiêu
+      gamelab_getAllSprites:
+        text: tất cả nhân vật
       gamelab_getProp:
         text: "{PROPERTY} {SPRITE}"
         options:
@@ -1005,21 +1029,33 @@ vi:
         text: "{CHOICE} sprite"
         options:
           CHOICE:
-            '"this"': điều này
+            '"this"': nhân vật này
+            '"other"': khác
       gamelab_getTime:
+        text: thời gian theo {UNIT}
         options:
           UNIT:
             '"seconds"': giây
+            '"frames"': khuôn hình
+      gamelab_glideTo:
+        text: "{SPRITE} trượt tới {LOCATION}"
       gamelab_hideTitleScreen:
         text: ẩn màn hình tiêu đề
+      gamelab_ifVarEquals:
+        text: |-
+          nếu {NUM} ={VAL}
+          {STATEMENT}
+      gamelab_isCostumeEqual:
+        text: diện mạo của {SPRITE} là {COSTUME}
       gamelab_isKeyPressed:
+        text: "{KEY} được nhấn"
         options:
           KEY:
             '"up"': trên
             '"down"': xuống
             '"left"': trái
             '"right"': phải
-            '"space"': vũ trụ
+            '"space"': phím cách
             '"a"': a
             '"b"': b
             '"c"': c
@@ -1047,6 +1083,8 @@ vi:
             '"z"': z
       gamelab_isTouchingEdges:
         text: "{SPRITE} đang chạm vào các cạnh"
+      gamelab_isTouchingSprite:
+        text: "{SPRITE} đang chạm {TARGET}"
       gamelab_jumpTo:
         text: "{SPRITE} nhảy đến {LOCATION}"
       gamelab_keyPressed:
@@ -1054,13 +1092,13 @@ vi:
         options:
           CONDITION:
             '"when"': khi nào
-            '"while"': Lặp khi
+            '"while"': trong khi
           KEY:
             '"up"': trên
             '"down"': xuống
             '"left"': trái
             '"right"': phải
-            '"space"': vũ trụ
+            '"space"': phím cách
             '"a"': a
             '"b"': b
             '"c"': c
@@ -1089,20 +1127,38 @@ vi:
       gamelab_locationAt:
         text: 'vị trí x: {X} y: {Y}'
       gamelab_locationModifier:
+        text: "{DISTANCE} điểm ảnh về phía {DIRECTION} của {LOCATION}"
         options:
           DIRECTION:
-            '"North"': Phía Bắc
-            '"East"': Phía Đông
-            '"South"': Phía Nam
-            '"West"': Phía Tây
+            '"North"': Bắc
+            '"East"': Đông
+            '"South"': Nam
+            '"West"': Tây
       gamelab_locationMouse:
         text: vị trí chuột
       gamelab_locationOf:
         text: vị trí của {SPRITE}
       gamelab_location_picker:
         text: "{LOCATION}"
+      gamelab_makeBurst:
+        text: tạo hiệu ứng {EFFECT} có {NUM} nhân vật {ANIMATION_NAME}
+        options:
+          EFFECT:
+            '"pop"': nổ
+            '"rain"': mưa
       gamelab_makeNewSpriteAnon:
-        text: làm mới {ANIMATION_NAME} sprite tại {LOCATION}
+        text: tạo nhân vật {ANIMATION_NAME} mới tại {LOCATION}
+      gamelab_makeNumSprites:
+        text: tạo {NUM} nhân vật {ANIMATION_NAME} mới
+      gamelab_makeProjectile:
+        text: "tạo quỹ đạo \n{ANIMATION_NAME} từ {LOCATION} có tốc độ {SPEED} theo
+          hướng {DIRECTION}"
+        options:
+          DIRECTION:
+            '0': phải
+            '90': xuống
+            '180': trái
+            '270': trên
       gamelab_mirrorSprite:
         text: "{SPRITE} mặt {DIRECTION}"
         options:
@@ -1111,34 +1167,77 @@ vi:
             '"left"': trái
       gamelab_mouseLocation:
         text: vị trí chuột
+      gamelab_moveBackward:
+        text: di chuyển {SPRITE} {DISTANCE} điểm ảnh về phía sau
       gamelab_moveForward:
-        text: di chuyển {SPRITE} {DISTANCE} pixel về phía trước
+        text: di chuyển {SPRITE} {DISTANCE} điểm ảnh về phía trước
       gamelab_moveInDirection:
-        text: Di chuyển {SPRITE} {DISTANCE} Pixel {DIRECTION}
+        text: di chuyển {SPRITE} {DISTANCE} điểm ảnh về phía {DIRECTION}
         options:
           DIRECTION:
-            '"North"': Phía Bắc
-            '"East"': Phía Đông
-            '"South"': Phía Nam
-            '"West"': Phía Tây
+            '"North"': Bắc
+            '"East"': Đông
+            '"South"': Nam
+            '"West"': Tây
       gamelab_moveToward:
-        text: di chuyển {SPRITE} pixel {DISTANCE} hướng {TARGET}
+        text: di chuyển {SPRITE} điểm ảnh {DISTANCE} về phía {TARGET}
       gamelab_newSpritePointer:
-        text: nhấp {SPRITE}
+        text: "{SPRITE}"
       gamelab_objectSpritePointer:
-        text: nhấp {SPRITE}
+        text: "{SPRITE}"
+      gamelab_patrollingUpDown:
+        text: tuần tra lên xuống
       gamelab_playSound:
-        text: Âm thanh chơi {SOUND}
+        text: phát âm thanh {SOUND}
+      gamelab_playSoundOptions:
+        text: phát âm thanh {SOUND}
+        options:
+          SOUND:
+            "'sound://category_accent/puzzle_game_accent_a_01.mp3'": nổi bật
+            "'sound://category_digital/boing_2.mp3'": bụp
+            "'sound://category_pop/bubble_pop_cluster_airy_1.mp3'": nổ
+            "'sound://category_bell/vibrant_game_bell_twinkle_positive_touch_1.mp3'": lấp
+              lánh
+            "'sound://category_collect/clicky_crunch.mp3'": khủng hoảng
+            "'sound://category_swish/quick_swing.mp3'": đung đưa
+            "'sound://category_nature/summer_night_loop.mp3'": đêm hè
+            "'sound://category_background/ocean_waves.mp3'": sóng biển
+            "'sound://category_nature/south_carolina_beach_ripple.mp3'": gợn cát
+            "'sound://category_pop/bubble_pop_cluster_1.mp3'": bong bóng
+            "'sound://category_animals/bear.mp3'": Gấu
+            "'sound://category_animals/cat.mp3'": con mèo
+            "'sound://category_animals/cow.mp3'": con bò
+            "'sound://category_animals/sheep.mp3'": con cừu
+            "'sound://category_animals/chicken.mp3'": con gà
+            "'sound://category_animals/dolphin.mp3'": cá heo
+            "'sound://category_nature/thunderstorm_1.mp3'": mưa bão
+            "'sound://category_animals/dog.mp3'": con chó
+            "'sound://category_collect/trill_stings.mp3'": rung
+            "'sound://category_tap/vibrant_positive_tap_1.mp3'": gõ
+            "'sound://category_notifications/vibrant_game_tonal_hit_6_correct.mp3'": âm
+              giọng
+            "'sound://category_transition/trippy_robotic_transition.mp3'": chuyển
+              âm robot
+            "'sound://category_transition/star_dust_particle_10.mp3'": bụi sao
+            "'sound://category_whoosh/alien_ship_flyby_whoosh_3_slow.mp3'": tàu vũ
+              trụ ngoài hành tinh
+            "'sound://category_projectile/retro_game_magic_spell_6.mp3'": thần chú
+              ma thuật
+            "'sound://category_jump/quirky_bass_sc-fi_open_or_start.mp3'": tiếng bass
+              vòng
+            "'sound://category_digital/jump_7.mp3'": nhảy
+      gamelab_playSpeech:
+        text: phát lời nói {SOUND}
       gamelab_pointInDirection:
-        text: điểm {SPRITE} {DIRECTION}
+        text: hướng {SPRITE} về phía {DIRECTION}
         options:
           DIRECTION:
-            '"North"': Phía Bắc
-            '"East"': Phía Đông
-            '"South"': Phía Nam
-            '"West"': Phía Tây
+            '"North"': Bắc
+            '"East"': Đông
+            '"South"': Nam
+            '"West"': Tây
       gamelab_printText:
-        text: in {TEXT}
+        text: hiển thị {TEXT}
       gamelab_randColor:
         text: màu ngẫu nhiên
       gamelab_randomColor:
@@ -1146,79 +1245,115 @@ vi:
       gamelab_randomLocation:
         text: vị trí ngẫu nhiên
       gamelab_removeAllBehaviors:
-        text: "{SPRITE} dừng mọi thứ"
+        text: "{SPRITE} dừng mọi hành động"
       gamelab_removeBehaviorSimple:
-        text: sprite {SPRITE} điểm dừng {BEHAVIOR}
+        text: nhân vật {SPRITE} dừng {BEHAVIOR}
       gamelab_removeTint:
-        text: loại bỏ màu từ {THIS}
+        text: loại bỏ màu của nhân vật {THIS}
       gamelab_repeatForever:
         text: lặp lại mãi mãi
       gamelab_setAnimation:
-        text: thay đổi {THIS} trang phục để {ANIMATION}
+        text: thay đổi diện mạo {THIS} thành {ANIMATION}
       gamelab_setBackground:
-        text: thiết lập màu nền {COLOR}
+        text: đặt màu nền thành {COLOR}
       gamelab_setBackgroundImage:
-        text: thiết lập nền để {IMG}
+        text: đặt hình nền thành {IMG}
         options:
           IMG:
             '"https://studio.code.org/blockly/media/skins/studio/background_cave.png"': hang
               động
             '"https://studio.code.org/api/v1/animation-library/04L4sdTODkNZF1OHf4qO_I.Al3QP43wA/category_backgrounds/city.png"': thành
               phố
+            '"https://studio.code.org/api/v1/animation-library/UieRK0NBKD3xVHtSJxcUTAuhzLM1D_Hq/category_backgrounds/continuous_grass.png"': bãi
+              bỏ bất tận
             '"https://studio.code.org/blockly/media/skins/studio/background.png"': tòa
               án
             '"https://studio.code.org/blockly/media/skins/studio/background_desert.png"': sa
               mạc
+            '"https://studio.code.org/api/v1/animation-library/nfgysU3t3P8XnUBAf9LjIy2JTHtdXpTj/category_backgrounds/desert_road.png"': đường
+              sa mạc
+            '"https://studio.code.org/api/v1/animation-library/4FnSIFL33P0PH_C_DnKOse2QbZCdtaJJ/category_backgrounds/farm_land.png"': đất
+              trang trại
+            '"https://studio.code.org/api/v1/animation-library/vrlUwPslp0VK_KJcPQ9OPZNb.Ms5eBL5/category_backgrounds/floating_grass.png"': cỏ
+              lơ lửng
+            '"https://studio.code.org/api/v1/animation-library/ZjjFGjO0xNEZGEweTgANloehQrxwIXVM/category_backgrounds/front_of_house.png"': trước
+              nhà
             '"https://studio.code.org/blockly/media/skins/studio/background_space.png"': thiên
               hà
             '"https://studio.code.org/blockly/media/skins/studio/background_grid.png"': lưới
+            '"https://studio.code.org/api/v1/animation-library/1K7z7Kc3EeXsLV693byb0xxoJSJ4Du7e/category_backgrounds/kitchen.png"': bếp
+            '"https://studio.code.org/api/v1/animation-library/4bsf67OUrcX.t1wbIcE_xygGKxOkiQ6f/category_backgrounds/living_room.png"': phòng
+              khách
+            '"https://studio.code.org/api/v1/animation-library/4gC7uWaaRI4aDyrncCFO_wY_67vYhr4C/category_backgrounds/park_view.png"': cảnh
+              công viên
+            '"https://studio.code.org/api/v1/animation-library/5K0h1rGe5ql4J9TdlqggIzGZYzbD38pF/category_backgrounds/pine_trees.png"': cây
+              thông
             '"https://studio.code.org/blockly/media/skins/studio/background_rainbow.png"': cầu
               vồng
             '"https://studio.code.org/blockly/media/skins/studio/background_scifi.png"': khoa
               học viễn tưởng
+            '"https://studio.code.org//api/v1/animation-library/WJjQlG1rFhbVmPfcuI_wy6tpwI6mHYnM/category_backgrounds/soccer_field.png"': sân
+              bóng
             '"https://studio.code.org/blockly/media/skins/studio/background_santa.png"': sao
+            '"https://studio.code.org/api/v1/animation-library/ZY0THG5IedwCgmWVIhiPdJH59OORnmgT/category_backgrounds/sun_and_rainbow.png"': mặt
+              trời và cầu vồng
+            '"https://studio.code.org/api/v1/animation-library/_aXeLwM1Ge.ZDVJoON.cAlR3iwhKJJvl/category_backgrounds/sunshine_showers.png"': mưa
+              trong nắng
+            '"https://studio.code.org/api/v1/animation-library/.51KpEhDOyXg4dbDaAnm0dEWLAj1GZwy/category_backgrounds/tennis_court.png"': sân
+              quần vợt
+            '"https://studio.code.org/api/v1/animation-library/yatDsUkvGtT_.fSv68qi1d4YJDMHdGnS/category_backgrounds/tree_island.png"': đảo
+              cây cối
             '"https://studio.code.org/blockly/media/skins/studio/background_underwater.png"': dưới
               nước
             '"https://studio.code.org/blockly/media/skins/studio/background_winter.png"': mùa
               đông
             undefined: không
       gamelab_setBackgroundImageAs:
-        text: thiết lập nền để {IMG}
+        text: đặt hình nền thành {IMG}
       gamelab_setDefaultSpriteSize:
+        text: đặt kích thước mặc định của nhân vật mới thành {SIZE}
         options:
           SIZE:
-            '25': extra small
-            '50': small
+            '25': cực nhỏ
+            '50': nhỏ
             '75': trung bình
-            '100': large
+            '100': lớn
+      gamelab_setPrompt:
+        text: nhắc người dùng {QUESTION} để lấy biến {VAR}
+      gamelab_setPromptWithChoices:
+        text: nhắc người dùng {QUESTION} để lấy biến {VAR} có các lựa chọn {A}{B}{C}
       gamelab_setProp:
-        text: bộ {SPRITE} [PROPERTY]123_321[1] để {VAL}
+        text: đặt {SPRITE} {PROPERTY} thành {VAL}
         options:
           PROPERTY:
             '"scale"': kích cỡ
             '"rotation"': xoay
-            '"x"': hoành độ
-            '"y"': tung độ
-            '"direction"': phương hướng chuyển động
+            '"x"': toạ độ x
+            '"y"': toạ độ y
+            '"direction"': hướng chuyển động
             '"speed"': tốc độ
       gamelab_setProp_dropdown:
+        text: đặt {PROPERTY} {SPRITE} thành {SIZE}
         options:
           PROPERTY:
             '"scale"': kích cỡ
           SIZE:
-            '25': extra small
-            '50': small
+            '25': rất nhỏ
+            '50': nhỏ
             '75': trung bình
-            '100': large
+            '100': lớn
       gamelab_setSizes:
-        text: thiết lập {PROPERTY} {SPRITE} thành {N}%
+        text: đặt {PROPERTY} của {SPRITE} thành {N}%
         options:
           PROPERTY:
             '"scale"': kích cỡ
             '"width"': chiều rộng
             '"height"': chiều cao
       gamelab_setTint:
-        text: thay đổi màu sắc của {THIS} để {COLOR}
+        text: thay đổi màu sắc của {THIS} thành {COLOR}
+      gamelab_setupScoreboard:
+        text: "vẽ bảng điểm \n{SPRITE1COSTUME}điểm{VAR1}{SPRITE2COSTUME}điểm{VAR2}mục
+          tiêu{SPRITE3COSTUME}"
       gamelab_setupSim:
         text: |-
           thiết lập mô phỏng với
@@ -1229,38 +1364,70 @@ vi:
       gamelab_showTitleScreen:
         text: Hiển thị màn hình tiêu đề {BREAK} tiêu đề {TITLE} văn bản {SUBTITLE}
       gamelab_spriteClicked:
-        text: "{CONDITION} {SPRITE} nhấp"
+        text: "{CONDITION} {SPRITE} được nhấp chuột"
         options:
           CONDITION:
             '"when"': khi nào
-            '"while"': Lặp khi
+            '"while"': trong khi
+      gamelab_spriteSay:
+        text: "{SPRITE} nói {SPEECH}"
+      gamelab_spriteSayTime:
+        text: "{SPRITE} nói {TEXT1} trong {NUM} giây"
+      gamelab_startAvoiding:
+        text: "{SPRITE} bắt đầu né {TARGET}"
+      gamelab_startFollowing:
+        text: "{SPRITE} bắt đầu bám theo {TARGET}"
+      gamelab_startGliding:
+        text: "{SPRITE} bắt đầu trượt"
+      gamelab_stopAvoiding:
+        text: "{SPRITE} bắt đầu né các nhân vật khác"
+      gamelab_stopCollectingData:
+        text: bắt đầu thu thập dữ liệu
+      gamelab_stopFollowing:
+        text: "{SPRITE} dừng bám theo các nhân vật khác"
+      gamelab_stopGliding:
+        text: "{SPRITE} dừng trượt"
       gamelab_subjectSpritePointer:
-        text: nhấp {SPRITE}
+        text: "{SPRITE}"
+      gamelab_textJoin:
+        text: "{LEFT_QUOTE}{TEXT1}{RIGHT_QUOTE}{TEXT2}"
+      gamelab_textVariableJoin:
+        text: "{VAR}{TEXT2}"
+      gamelab_tumbling:
+        text: lộn nhào
       gamelab_turn:
-        text: lần lượt {SPRITE} {DIRECTION} {N} độ
+        text: xoay {SPRITE} về phía {DIRECTION} {N} độ
         options:
           DIRECTION:
             '"right"': phải
             '"left"': trái
+      gamelab_updateTitleWithColor:
+        text: hiển thị màn hình tiêu đề {BREAK} tiêu đề {TITLE} màu {COLOR}
+      gamelab_whenAllPromptsAnswered:
+        text: khi đã trả lời hết lời nhắc
       gamelab_whenDownArrow:
         text: khi nhấn mũi tên xuống
       gamelab_whenKey:
-        text: khi nhấn {KEY}
+        text: khi nhấn phím {KEY}
         options:
           KEY:
             '"up"': trên
             '"down"': xuống
             '"left"': trái
             '"right"': phải
-            '"space"': vũ trụ
+            '"space"': phím cách
             '"a"': a
             '"w"': w
             '"s"': s
             '"d"': d
       gamelab_whenLeftArrow:
         text: khi nhấn mũi tên trái
+      gamelab_whenPromptAnswered:
+        text: khi đã trả lời {VAR}
       gamelab_whenRightArrow:
         text: khi nhấn mũi tên phải
+      gamelab_whenSpriteCreated:
+        text: khi tạo nhân vật {SPRITE}
       gamelab_whenTouching:
         text: khi {SPRITE1} chạm {SPRITE2}
       gamelab_whenUpArrow:
@@ -1268,14 +1435,14 @@ vi:
       gamelab_whileDownArrow:
         text: trong khi nhấn mũi tên xuống
       gamelab_whileKey:
-        text: trong khi {KEY} ép
+        text: trong khi nhấn {KEY}
         options:
           KEY:
             '"up"': trên
             '"down"': xuống
             '"left"': trái
             '"right"': phải
-            '"space"': vũ trụ
+            '"space"': phím cách
             '"a"': a
             '"w"': w
             '"s"': s
@@ -1288,12 +1455,27 @@ vi:
         text: trong khi {SPRITE1} đang chạm {SPRITE2}
       gamelab_whileUpArrow:
         text: trong khi nhấn mũi tên lên
+      gamelab_withPercentChance:
+        text: |-
+          nếu {NUM}% khả năng
+          {STATEMENT}
+      gamelab_withPercentChanceDropdown:
+        text: |-
+          {NUM} chance
+          {STATEMENT}
+        options:
+          NUM:
+            '10': rất thấp
+            '25': thấp
+            '50': 50/50
+            '75': cao
+            '90': rất cao
       gamelab_xLocationOf:
-        text: x tọa độ {SPRITE}
+        text: tọa độ x của nhân vật {SPRITE}
       gamelab_yLocationOf:
-        text: tọa độ y của {SPRITE}
+        text: tọa độ y của nhân vật {SPRITE}
       Mikelab_addBehaviorSimple:
-        text: sprite {SPRITE} bắt đầu {BEHAVIOR}
+        text: nhân vật {SPRITE} bắt đầu {BEHAVIOR}
       Mikelab_addTrainingData:
         text: 'thêm dữ liệu đào tạo: {NAME},{LOCATION}'
         options:
@@ -1308,7 +1490,10 @@ vi:
               nhãn của tôi
       Mikelab_allSpritesWithAnimation:
         text: "{ANIMATION}"
+      Mikelab_beginDataCollection:
+        text: nhắc người dùng {QUESTION} để lấy biến {VAR} có các lựa chọn {A}{B}{C}
       Mikelab_changePropBy:
+        text: thay đổi {PROPERTY} của {SPRITE} bởi {VAL}
         options:
           PROPERTY:
             '"scale"': kích cỡ
@@ -1343,13 +1528,13 @@ vi:
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
       Mikelab_groupChangePropBy:
         text: thay đổi {PROPERTY} của {SELECT} {COSTUME} bởi {VAL}
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
           PROPERTY:
             '"scale"': kích cỡ
             '"rotation"': xoay
@@ -1374,7 +1559,7 @@ vi:
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
       Mikelab_groupDisplace:
         text: tất cả {COSTUME} khối {COSTUME2} từ di chuyển
       Mikelab_groupEdgesDisplace:
@@ -1383,8 +1568,7 @@ vi:
         text: "{SELECT} {COSTUME}của {PROPERTY}"
         options:
           SELECT:
-            '"average"': trung bình
-            '"this"': điều này
+            '"this"': nhân vật này
           PROPERTY:
             '"scale"': kích cỡ
             '"rotation"': xoay
@@ -1396,25 +1580,25 @@ vi:
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
       Mikelab_groupRemoveBehaviorSimple:
-        text: "{SELECT} [COSTUME]123_321 điểm[1] {BEHAVIOR}"
+        text: "{SELECT}{COSTUME} dừng {BEHAVIOR}"
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
       Mikelab_groupRemoveTint:
         text: loại bỏ màu sắc từ {SELECT} {COSTUME}
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
       Mikelab_groupSetProp:
-        text: thiết lập {PROPERTY} của {SELECT} {COSTUME} để {VAL}
+        text: thiết lập {PROPERTY} của {SELECT} {COSTUME} thành {VAL}
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
           PROPERTY:
             '"scale"': kích cỡ
             '"rotation"': xoay
@@ -1422,11 +1606,11 @@ vi:
             '"y"': tung độ
             '"direction"': phương hướng chuyển động
       Mikelab_groupSetTint:
-        text: thay đổi màu sắc của {SELECT} {COSTUME} để {COLOR}
+        text: thay đổi màu sắc của {SELECT} {COSTUME} thành {COLOR}
         options:
           SELECT:
             '"all"': tất cả
-            '"this"': điều này
+            '"this"': nhân vật này
       Mikelab_groupWhenClickedOn:
         text: khi {COSTUME} nhấp
       Mikelab_groupWhenXTouchesY:
@@ -1434,9 +1618,7 @@ vi:
       Mikelab_groupWhileClicked:
         text: trong khi nhấp vào {COSTUME}
       Mikelab_groupWhileTouchingAny:
-        text: |-
-          trong khi{COSTUME} đang chạm {COSTUME2}
-          [STATEMENT]123_321[2]
+        text: "trong khi {COSTUME} đang chạm {COSTUME2} \n{STATEMENT}"
       Mikelab_hasBehavior:
         text: "{SPRITE} hiện tại là {BEHAVIOR}"
       Mikelab_hideFish:
@@ -1465,7 +1647,7 @@ vi:
       Mikelab_ifLabel:
         text: |-
           nếu {DANCE}
-          làm {DO1} khác {DO2} 123_321
+          làm {DO1} khác {DO2}
         options:
           DANCE:
             MOVES.ClapHigh: cá
@@ -1473,7 +1655,7 @@ vi:
       Mikelab_ifRecognizeLabel:
         text: |-
           nếu nhận ra đối tượng là {DANCE}
-          làm {DO1} [DO2]khác 123_321[2]
+          làm {DO1} khác {DO2}
         options:
           DANCE:
             MOVES.ClapHigh: cá
@@ -1486,6 +1668,8 @@ vi:
           DANCE:
             MOVES.ClapHigh: cá
             MOVES.Clown: không phải là nhãn của tôi
+      Mikelab_joinText:
+        text: "{NEXT} {TEXT}"
       Mikelab_locationAt:
         text: 'vị trí x: {X} y: {Y}'
       Mikelab_location_picker:
@@ -1493,7 +1677,7 @@ vi:
       Mikelab_randomColor:
         text: màu ngẫu nhiên
       Mikelab_removeBehaviorSimple:
-        text: sprite {SPRITE} điểm dừng {BEHAVIOR}
+        text: nhân vật {SPRITE} dừng {BEHAVIOR}
       Mikelab_repeatUntilComplete:
         text: lặp lại mãi mãi
       Mikelab_sendBad:
@@ -1505,6 +1689,33 @@ vi:
           BG:
             '"https://studio.code.org/api/v1/animation-library/04L4sdTODkNZF1OHf4qO_I.Al3QP43wA/category_backgrounds/city.png"': thành
               phố
+            '"https://studio.code.org/api/v1/animation-library/UieRK0NBKD3xVHtSJxcUTAuhzLM1D_Hq/category_backgrounds/continuous_grass.png"': bãi
+              bỏ bất tận
+            '"https://studio.code.org/api/v1/animation-library/nfgysU3t3P8XnUBAf9LjIy2JTHtdXpTj/category_backgrounds/desert_road.png"': đường
+              sa mạc
+            '"https://studio.code.org/api/v1/animation-library/4FnSIFL33P0PH_C_DnKOse2QbZCdtaJJ/category_backgrounds/farm_land.png"': đất
+              trang trại
+            '"https://studio.code.org/api/v1/animation-library/vrlUwPslp0VK_KJcPQ9OPZNb.Ms5eBL5/category_backgrounds/floating_grass.png"': cỏ
+              lơ lửng
+            '"https://studio.code.org/api/v1/animation-library/ZjjFGjO0xNEZGEweTgANloehQrxwIXVM/category_backgrounds/front_of_house.png"': trước
+              nhà
+            '"https://studio.code.org/api/v1/animation-library/1K7z7Kc3EeXsLV693byb0xxoJSJ4Du7e/category_backgrounds/kitchen.png"': bếp
+            '"https://studio.code.org/api/v1/animation-library/4bsf67OUrcX.t1wbIcE_xygGKxOkiQ6f/category_backgrounds/living_room.png"': phòng
+              khách
+            '"https://studio.code.org/api/v1/animation-library/4gC7uWaaRI4aDyrncCFO_wY_67vYhr4C/category_backgrounds/park_view.png"': cảnh
+              công viên
+            '"https://studio.code.org/api/v1/animation-library/5K0h1rGe5ql4J9TdlqggIzGZYzbD38pF/category_backgrounds/pine_trees.png"': cây
+              thông
+            '"https://studio.code.org//api/v1/animation-library/WJjQlG1rFhbVmPfcuI_wy6tpwI6mHYnM/category_backgrounds/soccer_field.png"': sân
+              bóng
+            '"https://studio.code.org/api/v1/animation-library/ZY0THG5IedwCgmWVIhiPdJH59OORnmgT/category_backgrounds/sun_and_rainbow.png"': mặt
+              trời và cầu vồng
+            '"https://studio.code.org/api/v1/animation-library/_aXeLwM1Ge.ZDVJoON.cAlR3iwhKJJvl/category_backgrounds/sunshine_showers.png"': mưa
+              trong nắng
+            '"https://studio.code.org/api/v1/animation-library/.51KpEhDOyXg4dbDaAnm0dEWLAj1GZwy/category_backgrounds/tennis_court.png"': sân
+              quần vợt
+            '"https://studio.code.org/api/v1/animation-library/yatDsUkvGtT_.fSv68qi1d4YJDMHdGnS/category_backgrounds/tree_island.png"': đảo
+              cây cối
       Mikelab_setProp:
         options:
           PROPERTY:
@@ -1513,6 +1724,11 @@ vi:
             '"x"': hoành độ
             '"y"': tung độ
             '"direction"': phương hướng chuyển động
+      Mikelab_setupOutbreak:
+        text: |-
+          thiết lập ổ dịch
+          quần thể:{SPRITE2N}
+          {TOGGLE}vi rút
       Mikelab_setupSim:
         text: |-
           thiết lập mô phỏng với
@@ -1525,6 +1741,10 @@ vi:
           CORNER:
             '"right"': phải
             '"left"': trái
+      Mikelab_showText:
+        options:
+          PREPOSITION:
+            '"below"': bên dưới
       Mikelab_sprite:
         text: mới {COSTUME} sprite tại {LOCATION}
         options:
@@ -1539,9 +1759,9 @@ vi:
             "{x: 100, y: 300}": phía dưới bên trái
             "{x: 300, y: 300}": góc phải ở phía dưới
       Mikelab_whenClickedOn:
-        text: khi {SPRITE} nhấp
+        text: khi nhấp chuột vào {SPRITE}
       Mikelab_whenKeyPressed:
-        text: khi nhấn {KEY}
+        text: khi nhấn phím {KEY}
         options:
           KEY:
             '"up"': mũi tên lên trên
@@ -1569,8 +1789,8 @@ vi:
         text: khi {KEY} nhấp
         options:
           KEY:
-            '"yes"': Vâng
-            '"no"': Không
+            '"yes"': đồng ý
+            '"no"': không
       Mikelab_whileKeyPressed:
         options:
           KEY:
@@ -1579,9 +1799,226 @@ vi:
             '"left"': mũi tên bên trái
             '"right"': mũi tên bên phải
       Mikelab_xLocationOf:
-        text: x tọa độ {SPRITE}
+        text: tọa độ x của nhân vật {SPRITE}
       Mikelab_yLocationOf:
-        text: tọa độ y của {SPRITE}
+        text: tọa độ y của nhân vật {SPRITE}
+      Outbreak_beginCongregating:
+        text: quái vật bắt đầu tụ tập
+      Outbreak_beginQuarantining:
+        text: quái vật bắt đầu cách ly khi bị ốm
+      Outbreak_beginSocialDistancing:
+        text: quái vật bắt đầu giãn cách xã hội
+      Outbreak_beginWandering:
+        text: quái vật bắt đầu lang thang
+      Outbreak_beginWearingMasks:
+        text: quái vật bắt đầu đeo khẩu trang
+      Outbreak_layoutBorder:
+        text: bố trí quái vật trong phạm vi
+      Outbreak_layoutClusters:
+        text: bố trí quái vật theo cụm {NUM} quái vật
+      Outbreak_layoutGrid:
+        text: bố trí quái vật theo dạng lưới
+      Outbreak_layoutRandom:
+        text: bố trí quái vật ngẫu nhiên
+      Outbreak_stopMoving:
+        text: quái vật ngừng di chuyển
+      Poetry_addFrame:
+        text: đặt khung thành {BRUSH}
+        options:
+          BRUSH:
+            '"brick"': gạch
+            '"hearts"': trái tim
+            '"iceCream"': Kem
+            '"rainbow"': cầu vồng
+            '"stars"': sao
+      Poetry_addLine:
+        text: thêm dòng {LINE}
+      Poetry_addTextHighlight:
+        text: tô sáng chữ {COLOR}
+      Poetry_animateText:
+        text: tạo chuyển động cho văn bản
+      Poetry_destroy:
+        text: xóa {ANIMATION_NAME}
+      Poetry_glideTo:
+        text: "{SPRITE} trượt tới {LOCATION}"
+      Poetry_hideText:
+        text: ẩn văn bản
+      Poetry_makeBurst:
+        text: tạo hiệu ứng {EFFECT} có {NUM} nhân vật {ANIMATION_NAME}
+        options:
+          EFFECT:
+            '"pop"': nổ
+            '"rain"': mưa
+      Poetry_makeNewSpriteAnon:
+        text: tạo nhân vật {ANIMATION_NAME} mới tại {LOCATION}
+      Poetry_makeNumSprites:
+        text: tạo {NUM} nhân vật {ANIMATION_NAME} mới
+      Poetry_playMusic:
+        text: phát nhạc {SOUND}
+        options:
+          SOUND:
+            '"sound://category_loops/vibrant_game_musical_harping_movement_loop_1.mp3"': Yên
+              tĩnh
+            '"sound://category_nature/steady_campfire_loop.mp3"': Lửa trại
+            '"sound://category_nature/rain_loop.mp3"': Mưa phùn
+            '"sound://category_loops/faultering_desicion_loop1.mp3"': Ma ám
+            '"sound://category_background/inside_plane.mp3"': Vo ve
+            '"sound://category_loops/red_flag_loop1.mp3"': Nhiệm vụ
+            '"sound://category_nature/summer_night_loop.mp3"': đêm
+            '"sound://category_background/repitition.mp3"': Cưỡi
+            '"sound://category_loops/stabilizing_breath_loop1.mp3"': Chậm
+      Poetry_playSound:
+        text: phát âm thanh {SOUND}
+        options:
+          SOUND:
+            '"sound://category_bell/long_bell_notification.mp3"': Chuông
+            '"sound://category_digital/boing_2.mp3"': Tiếng nảy
+            '"sound://category_pop/bubble_pop_cluster_2.mp3"': Bong bóng
+            '"sound://category_accent/puzzle_game_accent_chatter_02.mp3"': Nói nhảm
+            '"sound://category_explosion/vibrant_game_cartoon_game_laser_hit_13_boom_doppler.mp3"': Xì
+              hơi
+            '"sound://category_jump/retro_game_enemy_jump_3.mp3"': Thất bại
+            '"sound://category_alerts/vibrant_game_flutter_ambient_alert.mp3"': Chớp
+              cánh
+            '"sound://category_jump/vibrant_game_jumping_up_1.mp3"': Nhảy cao
+            '"sound://category_poof/puzzle_game_poof_04.mp3"': Bỗng chốc
+            '"sound://category_achievements/puzzle_game_achievement_big_03.mp3"': Quét
+            '"sound://category_background/typewriter.mp3"': Máy đánh chữ
+            '"sound://category_achievements/vibrant_virtcal_achievment.mp3"': Rung
+              động
+            '"sound://category_achievements/peaceful_win_1.mp3"': Thắng
+            '"sound://category_explosion/vibrant_game_arcade_game_negative_hit.mp3"': Xoay
+              tròn
+            '"sound://category_achievements/peaceful_win_6.mp3"': Chuông gió
+      Poetry_setAuthor:
+        text: đặt tác giả {AUTHOR}
+      Poetry_setBackground:
+        text: đặt màu nền thành {COLOR}
+      Poetry_setBackgroundEffect:
+        text: đặt nền thành {EFFECT} {PALETTE}
+        options:
+          EFFECT:
+            '"blooming"': Nở hoa
+            '"bubbles"': Bong bóng
+            '"clouds"': Mù mịt
+            '"confetti"': Hoa giấy
+            '"darkCircles"': Mờ dần
+            '"fadeColors"': Đóng băng
+            '"hearts"': trái tim
+            '"space"': Không gian
+            '"rain"': mưa
+            '"ripples"': Gợn sóng
+            '"colors"': Màu sắc
+            '"stars"': Sao
+            '"squiggles"': Nét nguệch ngoạc
+          PALETTE:
+            '"autumn"': Mùa thu
+            '"sunrise"': Bình minh
+            '"sunset"': Hoàng hôn
+            '"grayscale"': Xám
+            '"rainbow"': cầu vồng
+            '"roses"': Hoa hồng
+            '"sky"': Bầu trời
+            '"spring"': Mùa xuân
+            '"summer"': Mùa hạ
+            '"winter"': Mùa đông
+      Poetry_setBackgroundImageAs:
+        text: đặt hình nền thành {IMG}
+      Poetry_setFont:
+        text: đặt phông chữ {FONT}
+        options:
+          FONT:
+            '"Arial"': Arial
+            '"Arial Black"': Arial Black
+            '"Courier"': Courier
+            '"Cursive"': Chữ viết tay
+            '"Impact"': Impact
+            '"Georgia"': Georgia
+            '"Times"': Times
+      Poetry_setFontColor:
+        text: đặt màu chữ {FILL}
+      Poetry_setForegroundEffect:
+        text: làm hiệu ứng {EFFECT}
+        options:
+          EFFECT:
+            '"bubbles"': Bong bóng
+            '"confetti"': Hoa giấy
+            '"hearts"': trái tim
+            '"emojis"': Biểu tượng cảm xúc vui vẻ
+            '"rain"': mưa
+            '"starburst"': Lóe sáng
+            '"glass"': Kính vỡ
+            '"twinkling"': Lấp lánh
+      Poetry_setPrompt:
+        text: nhắc người dùng {LEFT_QUOTE}{NAME}{RIGHT_QUOTE} cho biến {VAR}
+      Poetry_setPromptWithChoices:
+        text: nhắc người dùng {LEFT_QUOTE}{TEXT}{RIGHT_QUOTE} cho biến {VAR} với các
+          lựa chọn {LEFT_QUOTE_A}{A}{RIGHT_QUOTE_A} {LEFT_QUOTE_B}{B}{RIGHT_QUOTE_B}
+          {LEFT_QUOTE_C}{C}{RIGHT_QUOTE_C}
+      Poetry_setSize:
+        text: đặt kích cỡ {SPRITE} thành {VAL}
+      Poetry_setTextEffect:
+        text: đặt hiệu ứng văn bản {EFFECT}
+        options:
+          EFFECT:
+            '"fade"': mờ dần
+            '"flyLeft"': bay từ bên trái
+            '"flyRight"': bay từ bên phải
+            '"flyTop"': bay từ trên xuống
+            '"flyBottom"': bay từ dưới lên
+            '"typewriter"': máy đánh chữ
+      Poetry_setTitle:
+        text: đặt tiêu đề {TITLE}
+      Poetry_showText:
+        text: hiển thị văn bản
+      Poetry_startBehavior:
+        text: nhân vật {ANIMATION_NAME} bắt đầu {BEHAVIOR}
+        options:
+          BEHAVIOR:
+            '"fluttering"': rung rinh
+            '"growing"': phóng to
+            '"jittering"': phập phồng
+            '"shrinking"': thu nhỏ
+            '"spinning_left"': xoay trái
+            '"spinning_right"': xoay phải
+            '"wandering"': lang thang
+            '"wobbling"': nhúc nhích
+      Poetry_stopBehavior:
+        text: nhân vật {ANIMATION_NAME} dừng {BEHAVIOR}
+        options:
+          BEHAVIOR:
+            '"fluttering"': rung rinh
+            '"growing"': phóng to
+            '"jittering"': phập phồng
+            '"shrinking"': thu nhỏ
+            '"spinning_left"': xoay trái
+            '"spinning_right"': xoay phải
+            '"wandering"': lang thang
+            '"wobbling"': nhúc nhích
+            '"all"': "--tất cả hành vi--"
+      Poetry_stringValue:
+        text: "{LEFT_QUOTE}{TEXT}{RIGHT_QUOTE}"
+      Poetry_textConcat:
+        text: "{LEFT_QUOTE}{TEXT1}{TEXT2}{RIGHT_QUOTE}"
+      Poetry_textVariableJoin:
+        text: "{VAR}{TEXT2}"
+      Poetry_whenLineShows:
+        text: khi dòng {N} hiển thị
+        options:
+          N:
+            '0': "???"
+            '1': '1'
+            '2': '2'
+            '3': '3'
+            '4': '4'
+            '5': '5'
+            '6': '6'
+            '7': '7'
+            '8': '8'
+            '9': '9'
+            '10': '10'
+      Poetry_whenPromptAnswered:
+        text: khi đã trả lời {VAR}
       RyanLab_moveForward:
         text: đi thẳng
       RyanLab_turnLeft:
@@ -1589,7 +2026,7 @@ vi:
       RyanLab_turnRight:
         text: rẽ phải
       SpriteLab2Beta_spriteSay:
-        text: sprite {SPRITE} nói {TEXT} cho {SECONDS} giây
+        text: nhân vật {SPRITE} nói {TEXT} trong {SECONDS} giây
       Vector_createSpriteWith:
         text: |-
           tạo sprite
@@ -1636,6 +2073,8 @@ vi:
             '0.75': most
             '0.5': half of
             '0.25': few
+      aalab_spriteSayChoices:
+        text: "{SPRITE} nói {SPEECH}"
       binary_drawBin:
         text: vẽ nhị phân {BIN}
       binary_drawBinScreen:
@@ -1657,7 +2096,6 @@ vi:
           VAL:
             '0': tắt
             '1': trên
-            '"toggle"': bật/tắt
       binary_drawString:
         text: vẽ chuỗi {STR}
       binary_goTo:
@@ -1675,21 +2113,21 @@ vi:
             '"left"': trái
             '"right"': phải
       binary_whenKey:
-        text: khi nhấn {KEY}
+        text: khi nhấn phím {KEY}
         options:
           KEY:
             '"up"': trên
             '"down"': xuống
             '"left"': trái
             '"right"': phải
-            '"space"': vũ trụ
+            '"space"': phím cách
             '"a"': a
             '"w"': w
             '"s"': s
             '"d"': d
       craft_ifPath:
         text: |-
-          nếu có đường dẫn {DIR}
+          nếu đường đi {DIR}
           {STATEMENT}
         options:
           DIR:
@@ -1730,6 +2168,7 @@ vi:
             '"stoneBricks"': gạch đá
             '"mossyStoneBricks"': gạch đá phủ đầy rêu
             '"crackedStoneBricks"': gạch đá bị nứt
+            '"chiseledStoneBricks"': gạch đá trang trí
             '"blueCoralBlock"': khối san hô màu xanh
             '"pinkCoralBlock"': khối san hô màu hồng
             '"magentaCoralBlock"': khối san hô đỏ tươi
@@ -1750,12 +2189,12 @@ vi:
             '"kelp"': rong biển
             '"polishedGranite"': đá granit được đánh bóng
       craft_placePrismarine:
-        text: đặt prismarine
+        text: đặt đá prismarine
       craft_placeTorch:
         text: đặt đuốc
       craft_repeatUntilConduit:
         text: |-
-          lặp lại cho đến khi hoàn thành ống dẫn
+          lặp lại đến khi đường dẫn hoàn thành
           {STATEMENT}
       craft_repeatUntilGoal:
         text: |-
@@ -1777,3 +2216,5 @@ vi:
           DIR:
             right: phải ↻
             left: trái ↺
+      validation_validatedBackground:
+        text: đặt hình nền thành {IMG}

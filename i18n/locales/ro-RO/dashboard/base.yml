@@ -167,8 +167,8 @@ ro:
     additional_information: "Mai avem nevoie de câteva informaţii adiționale pentru a te putea înscrie."
     user_type_button: "Actualizaţi tipul de contul"
     user_type_label: "Tipul contului"
-    user_type_teacher: "Profesor"
     user_type_student: "Elev"
+    user_type_teacher: "Profesor"
     field_is_required: "este necesar"
     accept_terms: "Trebuie să fii de acord pentru a crea un cont"
     error: "S-a produs o eroare."
@@ -177,6 +177,10 @@ ro:
     email_preference_yes: "Da"
     email_preference_no: "Nu"
     email_preference_required: "Trebuie să specificaţi un email preferat."
+    share_teacher_email_reg_partner_question: "Dorești să împărtășim datele tale de contact cu [Code.org regional partner](%{cdo_regional_partner_desc}) din statul tău pentru a putea să îți trimită notificări despre dezvoltarea profesională locală, resurse și evenimente?"
+    share_teacher_email_reg_partner_preference_yes: "Da"
+    share_teacher_email_reg_partner_preference_no: "Nu"
+    share_teacher_email_reg_partner_preference_required: "Trebuie să specificaţi un email preferat."
     parent_account_checkbox: "Sunt un părinte/tutore care se înscrie în numele copilului meu"
     parent_account_email_progress_permission: "Putem să vă trimitem un email cu actualizări ocazionale privind progresul și proiectele copilului dv., precum și actualizări despre cursul lui și despre informatică? [(Vedeți politica noastră de confidențialitate)](%{privacy_policy_url})"
     parent_account_email_label: "Email-ul Părintelui/Tutorelui"
@@ -270,6 +274,7 @@ ro:
     invite_sent: 'Invitație trimisă'
     added_teacher: '%{name} adăugat(ă) ca și profesorul tău'
     registered: "Te-ai înregistrat pentru %{section_name}."
+    already_exists: 'Deja te-ai alăturat secțiunii %{section_name}.'
     error:
       signed_in: 'Te rugăm să te deloghezi înainte de a continua'
       username_not_found: 'Utilizatorul %{username} nu a fost găsit'
@@ -315,10 +320,17 @@ ro:
       sections: "Secțiuni"
       help_support: "Ajutor şi suport"
       report_bug: "Raportare problemă"
+      report_abuse: "Raportează abuz"
       teacher_community: "Comunitate profesori"
       professional_learning: "Dezvoltare profesională"
       documentation: "Documentație"
       tutorials: "Tutoriale"
+      app_lab_documentation: "Documentația Laboratorului Web"
+      app_lab_tutorials: "Tutoriale  Laborator Web"
+      game_lab_documentation: "Documentația Laboratorului Web"
+      game_lab_tutorials: "Tutoriale  Laborator Web"
+      sprite_lab_documentation: "Documentație Sprite Lab"
+      sprite_lab_tutorials: "Tutoriale Sprite Lab"
       web_lab_documentation: "Documentația Laboratorului Web"
       educate_overview: "Prezentare profesor"
       educate_elementary: "Şcoala elementară"
@@ -345,6 +357,7 @@ ro:
       help_us: "Ajutați-ne"
       teach: "Predați"
       about: "Despre"
+      legal: "Confidențialitate&Legalitate"
       legal_privacy: "Politică de confidențialitate"
       legal_tos: "Termeni şi condiţii de utilizare"
     user:
@@ -352,6 +365,7 @@ ro:
       district_dashboard: 'Tabel de instrumente pe zonă districtuală'
       label: 'Salut %{username}'
       stats: 'Studio-ul Code'
+      my_projects: 'Proiectele mele'
       settings: 'Contul meu'
       logout: 'Deloghează-te'
       signin: 'Autentificare'
@@ -386,13 +400,17 @@ ro:
       minecraft_hero: 'Minecraft Hero'
       playlab: 'Laborator de Joacă'
       playlab_k1: 'Play Lab (Pre-cititor)'
+      poetry: 'Poezie'
+      poetry_hoc: 'Arta Poeziei'
       scratch: 'Scratch'
       sports: 'Sporturi (Sports)'
       spritelab: 'Laborator Sprite'
       starwars: 'Star Wars'
       starwarsblocks: 'Star Wars (blocuri)'
       starwarsblocks_hour: 'Star Wars (blocuri)'
+      loading: 'Se încarcă...'
       weblab: 'Laboratorul de web'
+      view_all: 'Vezi toate proiectele...'
     popup:
       progress_for_user: "Progresul lui %{name}"
       progress: 'Progresul tău'
@@ -406,6 +424,7 @@ ro:
       prizes_link: 'Mai multe informaţii'
   teacher:
     answer: Răspuns
+    dashboard: 'Tabloul de bord al profesorilor'
     for_teachers_only: Doar pentru profesori
     title:
       one: 'Profesorul tău:'
@@ -514,6 +533,7 @@ ro:
     no_primary_course: "Încearcă un curs cu Atelierul de programare"
     choose_next_course: "Încearcă un curs cu Atelierul de programare alegând unul de mai jos"
     print_certificate: "Tipărește certificatul"
+  certificate_sponsor_message: "%{sponsor_name} a făcut darul generos de a vă sponsoriza învățarea."
   move_students:
     new_section_dne: "Ne pare rău, dar secțiunea %{new_section_code} nu există. Vă rugăm să introduceţi un cod aferent unei secţiuni diferite."
     section_code_cant_be_current_section: "Secţiunea curentă nu poate fi la fel ca o secţiune nouă."
@@ -584,8 +604,6 @@ ro:
       link: "Află mai mult"
       applab_unsupported_tablet: "Laboratorul de aplicații funcționează cel mai bine pe un calculator de birou sau laptop cu mouse și tastatură. Este posibil să întâmpinați probleme folosind acest instrument pe dispozitivul dvs. curent."
       gamelab_unsupported_tablet: "Laboratorul de jocuri funcționează cel mai bine pe un calculator de birou sau laptop cu mouse și tastatură. Este posibil să întâmpinați probleme folosind acest instrument pe dispozitivul dvs. curent."
-      oceans_unsupported_browser: "Acest browser nu este suportat pentru acest tutorial. Te rugăm să vizitezi această pagină folosind Edgge, Chrome, Firefox sau alt browser modern."
-      weblab_unsupported_browser: "Din păcate, în prezent, întâmpinăm probleme cu încărcarea Laboratorului de web în acest browser. Poate doriți să utilizați un browser diferit până când acest lucru este rezolvat. Ne cerem scuze pentru neplăcerile create."
       weblab_unsupported_locale_storage: "S-ar putea să întâmpinați probleme la utilizarea Laboratorului de web în modul de navigare privată. Vă rugăm, reîncărcați proiectul în modul normal. Ne pare rău pentru inconveniență."
   slow_loading: 'Aceasta durează mai mult decât de obicei...'
   try_reloading: 'Încearcă să reîncarci pagina'
@@ -675,10 +693,12 @@ ro:
       title: "Minecraft"
     hero:
       title: "Minecraft"
+      body: "Minecraft s-a întors pentru Ora de Codare cu o activitate nou-nouță! Călătorie prin Minecraft cu cod."
     sports:
       title: "Sporturi (Sports)"
       body: "Creați un joc de basketball sau un \"mix and match\" din toate sporturile."
     text-compression:
+      title: "Comprimare de text"
       body: "În această lecție, elevii vor folosi Widget-ul de comprimare de text pentru a comprima textul prin înlocuirea modelelor cu simboluri."
     unplugged:
       title: "Lecţii offline"
@@ -899,7 +919,7 @@ ro:
     instructions_headline: 'Fără internet?'
     instructions: 'Instrucţiuni pentru profesori: dacă aveţi servicii de Internet slabe, aceste tutoriale Hour of Cide sunt disponibile pentru a descărca şi instala pentru utilizarea neconectată. Alegeti limba si platforma, descărcati şi instalati pe toate computerele în clasa dvs. Vă recomandăm să utilizaţi o unitate USB pentru a instala pe toate computerele. Notă: studenţii nu vor fi capabiil să intre în Code Studio, salva progresul sau imprima certificatele. Profesorii pot imprima certificatele înainte, din timp <a href="%{url}"> aici</a>.'
     minecraft_name: 'Ora de Programare Minecraft'
-    starwars_blocks_name: 'Star Wars: Programarea unei galaxii cu blocuri de cod'
+    starwars_blocks_name: 'Star Wars: Programarea unei galaxii - Evenimente'
     starwars_javascript_name: 'Star Wars: Programarea unei galaxii - JavaScript'
     download_message: 'Download %{app_name} pentru utilizare offline (136MB)'
     download_in_Albanian: 'Descărcaţi în albaneză:'
@@ -964,13 +984,14 @@ ro:
       email: 'E-mail'
       email_alternate: 'Email alternativ'
       gender: 'Identitate de gen'
+      school: 'Școală'
       school_name: 'Numele școlii'
       school_city: 'Orașul în care se află școala'
+      school_city_district: 'Orașul/Sectorul Școlii'
       school_country: 'Țara școlii'
       colombian_school_city: 'Orașul în care se află școala'
-      colombian_school_department: 'Departament Școlar'
       colombian_school_municipality: 'Municipiul Școlar'
-      colombian_school_name: 'Numele școlii'
+      colombian_chilean_school_name: 'Numele școlii'
       ages: 'Care este/sunt vârsta/vârstele pentru care predai acest an?'
       subjects: 'Ce materii predai acest an?'
       resources: 'Care dintre următoarele resurse de educație cibernetică folosești?'
@@ -1064,6 +1085,7 @@ ro:
     message: 'Dacă continuați să navigați site-ul nostru sau faceți clic pe " Sunt de acord", sunteți de acord cu stocarea cookie-urilor pe computerul sau pe dispozitivul dumneavoastră.'
     more_information: "Consultaţi Politica de confidenţialitate a Code.org."
     accept: 'Sunt de acord'
+  page_not_found_title: "Pagina nu a fost găsită"
   copy: 'Copiază'
   confirm: 'Confirmă'
   maker:

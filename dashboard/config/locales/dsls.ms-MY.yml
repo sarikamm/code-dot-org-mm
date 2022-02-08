@@ -2188,3 +2188,462 @@ ms-MY:
         display_name: Akhir Projek Kursus
       courseF_EOC_2020:
         display_name: Akhir Projek Kursus
+      CourseF_outbreak_story2:
+        markdown: "# Wabak: Berfikir Seperti Saintis\n\n<img src=\"https://images.code.org/89376b9ebd5fcee77545f13a7a444430-image-1603135356392.png\"
+          style=\"float:right; width:30%\">\n\nSimulasi adalah cara yang hebat untuk
+          mempelajari perkara-perkara yang sukar diperhatikan di dunia nyata. Ia membantu
+          saintis menyelesaikan masalah dan menguji idea baru dengan selamat dan cekap.
+          Simulasi anda adalah cara untuk menunjukkan bagaimana wabak virus di Bandar
+          Raksasa mungkin berlaku.\n\n## Tetapkan Semula dan Main Semula!\nWalaupun
+          anda menulis kod sendiri, ia mustahil untuk mengetahui dengan tepat apa
+          yang akan berlaku semasa anda menekan jalan. Raksasa berkeliaran secara
+          rawak, jadi anda tidak tahu sekiranya virus itu akan tersebar dengan cepat
+          atau lambat. Setiap kali anda menukar kod anda, pastikan untuk menjalankan
+          simulasi anda lebih dari sekali. Perkara tidak akan berlaku dengan cara
+          yang sama dua kali!\n\n## Mengumpul Data\nCuba tuliskan pemerhatian anda
+          semasa menjalankan simulasi anda. Anda boleh mengira bilangan raksasa yang
+          jatuh sakit atau menggunakan pemasa untuk melihat seberapa cepat perkara
+          itu berlaku. Contohnya, berapa lama biasanya semua raksasa jatuh sakit jika
+          tiada yang mempunyai pelitup? \n\n## Membuat Ramalan\nSekiranya anda memahami
+          model anda, anda boleh menggunakannya untuk membuat ramalan. Anda juga boleh
+          mengubah cara simulasi anda berjalan dan meneka apa yang akan berlaku secara
+          berbeza. Sebagai contoh:\n* Apa yang akan berlaku sekiranya terdapat dua
+          kali ganda raksasa?\n* Apa yang akan berlaku sekiranya raksasa bergerak
+          pada separuh kelajuan?\n\n<img src=\"https://images.code.org/2e83373ffd346ce3f42917a0624d441c-image-1603749526420.png\"
+          style=\"float:right\">\n\n## Adakah Monster Town seperti dunia nyata?\nTerdapat
+          had realistik kepada model. \n* Apakah persamaan simulasi wabak anda dengan
+          wabak virus dunia nyata?\n* Apakah perbezaannya?\nSelepas anda menyelesaikan
+          aktiviti ini, bincangkan soalan-soalan ini dengan guru atau keluarga anda!\n\n##
+          Apa lagi yang boleh dimodel?\nAnda telah mencipta model yang berfungsi untuk
+          wabak di Bandar Raksasa. Apakah perkara yang tidak dapat dilakukan oleh
+          simulasi anda atau anda perkara yang diharapkan? Tekan teruskan untuk terus
+          berjalan dan belajar mencipta lebih banyak model:\n* Menambah bilangan raksasa
+          dalam simulasi\n* Membantu raksasa pulih dari virus\n* Kebarangkalian, imuniti,
+          vaksin, dan banyak lagi!\n\nAnda juga boleh berkongsi model simulasi anda
+          dengan orang lain, atau berkongsi mesej tentang apa yang anda rasa dapat
+          kami lakukan untuk membantu menjaga kesihatan orang lain ketika virus merebak
+          ke bandar. "
+      OPD-K5 CS Courses_dani:
+        markdown: "# Merancang > Langkah permulaan di Code.org\n\n\n## Langkah 1:
+          Pilih kursus\nSemua kursus kami -- daripada prapembaca sehingga peringkat
+          sekolah menengah -- disenaraikan dalam **[katalog kursus](https://studio.code.org/courses)**.
+          Untuk mencari pelajaran Asas CS yang anda telah amalkan, sila pergi ke **[halaman
+          sekolah rendah] kami (https://code.org/educate/curriculum/elementary-school)**
+          dan tatal ke bawah sehingga sampai ke bahagian \"Kursus\". Semua kursus
+          kami tersedia tanpa sebarang kos. Sila bersembang dengan dengan rakan anda
+          di sekolah untuk menentukan sejauh mana kurikulum kursus boleh diintegrasikan
+          dengan pelbagai mata pelajaran.\n![](https://images.code.org/37dd42348eba605513fd0b1f17d1409c-image-1549066063927.png)\n***\n##
+          Langkah 2: Sediakan bahagian kelas anda\nSediakan bahagian kelas untuk melihat
+          kemajuan pelajar anda, cetak kad log masuk untuk pelajar anda, uruskan akaun
+          mereka dan cetak sijil yang boleh mereka bawa pulang apabila mereka menyelesaikan
+          kursus itu. Klik pautan ini untuk **[menonton video pendek](https://code.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56d32934-3f67-48db-98db-e66e9152df7b)**
+          yang menunjukkan cara menyediakan kelas sains komputer pertama anda di Code.org.
+          Anda juga boleh mengikuti langkah dalam **[artikel sokongan ini](https://support.code.org/hc/en-us/articles/115000488132-Creating-a-classroom-section)**.\n![](https://images.code.org/26b023ea019f33492aebea43eb6a1dfe-image-1549065670221.png)\n***\n##
+          Langkah 3: Tetapkan kursus kepada bahagian anda\nKlik pada kursus yang anda
+          sedang mengajar -- anda sepatutnya melihat skrin yang kelihatan seperti
+          di bawah. Kemudian, anda boleh mengklik pada \"Tetapkan Kursus\" dan tetapkan
+          kursus itu kepada satu daripada bahagian anda. \n![](https://images.code.org/3b81aa7989d237447e525f42646412d4-image-1549065690577.png)\n***\n##
+          Langkah 4: Mula mengajar! \nSemua yang diperlukan ialah hanya satu pelajaran
+          untuk membawa konsep sains komputer ke dalam kelas anda. Sebaik sahaja anda
+          dapat lihat minat pelajar terhadap CS, lakukan lebih lanjut dengan rancangan
+          pelajaran harian bertujuan membimbing pelajar anda, aktiviti nirplag yang
+          boleh anda lakukan tanpa menggunakan komputer dan forum untuk menyambung
+          kepada guru lain.\n\n\n\n"
+      courseAB_EOC_2021:
+        display_name: Akhir Projek Kursus
+      courseB_EOC_2021:
+        display_name: Akhir Projek Kursus
+      courseC_multi_artist_prog6_predict1_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseC_multi_harvester_loops11_predict1_2021:
+        answers:
+        - text: '4'
+        - text: '12'
+          correct: true
+        - text: '15'
+        - text: '20'
+        questions:
+        - {}
+      courseC_multi_maze_debugging8_predict1_2021:
+        answers:
+        - {}
+        - correct: true
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseC_multi_maze_programming8_predict1_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseC_multi_starWars_predict1_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseC_multi_starWars_predict2_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseD_EOC_2021:
+        display_name: Akhir Projek Kursus
+      courseD_multi_artist_nestedLoops9_predict1_2021:
+        answers:
+        - correct: true
+        - {}
+        - {}
+        - {}
+        questions:
+        - {}
+      courseD_multi_bee_conditionals1_predict1_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseD_multi_bee_conditionals1_predict1_dani:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseD_multi_bee_conditionals7_predict2_2021:
+        answers:
+        - correct: true
+        - {}
+        - {}
+        - {}
+        questions:
+        - {}
+      courseD_multi_bee_nestedLoops2_predict1_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseD_multi_bee_nestedLoops9_predict2_2021:
+        answers:
+        - text: '4'
+        - text: '8'
+          correct: true
+        - text: '10'
+        - text: '12'
+        questions:
+        - {}
+      courseD_multi_farmer_condLoops9_predict1_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseD_multi_farmer_while10_predict2_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseD_multi_farmer_while4_predict1_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseD_multi_maze_until10_predict2_2021:
+        answers:
+        - correct: true
+        - {}
+        - {}
+        - {}
+        questions:
+        - {}
+      courseD_multi_maze_until2_predict1_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseE_EOC_2021:
+        display_name: Akhir Projek Kursus
+      courseE_EOC_examples_2021:
+        display_name: Akhir Projek Kursus
+      courseE_multi_dance_events_predict1_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseE_multi_farmer_functions11_predict_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseE_prediction_artistFunction1_2021:
+        answers:
+        - {}
+        - {}
+        - {}
+        - correct: true
+        questions:
+        - {}
+      courseE_prediction_artistFunction1_dani:
+        answers:
+        - {}
+        - {}
+        - {}
+        - correct: true
+        questions:
+        - {}
+      courseE_swim_fish_behavior_predict1_2021:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseF_EOC_2021:
+        display_name: Akhir Projek Kursus
+      courseF_EOC_examples_2021:
+        display_name: Akhir Projek Kursus
+      courseF_EOC_samples_2021:
+        display_name: Akhir Projek Kursus
+      courseF_events_predict_multi:
+        answers:
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseF_labels_predict_multi:
+        answers:
+        - {}
+        - {}
+        - {}
+        - correct: true
+        - {}
+        questions:
+        - {}
+      courseF_multi_artist_variables3a_predict1_2021:
+        answers:
+        - correct: true
+        - {}
+        - {}
+        - {}
+        questions:
+        - {}
+      courseF_multi_bee_for3_predict1_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseF_sprites_predict_multi:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      courseF_variables_predict_multi:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      coursee_prediction_artistfunction2_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      express_EOC_2021:
+        display_name: Akhir Projek Kursus
+      grade2_multi_collector_A_predict1_2021:
+        answers:
+        - {}
+        - correct: true
+        - {}
+        - {}
+        questions:
+        - {}
+      CourseF_outbreak_story:
+        markdown: "# Wabak: Kod Simulasi Anda Yang Tersendiri\n\n## Selamat datang
+          ke Bandar Raksasa!\nBandar Raksasa dulunya tempat yang gembira dan sihat.
+          Raksasa Bandar Raksasa suka berkeliaran untuk melawat rakan mereka. \n\n<img
+          src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\">\n\nPada suatu hari, satu raksasa mula jatuh sakit. Raksasa
+          itu terkena **virus**! Virus adalah kuman kecil yang boleh menyebabkan anda
+          sakit. Raksasa lain tidak terlalu risau. Mereka terus melawat rakan mereka.\n\n<img
+          src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\">\n\nTidak lama kemudian, dua lagi raksasa jatuh sakit.
+          Ia virus yang sama! Maknanya mereka terkena virus dari rakan mereka.\n\n<img
+          src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\">\n\nVirus tersebut merebak secara perlahan kepada raksasa
+          yang berdekatan. Raksasa yang sihat mula risau bahawa mereka semua akan
+          jatuh sakit. Raksasa yang sakit mula risau bahawa mereka akan menyebarkan
+          virus kepada yang lain.\n\n<img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/f30010a430a4189a734467094842b39d-image-1603134238257.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/3b55881f776348c6eb32379e4cbd34e1-image-1603133896503.png\"
+          style=\"width:8%\">\n\n\n<div style=\"display: inline-block\">\n<img src=\"https://images.code.org/89376b9ebd5fcee77545f13a7a444430-image-1603135356392.png\"
+          style=\"float:right; width:30%\">\n\n## Menghentikan penyebaran\nNasib baik,
+          selepas mengkaji virus, jiran Bandar Raksasa membuat penemuan penting. Mereka
+          sedar bahawa penyebaran virus berkurangan jika mereka memakai pelitup atas
+          mulut mereka. Dengan pelitup muka, raksasa yang sakit kurang berkemungkinan
+          untuk menyebarkan virus kepada raksasa sihat.\n\n<img src=\"https://images.code.org/c98f28f9bf6a027143592109d59ee484-image-1603134766360.png\"
+          style=\"width:8%\"> <img src=\"https://images.code.org/bac9dbfaf1815c6627fc24e8e6db396d-image-1603134760456.png\"
+          style=\"width:8%\">\n\n</div>\n\n<img src=\"https://images.code.org/ef7499758496b39bcccc24aabd2af5d7-image-1603137920037.2020-10-19
+          16_04_58.gif\" style=\"float:left; width:25%; padding-right:25px\">\n\n##
+          Apa yang berlaku seterusnya?\n\nHari ini, anda akan menulis kod untuk mencipta
+          dan menjalankan **simulasi** wabak virus anda yang tersendiri di Bandar
+          Raksasa.  Simulasi adalah model komputer mengenai proses atau sistem. Belajar
+          mengekod dan membuat ramalan tentang apa yang akan berlaku kepada jiran
+          Bandar Raksasa.\n\n<img src=\"https://images.code.org/fcbfd250d58652bdfd6393ec4f2fe2dd-image-1603134705074.png\"
+          style=\"float:right; width:15%\">\n\n* *Seberapa cepat virus merebak?*\n\n*
+          *Adakah semua orang akan jatuh sakit?*\n\n* *Bagaimana pelitup muka membantu?*\n\n\nSetelah
+          selesai, kongsi simulasi anda dengan orang lain. Kongsi mesej anda mengenai
+          apa yang boleh kami lakukan untuk membantu menjaga kesihatan orang lain
+          ketika virus merebak ke bandar."
+      CSD U3 Collisions SFLP:
+        markdown: |-
+          # Gambaran keseluruhan
+
+          Kelas memprogram sprite mereka untuk berinteraksi dengan cara baharu. Selepas semakan ringkas tentang cara mereka menggunakan blok isTouching, pelajar membuat sumbang saran cara lain yang dua sprite boleh berinteraksi. Mereka kemudian menggunakan isTouching untuk membuat satu sprite menolak yang lain merentasi skrin sebelum berlatih dengan empat blok perlanggaran (berlanggar, menyesarkan, melantun dan melenting).
+          ## Kosa kata
+
+          * **Abstraksi** - Menarik perbezaan khusus untuk menjadikan satu penyelesaian berfungsi untuk berbilang masalah.
+
+          ## Kod yang Diperkenalkan
+
+          * [sprite.bounceOff()](//studio.code.org/docs/gamelab/bounceOff/)
+          * [sprite.collide()](//studio.code.org/docs/gamelab/collide/)
+          * [sprite.displace()](//studio.code.org/docs/gamelab/displace/)
+          * [sprite.setCollider()](//studio.code.org/docs/gamelab/setCollider/)
+          * [sprite.bounce()](//studio.code.org/docs/gamelab/bounce/)
+          * [sprite.bounciness](//studio.code.org/docs/gamelab/bounciness/)
+      CSD U3 Functions SFLP:
+        markdown: |-
+          # Gambaran keseluruhan
+
+          Pelajaran ini merangkumi fungsi sebagai cara untuk menyusun kod mereka, menjadikannya lebih mudah dibaca dan mengalih keluar blok kod yang berulang. Pelajar mengetahui bahawa tahap yang lebih tinggi atau langkah yang lebih abstrak memudahkan untuk memahami dan membuat alasan tentang langkah, kemudian mula mencipta fungsi dalam Game Lab. Pada penghujung pelajaran, kelas menggunakan kemahiran ini untuk mengatur dan menambah kefungsian pada versi akhir permainan penggulir sisi mereka.
+          ## Kosa kata
+
+          * **Fungsi** - Sekeping kod yang boleh anda panggil berulang kali dengan mudah.
+
+          ## Kod yang Diperkenalkan
+
+          * [Tentukan fungsi](//studio.code.org/docs/gamelab/functionParams_none/)
+          * [Panggil fungsi](//studio.code.org/docs/gamelab/callMyFunction/)
+      CSD U3 Lesson Overview 4:
+        markdown: |-
+          # Gambaran keseluruhan
+
+          Pelajaran ini mengetengahkan kemahiran melukis termasuk lebar dan tinggi serta memperkenalkan konsep penjanaan nombor rawak. Kelas belajar melukis dengan versi elips() dan rect() yang merangkumi parameter lebar dan ketinggian serta menggunakan blok latar() untuk mengisi skrin dengan warna. Pada penghujung janjang kelas diperkenalkan kepada blok randomNumber() dan menggunakan blok baharu untuk melukis ular pelangi secara rawak.
+          ## Kosa kata
+
+          * **Parameter** - Maklumat tambahan yang anda hantar kepada fungsi untuk menyesuaikannya untuk keperluan tertentu.
+
+          ## Kod yang Diperkenalkan
+
+          * [background()](//studio.code.org/docs/gamelab/background/)
+          * [ellipse()](//studio.code.org/docs/gamelab/ellipse/)
+          * [rect()](//studio.code.org/docs/gamelab/rect/)
+          * [randomNumber()](//studio.code.org/docs/gamelab/randomNumber/)
+      CSD U3 Lesson Overview 5:
+        markdown: |-
+          # Gambaran keseluruhan
+
+          Pelajaran ini memperkenalkan pembolehubah sebagai cara untuk melabelkan nombor dalam atur cara atau menyimpan nilai yang dijana secara rawak. Kelas memulakan pelajaran dengan penerangan yang sangat asas tentang tujuan pembolehubah dan amalan menggunakan blok baharu. Selepas itu, kelas menggunakan pembolehubah untuk menyimpan nombor rawak, membenarkan program menggunakan nombor rawak yang sama beberapa kali.
+          ## Kosa kata
+
+          * **Pembolehubah** - Pemegang tempat untuk sekeping maklumat yang boleh berubah.
+
+          ## Kod yang Diperkenalkan
+
+          * [Isytiharkan pembolehubah](//studio.code.org/docs/gamelab/declareNoAssign_x/)
+          * [Isytihar dan tetapkan nilai kepada pembolehubah](//studio.code.org/docs/gamelab/declareAssign_x/)
+
+          ## Sumber
+
+          * [Pengenalan kepada Pembolehubah](https://youtu.be/G41G_PEWFjE) - Video ([muat turun](https://videos.code.org/2015/csp/applab/variables_1.mp4))

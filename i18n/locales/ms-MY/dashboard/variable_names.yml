@@ -5,6 +5,7 @@ ms:
       Green: Hijau
       Red: Merah
       actor: pelakon
+      age: umur
       cats: kucing
       color: warna
       counter: Kaunter
@@ -19,5 +20,6 @@ ms:
       score: skor
       size: saiz
       speed: kelajuan
+      variable: pemboleh ubah
       width: lebar
       x: x

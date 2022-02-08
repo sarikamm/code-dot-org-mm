@@ -88,7 +88,7 @@ fr:
   appname: Code.org
   stage: étape
   stage_number: Leçon %{number}
-  puzzle: Puzzle
+  puzzle: Énigme
   trophies: trophées
   courses: Cours
   courses_page:
@@ -224,8 +224,8 @@ fr:
       pour continuer l’inscription.
     user_type_button: Mise à jour du type de compte
     user_type_label: Type de compte
-    user_type_teacher: Professeur
     user_type_student: Élève
+    user_type_teacher: Professeur
     field_is_required: est obligatoire
     accept_terms: Vous devez accepter pour créer un compte
     error: Une erreur est survenue.
@@ -236,6 +236,15 @@ fr:
     email_preference_yes: Oui
     email_preference_no: Non
     email_preference_required: Vous devez spécifier une adresse e-mail préférée.
+    share_teacher_email_reg_partner_question: Accepteriez-vous que nous partagions
+      vos coordonnées avec le [partenaire régional de Code.org] (%{cdo_regional_partner_desc})
+      de votre État afin qu'il puisse vous informer des activités de développement
+      professionnel, des ressources et autres événements qui ont lieu dans votre région
+      ?
+    share_teacher_email_reg_partner_preference_yes: Oui
+    share_teacher_email_reg_partner_preference_no: Non
+    share_teacher_email_reg_partner_preference_required: Vous devez spécifier une
+      adresse e-mail préférée.
     parent_account_checkbox: Je suis un parent/tuteur inscrit au nom de mon enfant
     parent_account_email_progress_permission: Pouvons-nous vous envoyer, par courriel,
       des mises à jour occasionnelles, sur les progrès et les projets de votre enfant,
@@ -338,6 +347,7 @@ fr:
     added_teacher: "%{name} ajouté en tant que ton enseignant"
     registered: Vous vous êtes inscrit à %{section_name}.
     captcha_required: Veuillez remplir le CAPTCHA pour rejoindre cette section.
+    already_exists: Tu as déjà rejoint la section %{section_name}.
     error:
       signed_in: Merci de te déconnecter avant de continuer
       username_not_found: Nom d'utilisateur %{username} introuvable
@@ -392,6 +402,7 @@ fr:
       sections: Sections
       help_support: Aide et Support
       report_bug: Rapporter un problème
+      report_abuse: Signaler un abus
       teacher_community: Communauté des enseignants
       professional_learning: Apprentissage professionnel
       documentation: Documentation
@@ -400,8 +411,8 @@ fr:
       app_lab_tutorials: Tutoriels du Labo des Applis
       game_lab_documentation: Documentation sur le Labo des Jeux
       game_lab_tutorials: Tutoriels du Labo des Jeux
-      sprite_lab_documentation: Documentation sur le Labo des Lutins
-      sprite_lab_tutorials: Tutoriels du Labo des Lutins
+      sprite_lab_documentation: Documentation sur le Labo des Sprites
+      sprite_lab_tutorials: Tutoriels du Labo des Sprites
       web_lab_documentation: Documentation Web Lab
       educate_overview: Aperçu enseignant
       educate_elementary: École primaire
@@ -428,6 +439,7 @@ fr:
       help_us: Nous aider
       teach: Enseigner
       about: À propos
+      legal: Confidentialité et légal
       legal_privacy: Politique de confidentialité
       legal_tos: Conditions Générales d'Utilisation
     user:
@@ -470,12 +482,15 @@ fr:
       minecraft_hero: Héros de Minecraft
       playlab: Labo de jeux
       playlab_k1: Labo du Jeu (Pré-lecteur)
+      poetry: Poésie
+      poetry_hoc: Art du poème
       scratch: Scratch
       sports: Sports
       spritelab: Le Labo des Lutins
       starwars: Star Wars
       starwarsblocks: Star Wars (blocs)
       starwarsblocks_hour: Star Wars (blocs)
+      loading: Chargement...
       weblab: Lab du Web
       view_all: Afficher tous les projets...
     popup:
@@ -491,6 +506,7 @@ fr:
       prizes_link: Plus d'informations
   teacher:
     answer: Réponse
+    dashboard: Tableau de bord enseignant
     for_teachers_only: Pour les enseignants uniquement
     title:
       one: 'Ton enseignant:'
@@ -707,6 +723,7 @@ fr:
       href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html">GNU
       LGPL 2.1</a>.
     powered_by_aws: Fourni par Amazon Web Services
+    built_on_github: Construit sur GitHub de Microsoft
     google_copyright: "&copy; Google Inc. utilisé avec autorisation. Google Classroom
       est une marque déposée de Google Inc."
     trademark: "&copy; Code.org, %{current_year}. Code.org&reg;, le logo CODE et Hour
@@ -720,12 +737,14 @@ fr:
     tos_short: Conditions Générales
     tos: Conditions Générales d'Utilisation
     privacy: Politique de confidentialité
+    privacy_updated: Politique de confidentialité (mise à jour)
     secure: Version sécurisée
     report_abuse: Signaler un abus
     built_on_code_studio: Développer sur Code Studio
     make_my_own_app: Développer ma propre application
     how_it_works: Comment ça marche
     try_hour_of_code: Essaie une Heure du Code !
+    store: Magasin
   reference_area:
     title: Besoin d'aide ?
     subtitle: Regarder les vidéos et les indices
@@ -756,13 +775,6 @@ fr:
       gamelab_unsupported_tablet: Le Labo des Jeux fonctionne idéalement sur un ordinateur
         portable ou de bureau avec une souris et un clavier. Il se peut que vous rencontriez
         des problèmes en utilisant cet outil sur votre appareil actuel.
-      oceans_unsupported_browser: Ce navigateur n'est pas pris en charge pour ce didacticiel.
-        Veuillez essayer de visiter cette page en utilisant Edge, Chrome, Firefox
-        ou un autre navigateur moderne.
-      weblab_unsupported_browser: Malheureusement, nous rencontrons actuellement des
-        problèmes de chargement du Labo du Web avec ce navigateur. Vous pourriez utiliser
-        un autre navigateur d’ici que tout soit résolu. Nous sommes désolés pour la
-        gêne occasionnée.
       weblab_unsupported_locale_storage: Il se peut que vous rencontriez des difficultés
         en utilisant le Labo du Web, en mode incognito. Merci de recharger votre projet
         en mode normal. Nous sommes désolés pour la gêne occasionnée.
@@ -1287,11 +1299,13 @@ fr:
       email: E-mail
       email_alternate: Autre email
       gender: Sexe
+      school: École
       school_name: Nom de l'école
       school_city: Ville de l’École
+      school_city_district: École de ville/ district
       school_country: Pays de l’École
       colombian_school_city: Ville de l’École
-      colombian_school_name: Nom de l'école
+      colombian_chilean_school_name: Nom de l'école
       ages: Quelle est la tranche d'âge de vos étudiants, cette année ?
       subjects: Quelle(s) matière(s) enseignez-vous, cette année ?
       resources: Parmi les ressources d’éducation en informatique suivantes, lesquelles
@@ -1451,4 +1465,6 @@ fr:
       !** "
     link_your_email: Associez votre adresse électronique
     not_now: Pas maintenant
+  behaviors:
+    this_sprite: ce sprite
   unit_prefix: Unité %{n}

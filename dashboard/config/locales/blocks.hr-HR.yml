@@ -2,20 +2,44 @@
 hr:
   data:
     blocks:
+      Dancelab_alternateMoves:
+        options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
       Dancelab_atTimestamp:
         options:
           UNIT:
             '"seconds"': sekunde
+      Dancelab_changeMoveEachLR:
+        options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
       Dancelab_changePropBy:
         options:
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_changePropEachBy:
         options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
+      Dancelab_doMoveEachLR:
+        options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
       Dancelab_everySeconds:
         options:
           UNIT:
@@ -24,6 +48,7 @@ hr:
         options:
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_getTime:
         options:
@@ -41,12 +66,20 @@ hr:
             "{x: randomNumber(50, 350), y: randomNumber(50, 350)}": slučajno odabran
       Dancelab_jumpToEach:
         options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
           LOCATION:
             "{x: 100, y: 200}": lijevo
             "{x: 300, y: 200}": desno
             "{x: randomNumber(60, 340), y: randomNumber(60, 340)}": slučajno odabran
       Dancelab_layoutSprites:
         options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
           FORMAT:
             '"diamond"': dijamant
             '"random"': slučajno odabran
@@ -78,50 +111,115 @@ hr:
             "{x: randomNumber(50, 350), y: randomNumber(50, 350)}": slučajno odabran
       Dancelab_makeNewDanceSpriteGroup:
         options:
+          COSTUME:
+            '"CAT"': mačke
+            '"DOG"': psi
           LAYOUT:
             '"diamond"': dijamant
             '"random"': slučajno odabran
       Dancelab_randomColor:
         text: nasumično odabrana boja
+      Dancelab_setDanceSpeed:
+        options:
+          SPEED:
+            '1': normalan
+            '2': brzu
+            '4': very fast
+            '0.5': slow
+            '0.25': very slow
+      Dancelab_setDanceSpeedEach:
+        options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
+          SPEED:
+            '1': normalan
+            '2': brzu
+            '4': very fast
+            '0.5': slow
+            '0.25': very slow
       Dancelab_setProp:
         options:
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_setPropEach:
         options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_setPropRandom:
         options:
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_setPropRandomEach:
         options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
+      Dancelab_setTintEach:
+        options:
+          THIS:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
+      Dancelab_setTintEachInline:
+        options:
+          THIS:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
+      Dancelab_setVisibleEach:
+        options:
+          THIS:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
       Dancelab_startMapping:
         options:
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_startMappingEach:
         options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_stopMapping:
         options:
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_stopMappingEach:
         options:
+          GROUP:
+            sprites: sve
+            '"CAT"': mačke
+            '"DOG"': psi
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       Dancelab_translateStrings:
         options:
@@ -136,6 +234,8 @@ hr:
             '"down"': dolje
             '"right"': desno
             '"space"': svemir
+            '"enter"': unesite
+            '"i"': i
             '"x"': x
       gamelab_atTime:
         options:
@@ -172,6 +272,7 @@ hr:
             '"left"': lijevo
             '"right"': desno
             '"space"': svemir
+            '"i"': i
             '"x"': x
       gamelab_keyPressed:
         options:
@@ -184,12 +285,34 @@ hr:
             '"left"': lijevo
             '"right"': desno
             '"space"': svemir
+            '"i"': i
             '"x"': x
+      gamelab_makeBurst:
+        options:
+          EFFECT:
+            '"rain"': kiša
+      gamelab_makeProjectile:
+        options:
+          DIRECTION:
+            '0': desno
+            '90': dolje
+            '180': lijevo
+            '270': gore
       gamelab_mirrorSprite:
         options:
           DIRECTION:
             '"right"': desno
             '"left"': lijevo
+      gamelab_playSoundOptions:
+        options:
+          SOUND:
+            "'sound://category_collect/clicky_crunch.mp3'": krckati
+            "'sound://category_animals/cat.mp3'": mačka
+            "'sound://category_animals/cow.mp3'": krava
+            "'sound://category_animals/sheep.mp3'": ovca
+            "'sound://category_animals/chicken.mp3'": kokoš
+            "'sound://category_animals/dog.mp3'": pas
+            "'sound://category_digital/jump_7.mp3'": skoči
       gamelab_randColor:
         text: nasumično odabrana boja
       gamelab_randomColor:
@@ -206,6 +329,13 @@ hr:
             '"https://studio.code.org/blockly/media/skins/studio/background_underwater.png"': pod
               vodom
             '"https://studio.code.org/blockly/media/skins/studio/background_winter.png"': zima
+      gamelab_setDefaultSpriteSize:
+        options:
+          SIZE:
+            '25': extra small
+            '50': small
+            '75': srednje
+            '100': large
       gamelab_setProp:
         options:
           PROPERTY:
@@ -217,10 +347,16 @@ hr:
         options:
           PROPERTY:
             '"scale"': veličina
+          SIZE:
+            '25': extra small
+            '50': small
+            '75': srednje
+            '100': large
       gamelab_setSizes:
         options:
           PROPERTY:
             '"scale"': veličina
+            '"width"': širina
             '"height"': visina
       gamelab_spriteClicked:
         options:
@@ -248,6 +384,12 @@ hr:
             '"left"': lijevo
             '"right"': desno
             '"space"': svemir
+      Mikelab_addTrainingData:
+        options:
+          NAME:
+            "{x: 200, y: 100}": riba
+          LOCATION:
+            "{x: randomNumber(51, 350), y: randomNumber(50, 350)}": riba
       Mikelab_changePropBy:
         options:
           PROPERTY:
@@ -265,8 +407,14 @@ hr:
             '"scale"': veličina
             '"x"': x pozicija
             '"y"': y pozicija
+      Mikelab_groupChangeAnim:
+        options:
+          SELECT:
+            '"all"': sve
       Mikelab_groupChangePropBy:
         options:
+          SELECT:
+            '"all"': sve
           PROPERTY:
             '"scale"': veličina
             '"x"': x pozicija
@@ -276,18 +424,56 @@ hr:
           LOCATION:
             "{x: 100, y: 200}": lijevo
             "{x: 300, y: 200}": desno
+      Mikelab_groupDestroy:
+        options:
+          SELECT:
+            '"all"': sve
       Mikelab_groupGetProp:
         options:
           PROPERTY:
             '"scale"': veličina
             '"x"': x pozicija
             '"y"': y pozicija
+      Mikelab_groupRemoveAllBehaviors:
+        options:
+          SELECT:
+            '"all"': sve
+      Mikelab_groupRemoveBehaviorSimple:
+        options:
+          SELECT:
+            '"all"': sve
+      Mikelab_groupRemoveTint:
+        options:
+          SELECT:
+            '"all"': sve
       Mikelab_groupSetProp:
         options:
+          SELECT:
+            '"all"': sve
           PROPERTY:
             '"scale"': veličina
             '"x"': x pozicija
             '"y"': y pozicija
+      Mikelab_groupSetTint:
+        options:
+          SELECT:
+            '"all"': sve
+      Mikelab_hideFish:
+        options:
+          TRASH:
+            fish: riba
+      Mikelab_ifLabel:
+        options:
+          DANCE:
+            MOVES.ClapHigh: riba
+      Mikelab_ifRecognizeLabel:
+        options:
+          DANCE:
+            MOVES.ClapHigh: riba
+      Mikelab_ifRecognizeLabelOnly:
+        options:
+          DANCE:
+            MOVES.ClapHigh: riba
       Mikelab_randomColor:
         text: nasumično odabrana boja
       Mikelab_repeatUntilComplete:
@@ -334,6 +520,11 @@ hr:
             '"a"': A
             '"s"': Jug
             '"d"': D
+      Mikelab_whenYesNoClicked:
+        options:
+          KEY:
+            '"yes"': da
+            '"no"': ne
       Mikelab_whileKeyPressed:
         options:
           KEY:
@@ -341,16 +532,101 @@ hr:
             '"down"': strelica dolje
             '"left"': strelica lijevo
             '"right"': strelica desno
+      Poetry_addFrame:
+        options:
+          BRUSH:
+            '"hearts"': srca
+            '"rainbow"': duga
+      Poetry_makeBurst:
+        options:
+          EFFECT:
+            '"rain"': kiša
+      Poetry_playMusic:
+        options:
+          SOUND:
+            '"sound://category_nature/summer_night_loop.mp3"': noć
+      Poetry_playSound:
+        options:
+          SOUND:
+            '"sound://category_jump/vibrant_game_jumping_up_1.mp3"': skoči
+      Poetry_setBackgroundEffect:
+        options:
+          EFFECT:
+            '"clouds"': oblaci
+            '"hearts"': srca
+            '"rain"': kiša
+          PALETTE:
+            '"rainbow"': duga
+            '"winter"': zima
+      Poetry_setForegroundEffect:
+        options:
+          EFFECT:
+            '"hearts"': srca
+            '"rain"': kiša
+      Poetry_startBehavior:
+        options:
+          BEHAVIOR:
+            '"fluttering"': lepršanje
+            '"growing"': rastući
+            '"jittering"': treperenje
+            '"shrinking"': skupljanje
+            '"spinning_left"': vrteći se ulijevo
+            '"spinning_right"': vrteći se udesno
+            '"wandering"': lutanje
+            '"wobbling"': njihanje
+      Poetry_stopBehavior:
+        options:
+          BEHAVIOR:
+            '"fluttering"': lepršanje
+            '"growing"': rastući
+            '"jittering"': treperenje
+            '"shrinking"': skupljanje
+            '"spinning_left"': vrteći se ulijevo
+            '"spinning_right"': vrteći se udesno
+            '"wandering"': lutanje
+            '"wobbling"': njihanje
+      Poetry_whenLineShows:
+        options:
+          N:
+            '0': "???"
+            '1': '1'
+            '2': '2'
+            '3': '3'
+            '4': '4'
+            '5': '5'
+            '6': '6'
+            '7': '7'
+            '8': '8'
+            '9': '9'
+            '10': '10'
       RyanLab_moveForward:
         text: idi naprijed
       RyanLab_turnLeft:
         text: okreni ulijevo
       RyanLab_turnRight:
         text: okreni udesno
+      Vector_where:
+        options:
+          PROPERTY:
+            "'shapeColor'": boja
       aalab_layoutSprites:
         options:
           FORMAT:
             '"random"': slučajno odabran
+      aalab_someGraduallyStartIntervention:
+        options:
+          PORTION:
+            '1': sve
+            '0.75': most
+            '0.5': half of
+            '0.25': few
+      aalab_someStartIntervention:
+        options:
+          PORTION:
+            '1': sve
+            '0.75': most
+            '0.5': half of
+            '0.25': few
       binary_move:
         options:
           DIR:

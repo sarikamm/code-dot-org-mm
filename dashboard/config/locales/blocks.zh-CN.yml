@@ -47,7 +47,7 @@ zh-CN:
         text: 在 {TIMESTAMP} {UNIT} 后
         options:
           UNIT:
-            '"measures"': 节拍
+            '"measures"': 衡量
             '"seconds"': " 秒"
       Dancelab_changeColorBy:
         text: 将 {COLOR} {METHOD} 改动 {AMOUNT}
@@ -74,8 +74,8 @@ zh-CN:
             '"SLOTH"': 树懒
             '"UNICORN"': 独角兽
           MOVE:
-            '"next"': "（下一步）"
-            '"prev"': "（前一步）"
+            '"next"': "(下一步)"
+            '"prev"': "(前一步)"
             '"rand"': 随机
             MOVES.Roll: 身体转动
             MOVES.ClapHigh: 用力鼓掌
@@ -92,8 +92,8 @@ zh-CN:
         text: "{SPRITE} 一直重复 {MOVE} {DIR}"
         options:
           MOVE:
-            '"next"': "（下一步）"
-            '"prev"': "（前一步）"
+            '"next"': "(下一步)"
+            '"prev"': "(前一步)"
             '"rand"': 随机
             MOVES.Roll: 身体转动
             MOVES.ClapHigh: 用力鼓掌
@@ -219,7 +219,7 @@ zh-CN:
         text: 每 {N} {UNIT} 重复一次
         options:
           UNIT:
-            '"measures"': 节拍
+            '"measures"': 衡量
             '"seconds"': " 秒"
       Dancelab_everySecondsRange:
         text: 每个 {N} {UNIT} 从 {START} 到 {STOP}
@@ -255,7 +255,7 @@ zh-CN:
         text: "{UNIT} 当前时间"
         options:
           UNIT:
-            '"measures"': 节拍
+            '"measures"': 衡量
             '"seconds"': " 秒"
       Dancelab_ifDanceIs:
         text: |-
@@ -280,12 +280,10 @@ zh-CN:
           {DO1} {DO2}
         options:
           UNIT:
-            '"measures"': 节拍
+            '"measures"': 衡量
             '"seconds"': " 秒"
           OP:
-            '">"': ">"
             '"<"': "<"
-            '"="': "="
       Dancelab_jumpTo:
         text: "{SPRITE} 跳到 {LOCATION}"
         options:
@@ -532,7 +530,7 @@ zh-CN:
             '"swirl"': 催眠
             '"kaleidoscope"': 万花筒
             '"lasers"': 激光舞池
-            '"splatter"': 油漆飞溅
+            '"splatter"': 气泡
             '"rainbow"': 彩虹
             '"ripples_random"': 随机波纹
             '"ripples"': 波纹
@@ -964,6 +962,10 @@ zh-CN:
         text: 精灵图 {SPRITE} 开始 {BEHAVIOR}
       gamelab_addTarget:
         text: "{SPRITE}获取目标{TARGET}"
+        options:
+          OPT:
+            '"follow"': 跟随
+            '"avoid"': 避免
       gamelab_allSpritesWithAnimation:
         text: "{ANIMATION}"
       gamelab_atTime:
@@ -972,6 +974,8 @@ zh-CN:
           UNIT:
             '"seconds"': " 秒"
             '"frames"': 帧
+      gamelab_avoidingTargets:
+        text: 避开目标
       gamelab_beginCollectingData:
         text: 开始收集数据{BREAK}值{VALUE}带标签{LABEL}
       gamelab_bounceOff:
@@ -1008,6 +1012,8 @@ zh-CN:
         text: 移除 {THIS}
       gamelab_draggable:
         text: 可拖拽
+      gamelab_drawLine:
+        text: 画线{COLOR}  {LOC1}  {LOC2}
       gamelab_edgesDisplace:
         text: 边缘模块阻止了 {SPRITE} 移动
       gamelab_followingTargets:
@@ -1037,8 +1043,8 @@ zh-CN:
           UNIT:
             '"seconds"': " 秒"
             '"frames"': 帧
-      gamelab_hideHaiku:
-        text: 隐藏俳句
+      gamelab_glideTo:
+        text: "{SPRITE}滑到{LOCATION}"
       gamelab_hideTitleScreen:
         text: 隐藏标题屏幕
       gamelab_ifVarEquals:
@@ -1142,10 +1148,24 @@ zh-CN:
         text: "{SPRITE} 的位置"
       gamelab_location_picker:
         text: "{LOCATION}"
+      gamelab_makeBurst:
+        text: 使用{NUM} {ANIMATION_NAME}精灵图，创建{EFFECT}效果
+        options:
+          EFFECT:
+            '"pop"': 爆破
+            '"rain"': 下雨
       gamelab_makeNewSpriteAnon:
         text: 在 {LOCATION} 处, 创建一个新的 {ANIMATION_NAME} 精灵图
       gamelab_makeNumSprites:
         text: 做{NUM}新{ANIMATION_NAME}精灵图
+      gamelab_makeProjectile:
+        text: "创建炮弹 \n{ANIMATION_NAME}，从{LOCATION}，速度{SPEED}，方向{DIRECTION}"
+        options:
+          DIRECTION:
+            '0': 向右
+            '90': 向下
+            '180': 向左
+            '270': 向上
       gamelab_mirrorSprite:
         text: "{SPRITE} 面向 {DIRECTION}"
         options:
@@ -1176,6 +1196,41 @@ zh-CN:
         text: 上移和下移
       gamelab_playSound:
         text: 播放音效{SOUND}
+      gamelab_playSoundOptions:
+        text: 播放音效{SOUND}
+        options:
+          SOUND:
+            "'sound://category_accent/puzzle_game_accent_a_01.mp3'": 重音
+            "'sound://category_digital/boing_2.mp3'": 啵嘤
+            "'sound://category_pop/bubble_pop_cluster_airy_1.mp3'": 爆破
+            "'sound://category_bell/vibrant_game_bell_twinkle_positive_touch_1.mp3'": 闪烁
+            "'sound://category_collect/clicky_crunch.mp3'": 紧缩
+            "'sound://category_swish/quick_swing.mp3'": 摇摆
+            "'sound://category_nature/summer_night_loop.mp3'": 夏日夜晚
+            "'sound://category_background/ocean_waves.mp3'": 海洋波浪
+            "'sound://category_nature/south_carolina_beach_ripple.mp3'": 海滩涟漪
+            "'sound://category_pop/bubble_pop_cluster_1.mp3'": 泡泡
+            "'sound://category_animals/bear.mp3'": 熊
+            "'sound://category_animals/cat.mp3'": 猫
+            "'sound://category_animals/cow.mp3'": 牛
+            "'sound://category_animals/pig.mp3'": 猪
+            "'sound://category_animals/sheep.mp3'": 羊
+            "'sound://category_animals/chicken.mp3'": 鸡
+            "'sound://category_animals/elephant.mp3'": 大象
+            "'sound://category_animals/dolphin.mp3'": 海豚
+            "'sound://category_nature/thunderstorm_1.mp3'": 雷暴
+            "'sound://category_animals/dog.mp3'": 狗
+            "'sound://category_collect/trill_stings.mp3'": 颤音
+            "'sound://category_tap/vibrant_positive_tap_1.mp3'": 点击
+            "'sound://category_notifications/vibrant_game_tonal_hit_6_correct.mp3'": 音调打击
+            "'sound://category_transition/trippy_robotic_transition.mp3'": 机器人转调
+            "'sound://category_transition/star_dust_particle_10.mp3'": 星尘
+            "'sound://category_whoosh/alien_ship_flyby_whoosh_3_slow.mp3'": 外星飞船
+            "'sound://category_projectile/retro_game_magic_spell_6.mp3'": 魔咒
+            "'sound://category_jump/quirky_bass_sc-fi_open_or_start.mp3'": 古怪低音
+            "'sound://category_digital/jump_7.mp3'": 跳跃
+      gamelab_playSpeech:
+        text: 游戏言语{SOUND}
       gamelab_pointInDirection:
         text: 指向 {SPRITE} {DIRECTION}
         options:
@@ -1184,8 +1239,6 @@ zh-CN:
             '"East"': 东
             '"South"': 南
             '"West"': 西
-      gamelab_printHaiku:
-        text: 显示俳句 {BREAK} 诗歌名 {TITLE} 诗歌作者 {AUTHOR} 第1行 {LINE1} 第2行 {LINE2}
       gamelab_printText:
         text: 打印 {TEXT}
       gamelab_randColor:
@@ -1212,15 +1265,27 @@ zh-CN:
           IMG:
             '"https://studio.code.org/blockly/media/skins/studio/background_cave.png"': 洞穴
             '"https://studio.code.org/api/v1/animation-library/04L4sdTODkNZF1OHf4qO_I.Al3QP43wA/category_backgrounds/city.png"': 城市
+            '"https://studio.code.org/api/v1/animation-library/UieRK0NBKD3xVHtSJxcUTAuhzLM1D_Hq/category_backgrounds/continuous_grass.png"': 连续草地
             '"https://studio.code.org/blockly/media/skins/studio/background.png"': 院子
             '"https://studio.code.org/blockly/media/skins/studio/background_desert.png"': 沙漠
+            '"https://studio.code.org/api/v1/animation-library/nfgysU3t3P8XnUBAf9LjIy2JTHtdXpTj/category_backgrounds/desert_road.png"': 沙漠道路
+            '"https://studio.code.org/api/v1/animation-library/4FnSIFL33P0PH_C_DnKOse2QbZCdtaJJ/category_backgrounds/farm_land.png"': 农田
+            '"https://studio.code.org/api/v1/animation-library/vrlUwPslp0VK_KJcPQ9OPZNb.Ms5eBL5/category_backgrounds/floating_grass.png"': 浮动草地
+            '"https://studio.code.org/api/v1/animation-library/ZjjFGjO0xNEZGEweTgANloehQrxwIXVM/category_backgrounds/front_of_house.png"': 房屋前面
             '"https://studio.code.org/blockly/media/skins/studio/background_space.png"': 银河系
             '"https://studio.code.org/blockly/media/skins/studio/background_grid.png"': 网格
+            '"https://studio.code.org/api/v1/animation-library/1K7z7Kc3EeXsLV693byb0xxoJSJ4Du7e/category_backgrounds/kitchen.png"': 厨房
+            '"https://studio.code.org/api/v1/animation-library/4bsf67OUrcX.t1wbIcE_xygGKxOkiQ6f/category_backgrounds/living_room.png"': 客厅
             '"https://studio.code.org/api/v1/animation-library/4gC7uWaaRI4aDyrncCFO_wY_67vYhr4C/category_backgrounds/park_view.png"': 公园风景
             '"https://studio.code.org/api/v1/animation-library/5K0h1rGe5ql4J9TdlqggIzGZYzbD38pF/category_backgrounds/pine_trees.png"': 松树
             '"https://studio.code.org/blockly/media/skins/studio/background_rainbow.png"': 彩虹
             '"https://studio.code.org/blockly/media/skins/studio/background_scifi.png"': 科幻
+            '"https://studio.code.org//api/v1/animation-library/WJjQlG1rFhbVmPfcuI_wy6tpwI6mHYnM/category_backgrounds/soccer_field.png"': 足球场
             '"https://studio.code.org/blockly/media/skins/studio/background_santa.png"': 星球
+            '"https://studio.code.org/api/v1/animation-library/ZY0THG5IedwCgmWVIhiPdJH59OORnmgT/category_backgrounds/sun_and_rainbow.png"': 太阳和彩虹
+            '"https://studio.code.org/api/v1/animation-library/_aXeLwM1Ge.ZDVJoON.cAlR3iwhKJJvl/category_backgrounds/sunshine_showers.png"': 阳光阵雨
+            '"https://studio.code.org/api/v1/animation-library/.51KpEhDOyXg4dbDaAnm0dEWLAj1GZwy/category_backgrounds/tennis_court.png"': 网球场
+            '"https://studio.code.org/api/v1/animation-library/yatDsUkvGtT_.fSv68qi1d4YJDMHdGnS/category_backgrounds/tree_island.png"': 树岛
             '"https://studio.code.org/blockly/media/skins/studio/background_underwater.png"': 水底
             '"https://studio.code.org/blockly/media/skins/studio/background_winter.png"': 冬天
             undefined: 没有
@@ -1249,6 +1314,7 @@ zh-CN:
             '"direction"': 移动方向
             '"speed"': 速度
       gamelab_setProp_dropdown:
+        text: 设置 {SPRITE} {PROPERTY} 为 {SIZE}
         options:
           PROPERTY:
             '"scale"': 大小
@@ -1283,8 +1349,24 @@ zh-CN:
           CONDITION:
             '"when"': 当
             '"while"': 当
+      gamelab_spriteSay:
+        text: "{SPRITE} 表示 {SPEECH}"
+      gamelab_spriteSayTime:
+        text: "{SPRITE}说{TEXT1}，持续{NUM}秒"
+      gamelab_startAvoiding:
+        text: "{SPRITE}开始避开{TARGET}"
+      gamelab_startFollowing:
+        text: "{SPRITE}开始跟随{TARGET}"
+      gamelab_startGliding:
+        text: "{SPRITE}开始滑动"
+      gamelab_stopAvoiding:
+        text: "{SPRITE}停止避开其他精灵图"
       gamelab_stopCollectingData:
         text: 停止收集数据
+      gamelab_stopFollowing:
+        text: "{SPRITE}停止跟随其他精灵图"
+      gamelab_stopGliding:
+        text: "{SPRITE}停止滑动"
       gamelab_subjectSpritePointer:
         text: 点击 {SPRITE}
       gamelab_textJoin:
@@ -1301,6 +1383,8 @@ zh-CN:
             '"left"': 向左
       gamelab_updateTitleWithColor:
         text: 显示标题屏幕 {BREAK} 标题 {TITLE} 颜色 {COLOR}
+      gamelab_whenAllPromptsAnswered:
+        text: 当所有提示已回答
       gamelab_whenDownArrow:
         text: 当下方向键按下时
       gamelab_whenKey:
@@ -1353,8 +1437,19 @@ zh-CN:
         text: 当上方向键按下时
       gamelab_withPercentChance:
         text: |-
-          假如{NUM}%几率
+          如果{NUM}%几率
           {STATEMENT}
+      gamelab_withPercentChanceDropdown:
+        text: |2-
+           {NUM}几率
+           {STATEMENT}
+        options:
+          NUM:
+            '10': 非常低
+            '25': 低
+            '50': 50/50
+            '75': 高
+            '90': 非常高
       gamelab_xLocationOf:
         text: "{SPRITE} 的x轴坐标"
       gamelab_yLocationOf:
@@ -1567,6 +1662,8 @@ zh-CN:
         text: '位置 x: {X} y: {Y}'
       Mikelab_location_picker:
         text: "{LOCATION}"
+      Mikelab_poemTextJoin:
+        text: "{TEXT1} {VAR} {TEXT2}"
       Mikelab_randomColor:
         text: 随机颜色
       Mikelab_removeBehaviorSimple:
@@ -1581,8 +1678,20 @@ zh-CN:
         options:
           BG:
             '"https://studio.code.org/api/v1/animation-library/04L4sdTODkNZF1OHf4qO_I.Al3QP43wA/category_backgrounds/city.png"': 城市
+            '"https://studio.code.org/api/v1/animation-library/UieRK0NBKD3xVHtSJxcUTAuhzLM1D_Hq/category_backgrounds/continuous_grass.png"': 连续草地
+            '"https://studio.code.org/api/v1/animation-library/nfgysU3t3P8XnUBAf9LjIy2JTHtdXpTj/category_backgrounds/desert_road.png"': 沙漠道路
+            '"https://studio.code.org/api/v1/animation-library/4FnSIFL33P0PH_C_DnKOse2QbZCdtaJJ/category_backgrounds/farm_land.png"': 农田
+            '"https://studio.code.org/api/v1/animation-library/vrlUwPslp0VK_KJcPQ9OPZNb.Ms5eBL5/category_backgrounds/floating_grass.png"': 浮动草地
+            '"https://studio.code.org/api/v1/animation-library/ZjjFGjO0xNEZGEweTgANloehQrxwIXVM/category_backgrounds/front_of_house.png"': 房屋前面
+            '"https://studio.code.org/api/v1/animation-library/1K7z7Kc3EeXsLV693byb0xxoJSJ4Du7e/category_backgrounds/kitchen.png"': 厨房
+            '"https://studio.code.org/api/v1/animation-library/4bsf67OUrcX.t1wbIcE_xygGKxOkiQ6f/category_backgrounds/living_room.png"': 客厅
             '"https://studio.code.org/api/v1/animation-library/4gC7uWaaRI4aDyrncCFO_wY_67vYhr4C/category_backgrounds/park_view.png"': 公园风景
             '"https://studio.code.org/api/v1/animation-library/5K0h1rGe5ql4J9TdlqggIzGZYzbD38pF/category_backgrounds/pine_trees.png"': 松树
+            '"https://studio.code.org//api/v1/animation-library/WJjQlG1rFhbVmPfcuI_wy6tpwI6mHYnM/category_backgrounds/soccer_field.png"': 足球场
+            '"https://studio.code.org/api/v1/animation-library/ZY0THG5IedwCgmWVIhiPdJH59OORnmgT/category_backgrounds/sun_and_rainbow.png"': 太阳和彩虹
+            '"https://studio.code.org/api/v1/animation-library/_aXeLwM1Ge.ZDVJoON.cAlR3iwhKJJvl/category_backgrounds/sunshine_showers.png"': 阳光阵雨
+            '"https://studio.code.org/api/v1/animation-library/.51KpEhDOyXg4dbDaAnm0dEWLAj1GZwy/category_backgrounds/tennis_court.png"': 网球场
+            '"https://studio.code.org/api/v1/animation-library/yatDsUkvGtT_.fSv68qi1d4YJDMHdGnS/category_backgrounds/tree_island.png"': 树岛
       Mikelab_setProp:
         text: 设置 {PROPERTY} {SPRITE} 为 {VAL}
         options:
@@ -1594,6 +1703,11 @@ zh-CN:
             '"direction"': 移动方向
       Mikelab_setTint:
         text: 将 {SPRITE} 的颜色改为 {COLOR}
+      Mikelab_setupOutbreak:
+        text: |-
+          疫情爆发设置
+          人口：{SPRITE2N}
+          {TOGGLE}病毒
       Mikelab_setupSim:
         text: |-
           setup simulation with
@@ -1675,6 +1789,223 @@ zh-CN:
         text: "{SPRITE} 的x轴坐标"
       Mikelab_yLocationOf:
         text: "{SPRITE} 的y坐标"
+      Outbreak_beginCongregating:
+        text: 怪物开始聚集
+      Outbreak_beginQuarantining:
+        text: 怪物生病时开始隔离
+      Outbreak_beginSocialDistancing:
+        text: 怪物开始保持社交距离
+      Outbreak_beginWandering:
+        text: 怪物开始徘徊
+      Outbreak_beginWearingMasks:
+        text: 怪物开始戴口罩
+      Outbreak_layoutBorder:
+        text: 在边界上布局怪物
+      Outbreak_layoutClusters:
+        text: 在{NUM}的集群中布局怪物
+      Outbreak_layoutGrid:
+        text: 按网格布局怪物
+      Outbreak_layoutRandom:
+        text: 随机布局怪物
+      Outbreak_stopMoving:
+        text: 怪物停止移动
+      Poetry_addFrame:
+        options:
+          BRUSH:
+            '"brick"': 砖块
+            '"fire"': 燃烧
+            '"flowers"': 花
+            '"hearts"': 心
+            '"iceCream"': 冰淇淋
+            '"leaves"': 离开
+            '"rainbow"': 彩虹
+            '"stars"': 星球
+            '"waves"': 波浪
+      Poetry_addLine:
+        text: 添加行{LINE}
+      Poetry_animateText:
+        text: 动画文本
+      Poetry_destroy:
+        text: 移除{ANIMATION_NAME}
+      Poetry_glideTo:
+        text: "{SPRITE}滑到{LOCATION}"
+      Poetry_hideText:
+        text: 隐藏文本
+      Poetry_makeBurst:
+        text: 使用{NUM} {ANIMATION_NAME}精灵图，创建{EFFECT}效果
+        options:
+          EFFECT:
+            '"pop"': 爆破
+            '"rain"': 下雨
+      Poetry_makeNewSpriteAnon:
+        text: 在 {LOCATION} 处, 创建一个新的 {ANIMATION_NAME} 精灵图
+      Poetry_makeNumSprites:
+        text: 做{NUM}新{ANIMATION_NAME}精灵图
+      Poetry_playMusic:
+        options:
+          SOUND:
+            '"sound://category_loops/vibrant_game_musical_harping_movement_loop_1.mp3"': 平静
+            '"sound://category_nature/steady_campfire_loop.mp3"': 篝火
+            '"sound://category_nature/rain_loop.mp3"': 细雨
+            '"sound://category_nature/forest_woodland_ambience_2.mp3"': 森林
+            '"sound://category_loops/faultering_desicion_loop1.mp3"': 闹鬼
+            '"sound://category_background/inside_plane.mp3"': 嗯？
+            '"sound://category_loops/red_flag_loop1.mp3"': 使命
+            '"sound://category_nature/summer_night_loop.mp3"': 夜
+            '"sound://category_background/ocean_waves.mp3"': 大海
+            '"sound://category_background/rainforest_ambient_sound.mp3"': 雨林
+            '"sound://category_background/repitition.mp3"': 骑术
+            '"sound://category_loops/stabilizing_breath_loop1.mp3"': 缓慢
+      Poetry_playSound:
+        text: 播放音效{SOUND}
+        options:
+          SOUND:
+            '"sound://category_bell/long_bell_notification.mp3"': 铃
+            '"sound://category_digital/boing_2.mp3"': 嘤嘤声
+            '"sound://category_pop/bubble_pop_cluster_2.mp3"': 气泡
+            '"sound://category_accent/puzzle_game_accent_chatter_02.mp3"': 交谈
+            '"sound://category_explosion/vibrant_game_cartoon_game_laser_hit_13_boom_doppler.mp3"': 放气
+            '"sound://category_jump/retro_game_enemy_jump_3.mp3"': 失败
+            '"sound://category_alerts/vibrant_game_flutter_ambient_alert.mp3"': 飘扬
+            '"sound://category_jump/vibrant_game_jumping_up_1.mp3"': 跳跃
+            '"sound://category_poof/puzzle_game_poof_04.mp3"': 噗！
+            '"sound://category_achievements/puzzle_game_achievement_big_03.mp3"': 扫描
+            '"sound://category_background/typewriter.mp3"': 打字机
+            '"sound://category_achievements/vibrant_virtcal_achievment.mp3"': 活力
+            '"sound://category_achievements/peaceful_win_1.mp3"': 成功
+            '"sound://category_explosion/vibrant_game_arcade_game_negative_hit.mp3"': 漩涡
+            '"sound://category_achievements/peaceful_win_6.mp3"': 风铃
+      Poetry_setAuthor:
+        text: 设置作者{AUTHOR}
+      Poetry_setBackground:
+        text: 设置背景颜色为 {COLOR}
+      Poetry_setBackgroundEffect:
+        text: 设置背景到{EFFECT} {PALETTE}
+        options:
+          EFFECT:
+            '"blooming"': 开花
+            '"bubbles"': 气泡
+            '"clouds"': 多云
+            '"confetti"': 彩纸屑
+            '"darkCircles"': 淡入淡出
+            '"fadeColors"': 结霜
+            '"hearts"': 心
+            '"space"': 空间
+            '"rain"': 下雨
+            '"ripples"': 波纹
+            '"colors"': 颜色
+            '"stars"': 星星
+            '"squiggles"': 花体
+          PALETTE:
+            '"autumn"': 秋天
+            '"sunrise"': 黎明
+            '"sunset"': 黄昏
+            '"grayscale"': 灰色
+            '"ocean"': 大海
+            '"rainbow"': 彩虹
+            '"roses"': 玫瑰
+            '"sky"': 天空
+            '"spring"': 春天
+            '"summer"': 夏天
+            '"winter"': 冬天
+      Poetry_setBackgroundImageAs:
+        text: 设置背景为 {IMG}
+      Poetry_setFont:
+        text: 设置字体{FONT}
+        options:
+          FONT:
+            '"Arial"': Arial
+            '"Arial Black"': Arial Black
+            '"Courier"': Courier
+            '"Cursive"': 手写
+            '"Impact"': Impact
+            '"Georgia"': Georgia
+            '"Times"': Times
+      Poetry_setFontColor:
+        text: 设置文本颜色{FILL}
+      Poetry_setForegroundEffect:
+        text: 制作{EFFECT}效果
+        options:
+          EFFECT:
+            '"bubbles"': 气泡
+            '"confetti"': 彩纸屑
+            '"hearts"': 心
+            '"emojis"': 快乐表情
+            '"rain"': 下雨
+            '"starburst"': 星爆
+            '"glass"': 破碎玻璃
+            '"twinkling"': 闪烁
+      Poetry_setPrompt:
+        text: 提示用户{LEFT_QUOTE}{NAME}{RIGHT_QUOTE}，针对变量{VAR}
+      Poetry_setPromptWithChoices:
+        text: 提示用户{LEFT_QUOTE}{TEXT}{RIGHT_QUOTE}，针对变量{VAR}，选择{LEFT_QUOTE_A}{A}{RIGHT_QUOTE_A}
+          {LEFT_QUOTE_B}{B}{RIGHT_QUOTE_B} {LEFT_QUOTE_C}{C}{RIGHT_QUOTE_C}
+      Poetry_setSize:
+        text: 设置{SPRITE}大小到{VAL}
+      Poetry_setTextEffect:
+        text: 设置文本效果{EFFECT}
+        options:
+          EFFECT:
+            '"fade"': 淡入淡出
+            '"flyLeft"': 从左边飞
+            '"flyRight"': 从右边飞
+            '"flyTop"': 从顶部飞
+            '"flyBottom"': 从底部飞
+            '"typewriter"': 打字机
+      Poetry_setTitle:
+        text: 设置标题{TITLE}
+      Poetry_showText:
+        text: 显示文本
+      Poetry_startBehavior:
+        text: '精灵图{ANIMATION_NAME}开始{BEHAVIOR} '
+        options:
+          BEHAVIOR:
+            '"fluttering"': 飘动
+            '"growing"': 生长
+            '"jittering"': 抖动
+            '"shrinking"': 收缩
+            '"spinning_left"': 向左旋转
+            '"spinning_right"': 向右旋转
+            '"swimming_left_and_right"': 游泳
+            '"wandering"': 徘徊
+            '"wobbling"': 摇摆
+      Poetry_stopBehavior:
+        text: '精灵图{ANIMATION_NAME}停止{BEHAVIOR} '
+        options:
+          BEHAVIOR:
+            '"fluttering"': 飘动
+            '"growing"': 生长
+            '"jittering"': 抖动
+            '"shrinking"': 收缩
+            '"spinning_left"': 向左旋转
+            '"spinning_right"': 向右旋转
+            '"swimming_left_and_right"': 游泳
+            '"wandering"': 徘徊
+            '"wobbling"': 摇摆
+            '"all"': "--所有行为--"
+      Poetry_stringValue:
+        text: "{LEFT_QUOTE}{TEXT}{RIGHT_QUOTE}"
+      Poetry_textConcat:
+        text: "{LEFT_QUOTE}{TEXT1}{TEXT2}{RIGHT_QUOTE}"
+      Poetry_textVariableJoin:
+        text: "{VAR}{TEXT2}"
+      Poetry_whenLineShows:
+        text: 当行{N}显示时
+        options:
+          N:
+            '0': "？？？"
+            '1': '1'
+            '2': '2'
+            '3': '3'
+            '4': '4'
+            '5': '5'
+            '6': '6'
+            '7': '7'
+            '8': '8'
+            '9': '9'
+            '10': '10'
+      Poetry_whenPromptAnswered:
+        text: 当{VAR}被回答
       RyanLab_moveForward:
         text: 向前移动
       RyanLab_turnLeft:
@@ -1729,6 +2060,8 @@ zh-CN:
             '0.75': most
             '0.5': half of
             '0.25': few
+      aalab_spriteSayChoices:
+        text: "{SPRITE} 表示 {SPEECH}"
       binary_drawBin:
         text: 绘制二进制 {BIN}
       binary_drawBinScreen:
@@ -1837,8 +2170,8 @@ zh-CN:
             '"prismarine"': 海晶石
             '"darkPrismarine"': 暗海晶石
             '"seaLantern"': 海晶灯
-            '"packedIce"': 霜冰
-            '"blueIce"': 蓝冰
+            '"packedIce"': 冰砖
+            '"blueIce"': 蓝色冰
             '"blackConcrete"': 黑色混凝土
             '"seaGrass"': 海草
             '"kelp"': 海带
@@ -1871,3 +2204,5 @@ zh-CN:
           DIR:
             right: 右 ↻
             left: 左 ↺
+      validation_validatedBackground:
+        text: 设置背景为 {IMG}
