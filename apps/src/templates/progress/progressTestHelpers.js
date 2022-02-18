@@ -85,7 +85,8 @@ export const createStoreWithHiddenLesson = (viewAs, lessonId) => {
         '11': {}
       },
       lockableAuthorized: false,
-      lockableAuthorizedLoaded: true
+      lockableAuthorizedLoaded: true,
+      lessonsBySectionIdLoaded: true
     },
     viewAs: viewAs,
     teacherSections: {
@@ -114,7 +115,8 @@ export const createStoreWithHiddenLesson = (viewAs, lessonId) => {
       }
     }),
     progress: {
-      scriptName: 'script-name'
+      scriptName: 'script-name',
+      unitProgressHasLoaded: true
     },
     currentUser: {
       userId: 1
@@ -136,6 +138,7 @@ export const createStoreWithLockedLesson = (
       lessonsBySectionId: {
         '11': {}
       },
+      lessonsBySectionIdLoaded: true,
       lockableAuthorized: lockableAuthorized,
       lockableAuthorizedLoaded: true
     },
@@ -148,7 +151,9 @@ export const createStoreWithLockedLesson = (
         '11': {[lessonId]: true}
       }
     }),
-    progress: {},
+    progress: {
+      unitProgressHasLoaded: true
+    },
     currentUser: {
       userId: 1
     }
@@ -171,13 +176,6 @@ export const fakeLessonWithLevels = (overrideFields = {}, levelCount = 1) => {
     position: position,
     levels: fakeLevels(levelCount),
     ...overrideFields
-  };
-};
-
-export const fakeSection = students => {
-  return {
-    id: randomNumberUpTo100(),
-    students
   };
 };
 
@@ -259,8 +257,9 @@ export const fakeProgressTableReduxInitialState = (
       focusAreaLessonIds: [],
       professionalLearningCourse: false
     },
-    sectionData: {
-      section: fakeSection(students)
+    teacherSections: {
+      selectedSectionId: randomNumberUpTo100(),
+      selectedStudents: students
     },
     sectionProgress: {
       unitDataByUnit: {[scriptData.id]: scriptData},

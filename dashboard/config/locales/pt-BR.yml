@@ -478,6 +478,7 @@ pt:
       prizes_link: Mais informação
   teacher:
     answer: Resposta
+    dashboard: Painel de controle do professor
     for_teachers_only: Somente para professores
     title:
       one: 'Seu professor:'
@@ -1390,3 +1391,4 @@ pt:
     not_now: Agora não
   behaviors:
     this_sprite: este personagem
+  teacher_feedback: Feedback do Professor

@@ -94,6 +94,12 @@
         "text-compression/Text Compression": {
           "student_overview": "W pewnym momencie osiągamy fizyczną granicę szybkości przesyłania bitów i jeśli chcemy szybciej przesłać dużą ilość informacji, musimy znaleźć sposób na przedstawienie tej samej informacji za pomocą mniejszej liczby bitów – musimy skompresować dane."
         },
+        "outbreak/Outbreak": {
+          "overview": "Na tej lekcji uczniowie utworzą symulator epidemii przy użyciu zdarzeń. Zapoznają się z symulacją, aby zrozumieć, jak szybko wirus może się rozprzestrzeniać i co można zrobić, aby spowolnić zarażanie. ",
+          "preparation": "-   Przeglądaj łamigłówki, aby znaleźć potencjalne obszary problemów dla swojej klasy. \n-   Upewnij się, że każdy uczeń ma dzienniczek refleksji.",
+          "purpose": "Na poprzedniej lekcji uczniowie zebrali i zinterpretowali dane z prostej symulacji. Podczas tej lekcji uczniowie będą postępować zgodnie z instrukcjami, aby zakodować własny model symulacyjny. Wcześniejsza wiedza uczniów na temat epidemii wirusów w rzeczywistej sytuacji zostanie zastosowana do fikcyjnego scenariusza.",
+          "student_overview": "W Mieście Potworów pojawił się wirus! Naucz się tworzyć symulator wirusów i pomóż potworom wrócić do zdrowia. "
+        },
         "sports/Sports": {
           "overview": "Na tych zajęciach internetowych uczniowie będą się uczyć, czym są zdarzenia oraz jak komputery z nich korzystają w programach takich, jak gry wideo. Uczniowie będą pracować nad łamigłówkami sprawiając, że program reaguje na zdarzenia (jak naciskanie klawiszy ze strzałkami). Na końcu łamigłówki uczniowie będą mieli możliwość spersonalizowano grę przy pomocy różnych prędkości i dźwięków.",
           "student_overview": "Czy kiedykolwiek chciałeś grać w szkole w gry wideo? Na tej lekcji będziesz tworzyć swoje własne!"
@@ -127,12 +133,6 @@
           "overview": "W tej zintegrowanej lekcji informatyki i ELA uczniowie będą animować wiersz z kodem, aby zilustrować nastrój wiersza. Podczas tego wprowadzającego ćwiczenia kodowania, będą czytać i wykrywać nastrój wiersza. Następnie znajdą odpowiednie efekty i obrazy, które pomogą zilustrować nastrój wiersza. Na koniec wykorzystają zdarzenia (kod), aby zilustrować zmianę nastroju lub animować wprowadzenie nowych obrazów w wierszu.\n\nTę lekcję można ukończyć jako samodzielną jednogodzinną lekcję . Można ją również wykorzystać jako pierwszą lekcję modułu pięciu lekcji o nazwie [Kodowanie z poezją](http://code.org/poetry). Pod koniec tego modułu uczniowie napiszą własne wiersze i utworzą aplikację do generowania wierszy, którą będą mogli dzielić się ze znajomymi.\n\nKodowanie z poezją jest częścią programu Powiązania z informatyką inicjatywy Code.org, który ma na celu zintegrowanie informatyki z innymi obszarami przedmiotowymi, takimi jak matematyka, ELA i przyroda, z dostosowaniem do standardów CCSS, NGSS i CSTA.",
           "preparation": "-   Przejrzyj i wypełnij samouczek online: [Sztuka poezji](http://studio.code.org/s/poem-art).\n\n-   Pamiętaj, aby najpierw wypróbować ćwiczenia, zanim poprosisz uczniów o ich wykonanie.\n\n-   Sprawdź swoją technologię i zdecyduj, czy musisz wcześniej coś naprawić.\n\n-   Niektóre poziomy wymagają dźwięku do odtworzenia. Rozdaj słuchawki z wyprzedzeniem.\n\n-   [Opcjonalnie] 2 karteczki samoprzylepne na ucznia do oceny.\n\n-   [Opcjonalnie] Programowanie w parach – Zdecyduj, czy chcesz, aby uczniowie brali udział w programowaniu w parach. Obejrzyj ten [film](https://www.youtube.com/watch?v=sxToW3ixrwo) i odwiedź tę stronę [Wsparcie](https://support.code.org/hc/en-us/articles/115002122788-How-does-pair-programming-on-Code-org-work-), aby uzyskać więcej informacji na temat programowania w parach."
         },
-        "outbreak/Outbreak": {
-          "overview": "Na tej lekcji uczniowie utworzą symulator epidemii przy użyciu zdarzeń. Zapoznają się z symulacją, aby zrozumieć, jak szybko wirus może się rozprzestrzeniać i co można zrobić, aby spowolnić zarażanie. ",
-          "preparation": "-   Przeglądaj łamigłówki, aby znaleźć potencjalne obszary problemów dla swojej klasy. \n-   Upewnij się, że każdy uczeń ma dzienniczek refleksji.",
-          "purpose": "Na poprzedniej lekcji uczniowie zebrali i zinterpretowali dane z prostej symulacji. Podczas tej lekcji uczniowie będą postępować zgodnie z instrukcjami, aby zakodować własny model symulacyjny. Wcześniejsza wiedza uczniów na temat epidemii wirusów w rzeczywistej sytuacji zostanie zastosowana do fikcyjnego scenariusza.",
-          "student_overview": "W Mieście Potworów pojawił się wirus! Naucz się tworzyć symulator wirusów i pomóż potworom wrócić do zdrowia. "
-        },
         "jigsaw/Jigsaw": {
           "overview": "Ta lekcja da uczniom wyobrażenie, czego się spodziewać po wejściu do laboratorium komputerowego. Zaczyna się od krótkiej dyskusji wprowadzającej ich do zachowania się w laboratorium komputerowym, a następnie przechodzą oni do korzystania z komputera, aby ukończyć łamigłówki online.",
           "student_overview": "Kliknij i przeciągnij, by ukończyć łamigłówki."
@@ -162,7 +162,7 @@
           "student_overview": "Na tej lekcji uczniowie będą tworzyć interaktywne \"Wirtualne zwierzątko domowe\", które wygląda i zachowuje się tak, jak oni chcą. Uczniowie będą używać narzędzia interfejsu Sprite Lab \"Kostiumy\", aby zindywidualizować wygląd ich zwierzątka. Potem będą używać zdarzeń, zachowań oraz innych koncepcji, które poznali, aby nadać zwierzątku własnego życia!"
         },
         "coursef-2021/lesson-2": {
-          "overview": " [\\[edukacja zdrowego rozsądku](https://www.commonsense.org)][1]\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.][2]\n\nGdy dzieci rosną, będą naturalnie zacząć komunikować się więcej online. Ale niektóre z tego, co widzą, mogą sprawić, że poczują się zranieni, smutni, wściekli, a nawet strachu. Pomóż swoim uczniom budować empatię dla innych i poznaj strategie, które można wykorzystać w obliczu cyberprzemocy.",
+          "overview": " [![edukacja zdrowego rozsądku](https://curriculum.code.org/static/img/common_sense_education.png)](https://www.commonsense.org)\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.](https://www.commonsense.org/education/digital-citizenship/curriculum)\n\nGdy dzieci rosną, będą naturalnie zacząć komunikować się więcej online. Ale niektóre z tego, co widzą, mogą sprawić, że poczują się zranieni, smutni, wściekli, a nawet strachu. Pomóż swoim uczniom budować empatię dla innych i poznaj strategie, które można wykorzystać w obliczu cyberprzemocy.",
           "preparation": "-   Przegląd materiałów instruktażowych.\n-   Drukuj materiały materiałowe dla każdego ucznia.\n-   Przygotuj długi sznur (lub linę) i papier do klasy.",
           "purpose": "Nauka Common Sense Education stworzyła tę lekcję, aby nauczyć uczniów, co powinni robić, gdy ktoś używa złośliwego lub bolesnego języka w Internecie.",
           "student_overview": "Nękanie nigdy nie jest w porządku. Ta lekcja ma Cię nauczyć, co jest w porządku, a co nie, jeśli chodzi o rzeczy, które mówi się w Internecie."
@@ -257,7 +257,7 @@
           "student_overview": "Projekty tak dużych rozmiarów wymagają sporej ilości czasu i planowania. Znajdź dla siebie inspirację, opracuj plan i wyzwól swoją kreatywność!"
         },
         "courseb-2021/Digital Trails": {
-          "overview": " [![common sense education](https://curriculum.code.org/static/img/common_sense_education.png)](https://www.commonsense.org)\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.][2]\n\nCzy to, co robisz online, zawsze pozostaje online? Uczniowie dowiadują się, że informacje, które udostępniają online, pozostawiają cyfrowy ślad lub „ślad”. W zależności od tego, jak sobie z tym poradzą, ten szlak może być duży lub mały, szkodliwy lub pomocny. Studenci porównują różne szlaki i krytycznie zastanawiają się, jakie informacje chcą zostawić.",
+          "overview": " [![edukacja zdrowego rozsądku](https://curriculum.code.org/static/img/common_sense_education.png)](https://www.commonsense.org)\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.](https://www.commonsense.org/education/digital-citizenship/curriculum)\n\nCzy to, co robisz online, zawsze pozostaje online? Uczniowie dowiadują się, że informacje, które udostępniają online, pozostawiają cyfrowy ślad lub „ślad”. W zależności od tego, jak sobie z tym poradzą, ten szlak może być duży lub mały, szkodliwy lub pomocny. Studenci porównują różne szlaki i krytycznie zastanawiają się, jakie informacje chcą zostawić.",
           "preparation": "-   Przegląd materiałów instruktażowych.\n-   Drukuj materiały materiałowe dla każdego ucznia.",
           "purpose": "Common Sense Education stworzyła tę lekcję, aby uczyć uczniów o „cyfrowych śladach” i jakie informacje są dla nich w porządku, aby mieć we własnym zakresie.",
           "student_overview": "Dowiedz się o swoim śladzie cyfrowym oraz jak zachowywać bezpieczeństwo przy wchodzeniu na strony internetowe."
@@ -335,7 +335,7 @@
           "student_overview": "Utwórz własną historię lub grę."
         },
         "coursea-2021/Safety in My Online Neighborhood": {
-          "overview": "[![common sense education](https://curriculum.code.org/static/img/common_sense_education.png)](https://www.commonsense.org)\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.][2]\n\nMoc Internetu pozwala uczniom doświadczyć i odwiedzać miejsca, których mogą nie być w stanie osobiście zobaczyć. Ale, podobnie jak podróżowanie w prawdziwym świecie, ważne jest, aby być bezpiecznym podczas podróży online. Podczas tej wirtualnej podróży, dzieci mogą ćwiczyć pobyt bezpieczny na przygodach online.",
+          "overview": "[![edukacja zdrowego rozsądku](https://curriculum.code.org/static/img/common_sense_education.png)](https://www.commonsense.org)\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.](https://www.commonsense.org/education/digital-citizenship/curriculum)\n\nMoc Internetu pozwala uczniom doświadczyć i odwiedzać miejsca, których mogą nie być w stanie osobiście zobaczyć. Ale, podobnie jak podróżowanie w prawdziwym świecie, ważne jest, aby być bezpiecznym podczas podróży online. Podczas tej wirtualnej podróży, dzieci mogą ćwiczyć pobyt bezpieczny na przygodach online.",
           "preparation": "-   Przegląd materiałów instruktażowych.\n-   Drukuj materiały materiałowe dla każdego ucznia.\n-   (Opcjonalnie) Wydrukuj plakat do wyświetlania w klasie.",
           "purpose": "Nauka Common Sense Education stworzyła tę lekcję, aby nauczyć uczniów, jak mogą bezpiecznie przejść do miejsc online.",
           "student_overview": "Dowiedz się, jak bezpiecznie przechodzić do miejsc w Internecie."
@@ -413,7 +413,7 @@
           "student_overview": "Opowiedz historię z Artystą!"
         },
         "coursec-2021/Putting a STOP to Online Meanness": {
-          "overview": " [\\[edukacja zdrowego rozsądku](https://www.commonsense.org)][1]\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.][2]\n\nInternet jest pełen wszelkiego rodzaju ciekawych ludzi, ale czasami niektóre z nich mogą być dla siebie niemiłe. Dzięki tej grze ról, pomóż swoim uczniom zrozumieć, dlaczego często łatwiej jest być wrednym online niż osobiście, i jak radzić sobie z podłość online, gdy ją zobaczą.",
+          "overview": " [![edukacja zdrowego rozsądku](https://curriculum.code.org/static/img/common_sense_education.png)](https://www.commonsense.org)\n\nTa lekcja została pierwotnie stworzona przez Common Sense Education. [dowiedz się więcej.](https://www.commonsense.org/education/digital-citizenship/curriculum)\n\nInternet jest pełen wszelkiego rodzaju ciekawych ludzi, ale czasami niektóre z nich mogą być dla siebie niemiłe. Dzięki tej grze ról, pomóż swoim uczniom zrozumieć, dlaczego często łatwiej jest być wrednym online niż osobiście, i jak radzić sobie z podłość online, gdy ją zobaczą.",
           "preparation": "-   Przegląd materiałów instruktażowych.\n-   Drukuj materiały materiałowe dla każdego ucznia.\n-   Przynieś wypchane zwierzę lub zabawkę do klasy.",
           "purpose": "Edukacja zdrowego rozsądku stworzyła tę lekcję, aby uczyć uczniów o podłości i tym, co powinni zrobić, jeśli spotkają się z nią online.",
           "student_overview": "Na tej lekcji dowiesz się, czym jest złośliwość oraz co robić, jeśli spotka Cię ona w Internecie."
@@ -508,7 +508,7 @@
           "student_overview": "Przygotuj ręce na ogromne kodowanie! Czas rozpocząć budowanie swojego projektu."
         },
         "coursed-2021/lesson-5": {
-          "overview": " [\\[edukacja zdrowego rozsądku](https://www.commonsense.org)][1]\n\nTa lekcja została pierwotnie stworzona przez [common sense education][2].\n\nSilniejsze, bezpieczniejsze hasła online to dobry pomysł dla wszystkich. Ale jak możemy pomóc dzieciom w tworzeniu lepszych haseł i ich zapamiętywaniu? Skorzystaj z wskazówek w tej lekcji, aby pomóc dzieciom tworzyć hasła, które są bezpieczne i niezapomniane.",
+          "overview": " [![edukacja zdrowego rozsądku](https://curriculum.code.org/static/img/common_sense_education.png)](https://www.commonsense.org)\n\nTa lekcja została pierwotnie stworzona przez [common sense education](https://www.commonsense.org/education/digital-citizenship/curriculum).\n\nSilniejsze, bezpieczniejsze hasła online to dobry pomysł dla wszystkich. Ale jak możemy pomóc dzieciom w tworzeniu lepszych haseł i ich zapamiętywaniu? Skorzystaj z wskazówek w tej lekcji, aby pomóc dzieciom tworzyć hasła, które są bezpieczne i niezapomniane.",
           "preparation": "-   Przegląd materiałów instruktażowych.\n-   Drukuj materiały materiałowe dla każdego ucznia.\n-   Przygotuj papier do pisania lub zeszyty dla studentów.",
           "purpose": "Nauka Common Sense Education stworzyła tę lekcję, aby uczyć uczniów o tym, jak silne hasła mogą pomóc chronić ich prywatność.",
           "student_overview": "Na tej lekcji dowiesz się jak hasło chroni Twoje informacje oraz jak utworzyć dobre hasło."
@@ -854,10 +854,12 @@
           "student_overview": "Twórz projekt interaktywny, który możesz udostępnić kolegom z klasy."
         },
         "coursee-2021/lesson-4": {
+          "purpose": "Nauka Common Sense Education stworzyła tę lekcję, aby nauczyć uczniów, co powinni robić, gdy ktoś używa złośliwego lub bolesnego języka w Internecie.",
           "student_overview": "Dowiesz się, jak możesz się przeciwstawiać, gdy jesteś świadkiem cybernękania."
         },
         "coursee-2021/Private and Personal Information": {
           "preparation": "-   Przegląd materiałów instruktażowych.\n-   Drukuj materiały materiałowe dla każdego ucznia.",
+          "purpose": "Nauka Common Sense Education stworzyła tę lekcję, aby nauczyć uczniów, jak mogą bezpiecznie przejść do miejsc online.",
           "student_overview": "Internet niesie rozrywkę i radość, ale ważne jest to, aby przebywając w nim, zachowywać bezpieczeństwo. Ta lekcja jest poświęcona różnicy pomiędzy informacjami, które są bezpieczne do udostępniania online a informacjami, które takie nie są."
         },
         "coursee-2021/About Me": {

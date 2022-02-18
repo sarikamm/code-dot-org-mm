@@ -94,6 +94,7 @@ class UnitEditor extends React.Component {
     initialCourseVersionId: PropTypes.number,
     initialUseLegacyLessonPlans: PropTypes.bool,
     scriptPath: PropTypes.string.isRequired,
+    courseOfferingEditorLink: PropTypes.string,
 
     // from redux
     lessonGroups: PropTypes.arrayOf(lessonGroupShape).isRequired,
@@ -245,14 +246,31 @@ class UnitEditor extends React.Component {
       });
       return;
     } else if (
-      (this.state.versionYear !== '' && this.state.familyName === '') ||
-      (this.state.versionYear === '' && this.state.familyName !== '')
+      this.state.isCourse &&
+      ((this.state.versionYear !== '' && this.state.familyName === '') ||
+        (this.state.versionYear === '' && this.state.familyName !== ''))
     ) {
       this.setState({
         isSaving: false,
         error: 'Please set both version year and family name.'
       });
       return;
+    }
+
+    if (this.state.publishedState !== this.props.initialPublishedState) {
+      const msg =
+        'It looks like you are updating the published state. ' +
+        'Are you sure you want to update the published state? ' +
+        'Once you update the published state you can not go back to this published state. ' +
+        'For example once you set the published state to beta you can not go back to in development. ' +
+        'Also once a course as a published state of pilot it can not be fully launched (marked as preview or stable).';
+      if (!window.confirm(msg)) {
+        this.setState({
+          isSaving: false,
+          error: 'Saving cancelled.'
+        });
+        return;
+      }
     }
 
     let dataToSave = {
@@ -623,6 +641,9 @@ class UnitEditor extends React.Component {
             handleParticipantAudienceChange={e =>
               this.setState({participantAudience: e.target.value})
             }
+            canChangeParticipantType={
+              this.state.publishedState === PublishedState.in_development
+            }
           />
         )}
 
@@ -725,6 +746,7 @@ class UnitEditor extends React.Component {
                     isCourse={this.state.isCourse}
                     updateIsCourse={this.handleStandaloneUnitChange}
                     showIsCourseSelector
+                    initialPublishedState={this.props.initialPublishedState}
                     publishedState={this.state.publishedState}
                     updatePublishedState={publishedState =>
                       this.setState({publishedState})
@@ -732,6 +754,9 @@ class UnitEditor extends React.Component {
                     preventCourseVersionChange={
                       this.state.savedVersionYear !== '' ||
                       this.state.savedFamilyName !== ''
+                    }
+                    courseOfferingEditorLink={
+                      this.props.courseOfferingEditorLink
                     }
                   />
                 </div>

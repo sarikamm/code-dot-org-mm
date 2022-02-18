@@ -33,7 +33,9 @@ module Pd::Application
     end
 
     test 'teachers with an incomplete application have an application id and saved form data' do
-      application = create :pd_teacher_application, :incomplete
+      application = create :pd_teacher_application, form_data_hash: (
+        build :pd_teacher_application_hash
+      ), status: 'incomplete'
       sign_in application.user
       get :new
       assert_response :success
@@ -42,6 +44,7 @@ module Pd::Application
       @script_data = assigns(:script_data)
       assert_equal application.id, JSON.parse(@script_data.dig(:props)).dig('applicationId')
       assert_equal application.form_data, JSON.parse(@script_data.dig(:props)).dig('savedFormData')
+      assert_equal application.status, JSON.parse(@script_data.dig(:props)).dig('savedStatus')
     end
 
     test 'teachers without an application have no id nor form data' do

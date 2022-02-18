@@ -488,6 +488,7 @@ tr:
       prizes_link: Daha fazla bilgi
   teacher:
     answer: Cevap
+    dashboard: Öğretmen Panosu
     for_teachers_only: Sadece Öğretmenler İçin
     title:
       one: 'Öğretmenin :'
@@ -1386,3 +1387,4 @@ tr:
   behaviors:
     this_sprite: bu hareketli nesne
   unit_prefix: Birim %{n}
+  teacher_feedback: Öğretmen Geribildirimi

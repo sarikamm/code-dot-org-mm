@@ -434,6 +434,7 @@ it:
       prizes_link: 'Più informazioni'
   teacher:
     answer: Rispondi
+    dashboard: 'Cruscotto dell''Insegnante'
     for_teachers_only: Per gli insegnanti
     title:
       one: 'Il tuo insegnante:'
@@ -1119,3 +1120,4 @@ it:
     this_sprite: "questo personaggio"
   unit_prefix: "Unità %{n}"
   code_org_logo_alt: "Code.org Home"
+  teacher_feedback: "Commento dell'insegnante"

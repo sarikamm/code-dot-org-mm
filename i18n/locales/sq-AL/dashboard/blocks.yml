@@ -248,6 +248,19 @@ sq:
         options:
           UNIT:
             '"seconds"': sekondat
+      gamelab_int10:
+        options:
+          VALUE:
+            '1': '1'
+            '2': '2'
+            '3': '3'
+            '4': '4'
+            '5': '5'
+            '6': '6'
+            '7': '7'
+            '8': '8'
+            '9': '9'
+            '10': '10'
       gamelab_isKeyPressed:
         options:
           KEY:
@@ -461,10 +474,33 @@ sq:
             '"down"': shigjetë drejtuar poshtë
             '"left"': shigjetë drejtuar majtas
             '"right"': shigjetë drejtuar djathtas
+      Poetry_addFrame:
+        options:
+          BRUSH:
+            '"brick"': tullë
+            '"hearts"': zemrat
+            '"rainbow"': ylber
+      Poetry_playMusic:
+        options:
+          SOUND:
+            '"sound://category_nature/summer_night_loop.mp3"': natë
       Poetry_playSound:
         options:
           SOUND:
-            '"sound://category_explosion/puzzle_game_break_magic_05.mp3"': Ndërprerje
+            '"sound://category_bell/long_bell_notification.mp3"': zile
+            '"sound://category_jump/vibrant_game_jumping_up_1.mp3"': hidhu
+      Poetry_setBackgroundEffect:
+        options:
+          EFFECT:
+            '"clouds"': " re"
+            '"hearts"': zemrat
+          PALETTE:
+            '"rainbow"': ylber
+            '"winter"': dimër
+      Poetry_setForegroundEffect:
+        options:
+          EFFECT:
+            '"hearts"': zemrat
       Poetry_whenLineShows:
         options:
           'N':

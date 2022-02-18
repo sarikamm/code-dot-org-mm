@@ -1,18 +1,19 @@
 {
   "pages": {
     "/projects": "home-learning-2020",
-    "/home": "thankyou"
+    "/home": "pl2022",
+    "/certificates": "congrats-certificate-share"
   },
 
   "banners": {
-    "thankyou": {
-      "image": "/images/marketing/hoc_thankyou.png",
-      "title": "Happy holidays and a big thank you from Code.org!",
-      "body": "From all of us at Code.org, thank you and have a fantastic holiday season! Check out awesome projects from students around the world.",
-      "buttonText": "View Projects",
-      "buttonUrl": "https://studio.code.org/projects/public",
-      "buttonId": "thankyou-details"
-    },  
+    "pl2022": {
+      "image": "/images/marketing/pl-dash-jan.png",
+      "title": "Join Code.org's Professional Learning Program",
+      "body": "Our highly supportive program is designed to prepare any educator to teach computer science. Scholarships to attend free are available in many regions!",
+      "buttonText": "Learn More",
+      "buttonUrl": "https://code.org/educate/professional-learning/middle-high",
+      "buttonId": "pl2022-details"
+    },
     "csjourneys": {
       "image": "/images/csjourneys/teacher-banner.png",
       "title": "Explore the wide world of computer science",
@@ -103,6 +104,14 @@
       "buttonText": "Learn more",
       "buttonUrl": "https://code.org/ai",
       "buttonId": "2020-ai"
+    },
+    "congrats-certificate-share": {
+      "image": "/images/teacherdashboard1.png",
+      "title": "Try an Hour of Code",
+      "body": "Anyone can learn!",
+      "buttonText": "Start",
+      "buttonUrl": "https://code.org/learn",
+      "buttonId": "congrats-certificate-share-button"
     }
   }
 }
