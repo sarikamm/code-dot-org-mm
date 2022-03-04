@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_04_222749) do
+ActiveRecord::Schema.define(version: 2022_03_01_220633) do
 
   create_table "activities", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci", force: :cascade do |t|
     t.integer "user_id"
@@ -1351,6 +1351,7 @@ ActiveRecord::Schema.define(version: 2022_02_04_222749) do
     t.string "color"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "position"
     t.index ["key", "programming_environment_id"], name: "index_programming_environment_categories_on_key_and_env_id", unique: true
     t.index ["programming_environment_id"], name: "index_programming_environment_categories_on_environment_id"
   end
@@ -1360,6 +1361,7 @@ ActiveRecord::Schema.define(version: 2022_02_04_222749) do
     t.text "properties"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "published", default: false, null: false
     t.index ["name"], name: "index_programming_environments_on_name", unique: true
   end
 

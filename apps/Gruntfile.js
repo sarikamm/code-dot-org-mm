@@ -4,6 +4,7 @@ var path = require('path');
 var fs = require('fs');
 var _ = require('lodash');
 var webpackConfig = require('./webpack');
+var offlineWebpackConfig = require('./webpackOffline.config');
 var envConstants = require('./envConstants');
 var checkEntryPoints = require('./script/checkEntryPoints');
 var {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');
@@ -522,6 +523,8 @@ describe('entry tests', () => {
       './src/sites/studio/pages/lessons/student_lesson_plan.js',
     'programming_environments/index':
       './src/sites/studio/pages/programming_environments/index.js',
+    'programming_environments/show':
+      './src/sites/studio/pages/programming_environments/show.js',
     'programming_expressions/show':
       './src/sites/studio/pages/programming_expressions/show.js',
     'devise/registrations/_finish_sign_up':
@@ -578,6 +581,8 @@ describe('entry tests', () => {
     'projects/index': './src/sites/studio/pages/projects/index.js',
     'report_abuse/report_abuse_form':
       './src/sites/studio/pages/report_abuse/report_abuse_form.js',
+    'reference_guides/show':
+      './src/sites/studio/pages/reference_guides/show.js',
     'scripts/show': './src/sites/studio/pages/scripts/show.js',
     'scripts/vocab': './src/sites/studio/pages/scripts/vocab.js',
     'scripts/resources': './src/sites/studio/pages/scripts/resources.js',
@@ -1053,6 +1058,8 @@ describe('entry tests', () => {
       watch: false
     }),
 
+    buildOffline: offlineWebpackConfig,
+
     uglify: createConfig({
       minify: true,
       watch: false
@@ -1270,10 +1277,14 @@ describe('entry tests', () => {
     // exist in our repo. Skip minification in development environment.
     envConstants.DEV ? 'noop' : 'uglify:lib',
     envConstants.DEV ? 'webpack:build' : 'webpack:uglify',
+    'webpack:buildOffline',
     'notify:js-build',
     'postbuild',
     envConstants.DEV ? 'noop' : 'newer:copy:unhash'
   ]);
+
+  // Builds the Service Worker used for the Code.org offline experience.
+  grunt.registerTask('buildOffline', ['webpack:buildOffline']);
 
   grunt.registerTask('rebuild', ['clean', 'build']);
 

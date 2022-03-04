@@ -1,7 +1,7 @@
 class ProgrammingEnvironmentsController < ApplicationController
   load_and_authorize_resource
 
-  before_action :require_levelbuilder_mode_or_test_env, except: [:index]
+  before_action :require_levelbuilder_mode_or_test_env, except: [:index, :show]
 
   def index
     @programming_environments = ProgrammingEnvironment.all.order(:name).map(&:summarize_for_index)
@@ -35,14 +35,15 @@ class ProgrammingEnvironmentsController < ApplicationController
     begin
       if programming_environment_params[:categories]
         programming_environment.categories =
-          programming_environment_params[:categories].map do |category|
-            if category['id']
+          programming_environment_params[:categories].each_with_index.map do |category, i|
+            if category['id'].blank?
+              ProgrammingEnvironmentCategory.create!(category.merge(programming_environment_id: programming_environment.id, position: i))
+            else
               existing_category = programming_environment.categories.find(category['id'])
               existing_category.assign_attributes(category.except('id'))
+              existing_category.position = i
               existing_category.save! if existing_category.changed?
               existing_category
-            else
-              ProgrammingEnvironmentCategory.create!(category.merge(programming_environment_id: programming_environment.id))
             end
           end
       end
@@ -54,6 +55,12 @@ class ProgrammingEnvironmentsController < ApplicationController
     end
   end
 
+  def show
+    @programming_environment = ProgrammingEnvironment.find_by_name(params[:name])
+    return render :not_found unless @programming_environment
+    @programming_environment_categories = @programming_environment.categories.select {|c| c.programming_expressions.count > 0}.map(&:summarize_for_environment_show)
+  end
+
   private
 
   def programming_environment_params
@@ -63,6 +70,7 @@ class ProgrammingEnvironmentsController < ApplicationController
       :description,
       :editor_type,
       :image_url,
+      :project_url,
       categories: [:id, :name, :color]
     )
     transformed_params
