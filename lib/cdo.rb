@@ -137,6 +137,8 @@ module Cdo
     def javabuilder_upload_url(path = '', scheme = '')
       if rack_env?(:development)
         'http://localhost:8080/javabuilderfiles/seedsources'
+      elsif rack_env?(:adhoc)
+        'wss://javabuilder-molly-http.dev-code.org/seedsources/sources.json'
       else
         'https://javabuilderbeta-http.code.org/seedsources/sources.json'
       end
