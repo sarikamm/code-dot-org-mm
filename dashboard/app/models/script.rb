@@ -42,6 +42,7 @@ class Script < ApplicationRecord
   include SharedCourseConstants
   include SharedConstants
   include Curriculum::CourseTypes
+  include Curriculum::AssignableCourse
   include Rails.application.routes.url_helpers
 
   include Seeded
@@ -290,7 +291,6 @@ class Script < ApplicationRecord
     project_sharing
     curriculum_umbrella
     tts
-    deprecated
     is_course
     show_calendar
     weekly_instructional_minutes
@@ -329,16 +329,9 @@ class Script < ApplicationRecord
     Script.get_from_cache(Script::ARTIST_NAME)
   end
 
-  def self.lesson_extras_script_ids
-    @@lesson_extras_script_ids ||= all_scripts.select(&:lesson_extras_available?).pluck(:id)
-  end
-
-  def self.maker_units
-    @@maker_units ||= visible_units.select(&:is_maker_unit?)
-  end
-
-  def self.text_to_speech_unit_ids
-    @@text_to_speech_unit_ids ||= all_scripts.select(&:text_to_speech_enabled?).pluck(:id)
+  def self.maker_units(user)
+    return_units = @@maker_units ||= visible_units.select(&:is_maker_unit?)
+    return_units + all_scripts.select {|s| s.is_maker_unit? && s.has_pilot_access?(user)}
   end
 
   # Get the set of units that are valid for the current user, ignoring those
@@ -1437,6 +1430,10 @@ class Script < ApplicationRecord
     [SharedCourseConstants::PUBLISHED_STATE.preview, SharedCourseConstants::PUBLISHED_STATE.stable].include?(get_published_state)
   end
 
+  def deprecated?
+    get_published_state == SharedCourseConstants::PUBLISHED_STATE.deprecated
+  end
+
   def stable?
     get_published_state == SharedCourseConstants::PUBLISHED_STATE.stable
   end
@@ -1777,7 +1774,6 @@ class Script < ApplicationRecord
       :has_verified_resources,
       :project_sharing,
       :tts,
-      :deprecated,
       :is_course,
       :show_calendar,
       :is_migrated,
@@ -1871,6 +1867,19 @@ class Script < ApplicationRecord
     nil
   end
 
+  def summarize_for_assignment_dropdown
+    [
+      id,
+      {
+        id: id,
+        name: localized_title,
+        path: link,
+        lesson_extras_available: lesson_extras_available?,
+        text_to_speech_enabled: text_to_speech_enabled?
+      }
+    ]
+  end
+
   # @return {AssignableInfo} with strings translated
   def assignable_info
     info = ScriptConstants.assignable_info(self)
@@ -1901,6 +1910,7 @@ class Script < ApplicationRecord
     info[:supported_locales] = supported_locale_names
     info[:supported_locale_codes] = supported_locale_codes
     info[:lesson_extras_available] = lesson_extras_available
+    info[:text_to_speech_enabled] = text_to_speech_enabled?
     if has_standards_associations?
       info[:standards] = standards
     end
