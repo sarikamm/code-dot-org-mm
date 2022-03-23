@@ -549,7 +549,19 @@ Resources:
 <%=  component 'database'%>
 <% end -%>
 
-<%= resource_component 'codeprojects' %>
+<%# <%= resource_component 'codeprojects' %> %>
+
+  CodeprojectsStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/cloudformation-templates-us-east-1/S3_Bucket.template
+      TimeoutInMinutes: '5'
+      Parameters:
+        DomainName: <%= CDO.codeprojects_hostname %>
+        HostedZoneId: <%= CDO.codeprojects_hostedzone_id %>
+        CreateLocalhostRecord: <%= rack_env?(:staging).to_s %>
+        CreateWwwRecord: <%= rack_env?(:production).to_s %>
+
 
   ChefConfig:
     Type: AWS::SecretsManager::Secret

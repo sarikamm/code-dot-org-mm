@@ -1,0 +1,62 @@
+# This template component includes resources for the codeprojects.org
+# infrastructure. Currently this is mostly manually deployed.
+AWSTemplateFormatVersion: '2010-09-09'
+
+Parameters:
+  DomainName:
+    Description: The full domain name for codeprojects resources (excluding trailing dot)
+    Type: String
+    AllowedPattern: ^.*[^\.]$
+    Default: darin-codeprojects.dev-code.org
+  HostedZoneId:
+    Description: The ID of the Hosted Zone containing the chosen DomainName
+    Type: AWS::Route53::HostedZone::Id
+    Default: Z07248463JGJ44FME5BZ5
+  CreateLocalhostRecord:
+    Description: Whether the 'localhost' dns record should be created.
+    Type: String
+    AllowedValues: [true, false]
+    Default: true
+  CreateWwwRecord:
+    Description: Whether the 'www' dns record should be created.
+    Type: String
+    AllowedValues: [true, false]
+    Default: true
+
+Conditions:
+  ShouldCreateLocalhostRecord:
+    !Equals [true, !Ref CreateLocalhostRecord]
+  ShouldCreateWwwRecord:
+    !Equals [true, !Ref CreateWwwRecord]
+
+Resources:
+  # Developer Resources (Deployed with Staging)
+  LocalhostCodeprojectsRecord:
+    Condition: ShouldCreateLocalhostRecord
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZoneId
+      Name: !Sub localhost.${DomainName}
+      Type: A
+      TTL: 3600
+      ResourceRecords:
+        - 127.0.0.1
+
+  CodeprojectsCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Ref DomainName
+      SubjectAlternativeNames:
+        - !If
+          - ShouldCreateWwwRecord
+          - !Sub www.${DomainName}
+          - !Ref "AWS::NoValue"
+      ValidationMethod: DNS
+      DomainValidationOptions:
+        - DomainName: !Ref DomainName
+          HostedZoneId: !Ref HostedZoneId
+        - !If
+          - ShouldCreateWwwRecord
+          - DomainName: !Sub www.${DomainName}
+            HostedZoneId: !Ref HostedZoneId
+          - !Ref "AWS::NoValue"
