@@ -133,29 +133,33 @@ module Cdo
     end
 
     def javabuilder_url(path = '', scheme = '')
-      if rack_env?(:development)
-        # Since pegasus and dashboard share the same port, we have a Route53
-        # DNS record that redirects requests to localhost. Javabuilder, as a
-        # separate service, uses a different port. Therefore, we can access the
-        # the service directly.
-        # To use a developer instance of Javabuilder instead, replace this url with
-        # 'wss://<your-javabuilder-domain>.dev-code.org'
-        'ws://localhost:8080/javabuilder'
-      else
-        # TODO: Update to use this URL once we have Route53 set up for API Gateway
-        # site_url('javabuilder.code.org', '', 'wss')
-        'wss://javabuilderbeta.code.org'
-      end
+      return 'wss://javabuilder-darin.dev-code.org'
+
+      # if rack_env?(:development)
+      #   # Since pegasus and dashboard share the same port, we have a Route53
+      #   # DNS record that redirects requests to localhost. Javabuilder, as a
+      #   # separate service, uses a different port. Therefore, we can access the
+      #   # the service directly.
+      #   # To use a developer instance of Javabuilder instead, replace this url with
+      #   # 'wss://<your-javabuilder-domain>.dev-code.org'
+      #   'ws://localhost:8080/javabuilder'
+      # else
+      #   # TODO: Update to use this URL once we have Route53 set up for API Gateway
+      #   # site_url('javabuilder.code.org', '', 'wss')
+      #   'wss://javabuilderbeta.code.org'
+      # end
     end
 
     def javabuilder_upload_url(path = '', scheme = '')
-      if rack_env?(:development)
-        # To use a developer instance of Javabuilder instead, replace this url with
-        # 'https://<your-javabuilder-domain>-http.dev-code.org/seedsources/sources.json'
-        'http://localhost:8080/javabuilderfiles/seedsources'
-      else
-        'https://javabuilderbeta-http.code.org/seedsources/sources.json'
-      end
+      return 'https://javabuilder-darin-http.dev-code.org/seedsources/sources.json'
+
+      # if rack_env?(:development)
+      #   # To use a developer instance of Javabuilder instead, replace this url with
+      #   # 'https://<your-javabuilder-domain>-http.dev-code.org/seedsources/sources.json'
+      #   'http://localhost:8080/javabuilderfiles/seedsources'
+      # else
+      #   'https://javabuilderbeta-http.code.org/seedsources/sources.json'
+      # end
     end
 
     # Get a list of all languages for which we want to link to a localized
