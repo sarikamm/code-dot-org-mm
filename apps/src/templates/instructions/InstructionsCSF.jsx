@@ -108,10 +108,16 @@ class InstructionsCSF extends React.Component {
     }
   }
 
-  adjustRenderedHeight(props = this.props) {
+  adjustRenderedHeight(props = this.props, skipMaxHeight = false) {
+    let newHeight;
     const minHeight = this.getMinHeight(props.collapsed);
-    const maxHeight = this.getMaxHeight();
-    const newHeight = Math.max(Math.min(props.height, maxHeight), minHeight);
+    const desiredHeight = props.collapsed ? props.height : props.expandedHeight;
+    if (skipMaxHeight) {
+      newHeight = Math.max(desiredHeight, minHeight);
+    } else {
+      const maxHeight = this.getMaxHeight();
+      newHeight = Math.max(Math.min(desiredHeight, maxHeight), minHeight);
+    }
 
     if (newHeight !== props.height) {
       this.props.setInstructionsRenderedHeight(newHeight);
@@ -126,7 +132,14 @@ class InstructionsCSF extends React.Component {
    * again, we want to increase height.
    */
   UNSAFE_componentWillReceiveProps(nextProps) {
-    this.adjustRenderedHeight(nextProps);
+    // This is a bit of a hack to ensure that we allow the instructions to
+    // go back to their previous expanded height when "more" is pressed,
+    // while also preventing them from visibly resizing, for a very brief
+    // moment, to the max height of the long instructions when we press "less",
+    // before they successfully go to the height of the short instrutions.
+    const skipMaxHeight = !nextProps.collapsed;
+
+    this.adjustRenderedHeight(nextProps, skipMaxHeight);
   }
 
   UNSAFE_componentWillUpdate(nextProps) {
@@ -393,6 +406,7 @@ export default connect(
       collapsed: state.instructions.isCollapsed,
       hints: state.authoredHints.seenHints,
       height: state.instructions.renderedHeight,
+      expandedHeight: state.instructions.expandedHeight,
       maxHeight: Math.min(
         state.instructions.maxAvailableHeight,
         state.instructions.maxNeededHeight
